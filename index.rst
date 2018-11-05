@@ -58,10 +58,8 @@ How do I make the right decision in a pinch?
 .. toctree::
    :maxdepth: 3
    :caption: Enterprise
-   
+
    enterprise/index.rst
-   enterprise/montecarlo.rst
-   enterprise/rigor
    enterprise/culture
    enterprise/training
 

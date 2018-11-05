@@ -10,6 +10,10 @@ Despite the variance in all of these disciplines, we still need to measure the l
 
 One of the first concepts to understand when discussing large efforts around risk is the concept of "rigor" as it applies to risk measurement.
 
+Rigor
+=====
+
+
 The expectation of "rigor" in measurement.
 ------------------------------------------
 Carl Sagan once said "Extraordinary claims require extraordinary evidence". For us, extraordinary decisions follow the same principle.
@@ -28,12 +32,12 @@ Leadership can require that a decision of "Launch" may require predetermined fac
 - Monte carlo based uncertainty modeling was available to experts
 
 Requiring effective forecasters.
---------------------------------
+------------------------------------------
 Cooke's Method.
 
 
 Decomposition of risk into a register.
---------------------------------------
+------------------------------------------
 Given our familiarity with :doc:`scenarios </risk/scenarios>`, we understand that a natural hierarchy forms as we add conditions to a scenario.
 
 For instance, "My house burns down tomorrow" is inherently more likely than "My house burns down tomorrow due to a grease fire". The former scenario inherently includes the conditions of the second scenario.
@@ -82,7 +86,7 @@ This sort of delegation of risk can help decouple the prescription of risk mitig
 
 
 The monte carlo simulation
---------------------------
+------------------------------------------
 To properly estimate the likelihood of mission success for January, February, or March, you would likely use a Monte Carlo simulation. A Monte Carlo approach to this problem depends on randomized trials to estimate outcomes.
 
 In the above case, we would be estimating the likelihood of Mission Success for each month based on its underlying probabilities.
@@ -96,7 +100,7 @@ For this, we'd get estimations of:
 As models become more complex, Monte Carlo tools allow for fast estimation without attempting to "solve" for risk mathematically. Monte Carlo methods are a powerful tool to critically inspect assumptions about risk, and help build models that can hold all of the known context about a risk.
 
 Panels of Forecasters
----------------------
+------------------------------------------
 Groups of forecasters seem to benefit from the "Wisdom of Crowds" effect, and research has suggested that simple averages across multiple perspectives will have a debiasing effect on a forecast and generally improve effectiveness.
 
 This is seen in practice with `ensemble forecasting`_ in meteorolgy.
@@ -112,7 +116,9 @@ There does not need to be much to the elicitation of experts on a panel, but the
 Panels also reduce the risk of bias towards defensive decision making, as a single individual may not even be identified in the decision as the sole actor to go forward with a decision.
 
 Protecting against a low quality risk assessment.
--------------------------------------------------
+--------------------------------------------------
+You may want to apply efforts to measure the significance of remaining scenarios that were never identified.
+
 It is highly likely that other scenarios may cause a space mission to fail, outside of the three we identified. To ensure that assessment of risk was thoroughly exhaustive, we can sample for how likely "unknown" events may cause an event.
 
 As an example, outside of a rocket failure, hull breach, or electronics failure... one could imagine a variety of reasons that a mission may not succeed.
@@ -132,4 +138,28 @@ Within the risk register, another node can be added: ::
 
 If there the *other* ("?") category has an undesirable value to leadership, it may call for more rigorous risk assessment methods to identify further scenarios to measure.
 
-An anonymous panel may be necessary in cases where individuals feel uncomfortable surfacing a previously un-measured risk. 
+An anonymous panel may be necessary in cases where individuals feel uncomfortable surfacing a previously un-measured risk.
+
+Mapping rigor to measurements
+================================
+
+An organization can create "levels" of rigor associated with important risks. Here are some example thoughts on organizing the appropriate amount of rigor for a decision.
+
+.. note::
+  For a real-world example, see `NASA-STD-7009`_
+
+.. _NASA-STD-7009: https://standards.nasa.gov/standard/nasa/nasa-std-7009
+
+Level One
+  A single individual has forecasted.
+
+Level Two
+  In addition to previous levels, this individual is calibration trained and has maintained a Brier score under *.3*.
+
+Level Three
+  In addition to previous levels, a panel of calibrated individuals were involved.
+
+Level Four
+  In addition to previous levels, an external expert was involved on the panel. Reference classes or historical data was made available to panelists.
+
+Such levels can be created that map to an organizations necessary decisions, depending on the decision making resources available and the stakes involved with the decision.
