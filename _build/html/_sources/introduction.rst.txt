@@ -1,0 +1,23 @@
+Introduction
+============
+
+Goals
+-------
+Make "risk" a measurable engineering subject matter.
+
+- Make "risk" a specific concept with useful professional tooling when used.
+- Make measurement useful and time efficient from the ground up. (Brushing your teeth).
+- Make *any risk* vulnerable to these methods.
+- Make risk management across an organization more continuous and less heavy handed.
+- Worship the post mortem to support validated learning for our industry.
+- Keep math extremely simple until an organization wants dedicated hiring for it.
+
+
+Practical use of the word "risk"
+--------------------------------
+
+Estimation in other industries
+------------------------------
+
+A simple example
+----------------
