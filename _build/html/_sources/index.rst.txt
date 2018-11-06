@@ -32,14 +32,12 @@ How do we measure so many risks?
 Have we spent enough time identifying new risks?
   You'll find that "unknown unknowns" can become "knowns" with effort, and deciding how to budget that effort can save time for mitigating your "knowns".
 
-How do I make the right decision in a pinch?
-  Sometimes a rigorous decision needs to be made cheaply, with little information, in a short timeframe.
-
 .. toctree::
    :maxdepth: 3
    :caption: Introduction
 
    introduction/helloworld
+   introduction/examples
    introduction/principles
 
 .. toctree::
@@ -61,14 +59,6 @@ How do I make the right decision in a pinch?
 
    enterprise/index.rst
    enterprise/culture
-   enterprise/training
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Heuristics
-
-   heuristics/intro
-   heuristics/examples
 
 .. toctree::
    :maxdepth: 3

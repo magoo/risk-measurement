@@ -62,3 +62,6 @@ This is described as "decomposition" of a risk. It is a form of flexibility that
 .. _Fault tree analysis: https://en.wikipedia.org/wiki/Fault_tree_analysis
 
 In :doc:`Enterprise </enterprise/index>` this aspect of scenarios-informing-scenarios is used to inform larger organizational approaches to risk.
+
+Choosing your "judgement" criteria
+----------------------------------

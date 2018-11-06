@@ -140,8 +140,8 @@ If there the *other* ("?") category has an undesirable value to leadership, it m
 
 An anonymous panel may be necessary in cases where individuals feel uncomfortable surfacing a previously un-measured risk.
 
-Mapping rigor to measurements
-================================
+Decision Standards
+==================
 
 An organization can create "levels" of rigor associated with important risks. Here are some example thoughts on organizing the appropriate amount of rigor for a decision.
 
