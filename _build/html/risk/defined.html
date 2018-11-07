@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Defined &mdash; risk-rtd  documentation</title>
+  <title>Problems &mdash; risk-rtd  documentation</title>
   
 
   
@@ -86,7 +86,7 @@
 </ul>
 <p class="caption"><span class="caption-text">Risk</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Defined</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Problems</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#risk-in-practice">Risk in practice</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#conclusion">Conclusion</a></li>
 </ul>
@@ -153,7 +153,7 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>Defined</li>
+      <li>Problems</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -172,14 +172,12 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="defined">
-<h1>Defined<a class="headerlink" href="#defined" title="Permalink to this headline">¶</a></h1>
-<p>Risk terminology can be used in many incompatible ways that would harm our ability to make informed decisions with groups of engineers. One’s inability to recognize a conflict in risk communication can lead to engineering breakdowns, disagreements, or disaster.</p>
+  <div class="section" id="problems">
+<h1>Problems<a class="headerlink" href="#problems" title="Permalink to this headline">¶</a></h1>
+<p>The term “risk” is problematic and this documentation favors the <a class="reference internal" href="scenarios.html"><span class="doc">scenario</span></a> instead.</p>
+<p>That said, it is still important to understand the complexity of “risk” to effectively use this documentation.</p>
+<p>Understanding these complexities improves our ability to create scenarios that better represent our intentions than trying to argue for a specific “risk” definition.</p>
 <p>We’ll discuss the varying uses of the term, and the varying goals we have concerning risk.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">We try to avoid these problems by structuring our risks as <a class="reference internal" href="scenarios.html"><span class="doc">scenarios</span></a>.</p>
-</div>
 <p><a class="reference external" href="https://plato.stanford.edu/archives/fall2018/entries/risk/">Sven Ove Hansson</a> describes risk with many definitions:</p>
 <blockquote>
 <div><ol class="arabic simple">
@@ -193,40 +191,42 @@
 <p>It is not difficult to find other uses in the wild!</p>
 <blockquote>
 <div><ul class="simple">
-<li>The lack of a best practice, or “obvious” mitigation (“Driving without a seatbelt”)</li>
-<li>An amount of property at stake (“The amount of money in a higher risk investment”)</li>
-<li>General expressions of “I am afraid of…”</li>
+<li>The lack of obvious mitigations (“<em>Driving without a seatbelt is a risk</em>”)</li>
+<li>An amount of property at stake (“<em>We have too much risk in volatile investments</em>”)</li>
+<li>General expressions of fear. (“<em>This feels pretty risky…</em>”)</li>
 </ul>
 </div></blockquote>
-<p>There are obviously consistent themes involved with all of these definitions. They all relate, somehow, to the likelihood of a future event, or the impact of a future event.</p>
+<p>There are obviously consistent themes involved with all of these definitions. They all relate, somehow, to the likelihood of a future event, or the impact of a future event, or both.</p>
 <div class="section" id="risk-in-practice">
 <h2>Risk in practice<a class="headerlink" href="#risk-in-practice" title="Permalink to this headline">¶</a></h2>
 <p>You are likely surrounded by a variety of factors that compose your ability to influence a risk.</p>
 <ul class="simple">
 <li>Your time and resources available to contribute.</li>
 <li>The skillsets you can contribute to a problem.</li>
-<li>The opportunities that may temporarily be available.</li>
+<li>An short lived opportunity to mitigate a risk.</li>
 </ul>
-<p>As such, you might find yourself with many available strategies. Their effectiveness would be measured differently.</p>
+<p>As such, you might find yourself with many available strategies that have varying limitations associated with them.</p>
 <p>Here is an example scenario:</p>
 <div class="warning admonition">
 <p class="first admonition-title">Scenario</p>
 <p class="last"><em>The vault will be robbed during overnight hours, in Q2, resulting in $1M loss or greater.</em></p>
 </div>
-<p>In trying to engineer towards a reduction in this risk, our limitations as engineers may contain our ability to influence the likelihoods or impacts that compose the risk.</p>
+<p>In selecting engineering tasks that risk, our limitations as engineers may contain our ability to influence the likelihoods <em>or</em> impacts that compose the risk.</p>
 <p>This goes against definitions of risk attempt to track the <em>Expected Value</em> of a risk, which demand that both factors are calculated.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">The Expected Value of risk is equal to the product of its likelihood and impact. For example, a 50% likelihood of a $10 loss within a year has an expected value of $5 annually.</p>
 </div>
-<p>However, we may not want to measure both. In our example vault was in a bank, the “losses” may be obvious. But what if artwork is in the vault? What about a softer subject, like, reputation? For instance, you may try to reduce the overnight holdings of the bank vault (impact). You may install a thicker vault to prevent robbery (likelihood). It’s common to be limited to solutions that focus on one factor or the other.</p>
-<p>While both of these impact the expected value of a loss, you can still work on these independent factors and trust that an expected value is being influenced positively.</p>
+<p>However, we <em>may not want to measure both</em>!</p>
+<p>In our example vault was in a bank, the “losses” may be obvious. But what if artwork is in the vault? What about a softer subject, like, reputation? For instance, you may try to reduce the overnight holdings of the bank vault (impact). You may install a thicker vault to prevent robbery (likelihood). It’s common to be limited to solutions that focus on one component of risk and not the other.</p>
+<p>Both of these impact the expected value of a loss. You can still work on these independent factors and trust that an expected value is being influenced positively.</p>
 <p>In some cases, an organization may be <em>very intentionally</em> increasing one factor or another. For instance, a business may be trying to collect as much artwork as possible, and limiting this operation may be counterintuitive to the business.</p>
-<p>The world being as it is, the expected value of a risk is a desirable thing to measure, if it is reasonable to do so.</p>
+<p>The world being as it is, the expected value of a risk is a desirable thing to measure, if it is reasonable to do so. We can trust that efforts to mitigate a risk may reduce the Expected Value of a loss, even if we don’t have the full picture measured.</p>
 </div>
 <div class="section" id="conclusion">
 <h2>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h2>
-<p>As engineers, we must work on estimations of well defined future events and / or losses. We do not always need to measure both. First, we need to measure the targets of our efforts. We can focus and target these areas of risk by defining them as <a class="reference internal" href="scenarios.html"><span class="doc">scenarios</span></a>.</p>
+<p>As engineers, we must work on estimations of well defined likelihoods or impacts. We do not always need to measure both. First, we need to measure the targets of our efforts.</p>
+<p>We can focus and target these areas of risk by defining them as <a class="reference internal" href="scenarios.html"><span class="doc">scenarios</span></a>.</p>
 </div>
 </div>
 

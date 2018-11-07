@@ -13,13 +13,13 @@ In this example, we are concerned with a single risk. First, we develop a :doc:`
 .. admonition:: Scenario
   :class: warning
 
-  A bank robber attempts robbery to one of our tellers next quarter. (Yes / No)
+  A bank robber threatens a teller next quarter. (Yes / No)
 
 This meets the criteria of a scenario by including an observable event, and includes a specific timeframe.
 
 The observable judgement criteria could be the bank's security team, or the creation of a police report.
 
-The forecaster who is asked to measure the risk would then assign a likelihood to "Yes" or "No".
+The forecaster who is asked to measure the risk would then assign a likelihood to "Yes" or "No". (See: :ref:`forecasting`)
 
 As an example, we'll say that the forecaster believes that "Yes" has a likelihood of 5%, which would estimate an occurrence of every five years.
 
@@ -33,7 +33,7 @@ In our example, lets say that we are assessing the risks involved with our CEO g
 
 In this case we will use two similar scenarios, and we'll just have to pretend that these were all the scenarios found in a risk discovery effort.
 
-We develop two :doc:`scenario </risk/scenarios>`.
+We develop two :doc:`scenarios </risk/scenarios>`.
 
 .. admonition:: Scenario
   :class: warning

@@ -86,7 +86,7 @@
 </ul>
 <p class="caption"><span class="caption-text">Risk</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../risk/defined.html">Defined</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../risk/defined.html">Problems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../risk/scenarios.html">Scenarios</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Estimation</span></p>
@@ -192,8 +192,8 @@
   <div class="section" id="measurement">
 <h1>Measurement<a class="headerlink" href="#measurement" title="Permalink to this headline">¶</a></h1>
 <p>We often use instruments to measure things. For instance, a ruler to measure the size of a table. However, we rely on estimation when instruments do not exist for our area of measurement.</p>
-<p>Ultimately, it is well understood that all forms of measurement are, in essence, an <a class="reference external" href="https://plato.stanford.edu/entries/measurement-science/">approximation</a>. This is represented in philosophy and more practically in <a class="reference external" href="https://en.wikipedia.org/wiki/Joint_Committee_for_Guides_in_Metrology">international standards</a>.</p>
-<p>As an example, any wooden ruler you might own is an approximation of many intermediary approximations to a standard unit of measurement stored in an underground vault in France.</p>
+<p>Ultimately, it is well understood that all forms of measurement are, in essence, an <a class="reference external" href="https://plato.stanford.edu/entries/measurement-science/">approximation</a>. This is well discussed both in philosophy and more practically in <a class="reference external" href="https://en.wikipedia.org/wiki/Joint_Committee_for_Guides_in_Metrology">international standards</a>.</p>
+<p>As an example, any wooden ruler you might own is an approximation of many intermediary approximations to a standard unit of measurement stored in an underground vault in France. Same with <a class="reference external" href="https://www.bipm.org/en/bipm/mass/ipk/">weight scales</a>.</p>
 <p>In risk, we are concerned with future events and their impacts. No instrument exists that can <em>directly</em> measure future events. As a result, we often find ourselves approximating the most likely outcome by understanding past events or reference classes.</p>
 <p>An estimation of a likelihood is typically called forecast.</p>
 <p>As the role of information becomes more prevalent in a forecast, we can reduce (but never eliminate) our uncertainty in a given scenario.</p>
@@ -206,15 +206,21 @@
 </div>
 </div>
 <div class="section" id="forecasting">
-<h1>Forecasting<a class="headerlink" href="#forecasting" title="Permalink to this headline">¶</a></h1>
+<span id="id1"></span><h1>Forecasting<a class="headerlink" href="#forecasting" title="Permalink to this headline">¶</a></h1>
 <p>Forecasting is a disciplined practice to estimate the likelihoods and impacts of future events. It is a subject matter with over a half-century of multidisciplinary research into risk, decision making, and predictions.</p>
 <p>Most of this research has concluded that human intuition is very poor at prediction, but it can be improved when rigorous methods are used to support our strengths.</p>
 <p>When culturally supported and invested in, predictive approaches to risk have great opportunity for engineers to attack large risks methodically.</p>
 <div class="section" id="calibration">
 <h2>Calibration<a class="headerlink" href="#calibration" title="Permalink to this headline">¶</a></h2>
 <p>Forecasts often include a value of “confidence” associated with them. For instance, “<em>I am 50% sure it will rain tomorrow.</em>” would indicate that the forecaster will be historically wrong in half of the instances where they’ve made a <em>50%</em> claim.</p>
-<p>Volumes of research show that humans do not follow this pattern by default. An uncalibrated individual may use the phrase “<em>I’m 90% sure</em>” and display a track record of being far worse, as an example.</p>
-<p>Research shows that individuals can be very easily calibrated with minimal training, and regular practice supports this as well.</p>
+<p>If someone is <em>99%</em> certain, their track record would be incorrect one in one hundred cases.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>This makes the values of <em>0%</em> and <em>100%</em> very special, as they would indicate that the forecaster expects a perfect track record.</p>
+<p class="last">You do not know anyone with a perfect prediction track record.</p>
+</div>
+<p>Volumes of research show that humans are poorly calibrated without training and practice. An uncalibrated individual may frequently use the phrase “<em>I’m 90% sure</em>” and display a track record of being far worse, as an example.</p>
+<p>Research shows that individuals can be very easily calibrated with minimal training, and regular practice supports this as well. (See: <a class="reference external" href="https://github.com/magoo/forecast-documentation/blob/master/READING.md#philip-tetlocks-prediction-research">Tetlock</a>)</p>
 </div>
 <div class="section" id="keeping-score">
 <h2>Keeping Score<a class="headerlink" href="#keeping-score" title="Permalink to this headline">¶</a></h2>
@@ -246,9 +252,9 @@
 <p>A confidence interval represents a range of possible values, and also includes a percentage belief that the outcome will fall into it. A forecaster would then expand their range of values to increase their expression of uncertainty, and an engineer’s efforts would widen or narrow this range. For example:</p>
 <div class="warning admonition">
 <p class="first admonition-title">Scenario</p>
-<p class="last">Our police station has responded to an unannounced protest outside of City Hall. (# of arrests, 95% confidence)</p>
+<p class="last">Police have responded to a protest at City Hall. (# of arrests, 70% confidence)</p>
 </div>
-<p>A forecaster may answer this with an interval of 0-15 arrests. If, for instance, they were asked for a more aggressive forecast (say, 70%), they may answer a more narrow range that results in a higher rate of being wrong. An example of a 70% confidence forecast for the same question could be 2-7 arrests.</p>
+<p>A forecaster may answer this with an interval of 5-10 arrests. If, for instance, they were asked for a more aggressive forecast (say, 70%), they may answer a more narrow range that results in a higher rate of being wrong. An example of a 60% confidence forecast for the same question could be 2-7 arrests, and so on.</p>
 <p>A visual example of a percentage belief that an unknown value will end up within this range when revealed.:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>                               70% Certainty
 

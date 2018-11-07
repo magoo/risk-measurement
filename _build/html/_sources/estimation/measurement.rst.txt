@@ -2,12 +2,14 @@ Measurement
 ===========
 We often use instruments to measure things. For instance, a ruler to measure the size of a table. However, we rely on estimation when instruments do not exist for our area of measurement.
 
-Ultimately, it is well understood that all forms of measurement are, in essence, an approximation_. This is represented in philosophy and more practically in `international standards`_.
+Ultimately, it is well understood that all forms of measurement are, in essence, an approximation_. This is well discussed both in philosophy and more practically in `international standards`_.
 
 .. _approximation: https://plato.stanford.edu/entries/measurement-science/
 .. _international standards: https://en.wikipedia.org/wiki/Joint_Committee_for_Guides_in_Metrology
 
-As an example, any wooden ruler you might own is an approximation of many intermediary approximations to a standard unit of measurement stored in an underground vault in France.
+As an example, any wooden ruler you might own is an approximation of many intermediary approximations to a standard unit of measurement stored in an underground vault in France. Same with `weight scales`_.
+
+.. _weight scales: https://www.bipm.org/en/bipm/mass/ipk/
 
 In risk, we are concerned with future events and their impacts. No instrument exists that can *directly* measure future events. As a result, we often find ourselves approximating the most likely outcome by understanding past events or reference classes.
 
@@ -25,8 +27,11 @@ There are grey areas for these terms. For instance, an unknown quantity may also
 
 A *prediction* does not necessarily mean a "100% belief", but should probably be avoided as it can be interpreted poorly.
 
+.. _forecasting:
+
 Forecasting
 ===========
+
 Forecasting is a disciplined practice to estimate the likelihoods and impacts of future events. It is a subject matter with over a half-century of multidisciplinary research into risk, decision making, and predictions.
 
 Most of this research has concluded that human intuition is very poor at prediction, but it can be improved when rigorous methods are used to support our strengths.
@@ -37,9 +42,16 @@ Calibration
 -----------
 Forecasts often include a value of "confidence" associated with them. For instance, "*I am 50% sure it will rain tomorrow.*" would indicate that the forecaster will be historically wrong in half of the instances where they've made a *50%* claim.
 
-Volumes of research show that humans do not follow this pattern by default. An uncalibrated individual may use the phrase "*I'm 90% sure*" and display a track record of being far worse, as an example.
+If someone is *99%* certain, their track record would be incorrect one in one hundred cases.
 
-Research shows that individuals can be very easily calibrated with minimal training, and regular practice supports this as well.
+.. note::
+  This makes the values of *0%* and *100%* very special, as they would indicate that the forecaster expects a perfect track record.
+
+  You do not know anyone with a perfect prediction track record.
+
+Volumes of research show that humans are poorly calibrated without training and practice. An uncalibrated individual may frequently use the phrase "*I'm 90% sure*" and display a track record of being far worse, as an example.
+
+Research shows that individuals can be very easily calibrated with minimal training, and regular practice supports this as well. (See: `Tetlock <https://github.com/magoo/forecast-documentation/blob/master/READING.md#philip-tetlocks-prediction-research>`_)
 
 
 Keeping Score
@@ -47,6 +59,8 @@ Keeping Score
 Forecasts that include their associated confidence can make use of the `Brier Score`_ to record accuracy over time. This is simply calculated as the "Squared Error".
 
 .. _Brier Score: https://en.wikipedia.org/wiki/Brier_score
+
+
 
 Types of Forecasts
 ------------------
@@ -82,9 +96,9 @@ A confidence interval represents a range of possible values, and also includes a
 .. admonition:: Scenario
   :class: warning
 
-  Our police station has responded to an unannounced protest outside of City Hall. (# of arrests, 95% confidence)
+  Police have responded to a protest at City Hall. (# of arrests, 70% confidence)
 
-A forecaster may answer this with an interval of 0-15 arrests. If, for instance, they were asked for a more aggressive forecast (say, 70%), they may answer a more narrow range that results in a higher rate of being wrong. An example of a 70% confidence forecast for the same question could be 2-7 arrests.
+A forecaster may answer this with an interval of 5-10 arrests. If, for instance, they were asked for a more aggressive forecast (say, 70%), they may answer a more narrow range that results in a higher rate of being wrong. An example of a 60% confidence forecast for the same question could be 2-7 arrests, and so on.
 
 A visual example of a percentage belief that an unknown value will end up within this range when revealed.::
 
@@ -109,7 +123,6 @@ To summarize, a forecaster would provide:
 - A percentage belief the outcome lies within.
 
 A scenario can also demand the percentage belief beforehand.
-
 
 Probability Distributions
 ~~~~~~~~~~~~~~~~~~~~~~~~~

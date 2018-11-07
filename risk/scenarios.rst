@@ -41,7 +41,7 @@ We must include a specific timeframe with our scenario if we want to forecast ag
 
 View scenarios as a hierarchy.
 ------------------------------
-A scenario has ties to `Fault tree analysis`_, whereas higher level outcomes (the top of a tree) relate to more specific events (the branches of a tree).
+A scenario has ties to `Fault Tree Analysis`_, whereas higher level outcomes (the top of a tree) relate to more specific events (the branches of a tree).
 
 A specific example, a meltdown event at a nuclear facility is a scenario we'd like to avoid.
 

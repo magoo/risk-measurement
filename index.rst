@@ -8,11 +8,11 @@ Simple Risk Management
 
 :doc:`Simple Risk Management </index>` is a quantitative toolbox of simple methods that support risk measurement.
 
-It is designed to be reliant on subject matter experts who are informed by evidence. It should be useful to those who professionally mitigate risk. It is different from top-down methods founded by governance or compliance needs.
+It is designed to enhance subject matter experts who work with "hard to measure" issues, like probability. It should be useful to those who professionally mitigate risk. It is different from top-down methods founded by governance or compliance needs, and is instead meant to be useful to those who contribute to mitigations.
 
-If you are already motivated by risk problems, you may find these techniques useful, well researched, and with plentiful industry examples.
+If you are motivated by risk problems, you may find this useful as a starting point as the beginnings of a comprehensive and epistemic approach to risk.
 
-With these methods, you should be able to measure risk on a cocktail napkin, or launch a rocket ship into space.
+You should be able to measure risk on a napkin or organize a rocket launch with these methods.
 
 How does this help me?
 ------------------------------------------
@@ -28,7 +28,7 @@ Has a specific risk gotten better or worse?
 Which mitigation option(s) should we choose?
   When presented with competing options with which we can mitigate a risk, we use methods to evaluate each option and decide upon the most effective strategies involved.
 
-How do we measure so many risks?
+How do we measure many risks?
   It may become important to highlight areas of risk *inside* of many other risks. Sometimes, more focused areas can be our largest problems, and we must represent them.
 
 Have we spent enough time identifying new risks?
