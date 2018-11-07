@@ -65,3 +65,15 @@ In :doc:`Enterprise </enterprise/index>` this aspect of scenarios-informing-scen
 
 Choosing your "judgement" criteria
 ----------------------------------
+One issue in forecasting is deciding on the criteria that "closes" a forecast. For instance:
+
+.. admonition:: Scenario
+  :class: warning
+
+  The Cubs win the World Series this year. (Yes / No)
+
+This scenario is simple to judge, as you would respect the judgement of Major League Baseball, a reputable organization.
+
+Dictating in your scenario, or elsewhere, who will judge the outcome of the scenario, is important. The "judge" is essentially the party being forecasted, and may influence the certainty of the forecasters if poorly chosen.
+
+The judges that are selected to evaluate outcomes should be considered for their objectiveness to the outcome, and their lack of incentives to manipulate an outcome. In casual or workplace settings, it can be as simple as designating a team or individual to pass judgement on an outcome.
