@@ -35,7 +35,7 @@ Leadership can require that a decision of "Launch" may require predetermined fac
 
 Requiring effective forecasters.
 ------------------------------------------
-Cooke's Method.
+After a certain amount of practice or calibration training, a decision maker can exclude forecasters with regularly poor calibration, or not meeting a threshold Brier Score.
 
 Whistleblowing and Complaints
 ------------------------------------

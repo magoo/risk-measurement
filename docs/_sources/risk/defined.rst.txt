@@ -43,9 +43,9 @@ Here is an example scenario:
 
   *The vault will be robbed during overnight hours, in Q2, resulting in $1M loss or greater.*
 
-In selecting engineering tasks that risk, our limitations as engineers may contain our ability to influence the likelihoods *or* impacts that compose the risk.
+We face limitations as engineers that may hinder our ability to influence the either the likelihoods *or* impacts that compose a risk.
 
-This goes against definitions of risk attempt to track the *Expected Value* of a risk, which demand that both factors are calculated.
+This goes against definitions of risk that attempt to track the *Expected Value* of a risk, which demand that both factors are calculated.
 
 .. note::
   The Expected Value of risk is equal to the product of its likelihood and impact. For example, a 50% likelihood of a $10 loss within a year has an expected value of $5 annually.
