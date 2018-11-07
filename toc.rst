@@ -37,3 +37,4 @@
    :caption: Other
 
    Reading <https://github.com/magoo/forecast-documentation/blob/master/READING.md>
+   thanks

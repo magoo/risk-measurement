@@ -8,6 +8,9 @@ Simple Risk Measurement
 
 :doc:`Simple Risk Measurement </index>` is a quantitative toolbox of simplified risk measurement methods.
 
+.. warning::
+  I am gathering feedback. Send any and all critique to magoo@r10n.com, or via slack.
+
 It is designed to enhance subject matter experts who work with risk, especially those who professionally mitigate risk.
 
 Simple Risk Measurement is different from top-down methods founded by governance or compliance needs, and is instead meant to be useful to those who *personally contribute to mitigations*.
@@ -28,7 +31,7 @@ Has a specific risk gotten better or worse?
   Risk can change over time, especially if we are actively mitigating them or are observing changes in the context they exist in.
 
 Which mitigation option(s) should we choose?
-  When presented with competing options with which we can mitigate a risk, we use methods to evaluate each option and decide upon the most effective strategies involved.
+  When presented with competing options with which we can mitigate a risk, we use methods to evaluate each option and inform a decision.
 
 How do we measure many risks?
   It may become important to highlight areas of risk *inside* of many other risks. Sometimes, more focused areas can be our largest problems, and we must represent them.
