@@ -72,4 +72,4 @@ Imagine if the bank wasn't OK with this level of risk to their employees, and de
 
 Assume that this information is valuable to the forecaster. Given that no other substantial information has changed regarding the risk, they would forecast again next quarter, let's say at 3%, a reduction of 2% from the original 5%.
 
-If these assumptions weren't correct, and for some reason this mitigation increased risks in the mind of the forecaster, then it would reflect itself by an increasing likelihood in the measurement.
+If these assumptions weren't correct, and for some reason this mitigation increased risks in the mind of the forecaster, then it would reflect itself with an increasing likelihood in the measurement.
