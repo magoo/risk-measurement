@@ -6,7 +6,7 @@
 Simple Risk Measurement
 =======================
 
-:doc:`Simple Risk Measurement </index>` is a quantitative toolbox of simplified risk measurement methods.
+:doc:`Simple Risk Measurement </index>` is a collection of simplified and probabilistic risk assessment methods.
 
 .. warning::
   I am gathering feedback. Send any and all critique to magoo@r10n.com, or via slack.
