@@ -8,7 +8,9 @@ Simple Risk Measurement
 
 :doc:`Simple Risk Measurement </index>` is a quantitative toolbox of simplified risk measurement methods.
 
-It is designed to enhance subject matter experts who work with risk, especially those who professionally mitigate risk. It is different from top-down methods founded by governance or compliance needs, and is instead meant to be useful to those who contribute to mitigations.
+It is designed to enhance subject matter experts who work with risk, especially those who professionally mitigate risk.
+
+Simple Risk Measurement is different from top-down methods founded by governance or compliance needs, and is instead meant to be useful to those who *personally contribute to mitigations*.
 
 If you are motivated by risk problems, you may find this useful as a starting point as the beginnings of a comprehensive and epistemic approach to risk.
 
