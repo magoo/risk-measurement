@@ -1,5 +1,5 @@
-Hello World!
-============
+Hello World
+===========
 Let's quickly discuss some example outputs of this method.
 
 One :doc:`principle <principles>` of this method is that our methods should be portable to any form of risk. To get a hang of it, it helps to understand how it is applicable to many industries.

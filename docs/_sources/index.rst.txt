@@ -32,6 +32,6 @@ How do we measure many risks?
   It may become important to highlight areas of risk *inside* of many other risks. Sometimes, more focused areas can be our largest problems, and we must represent them.
 
 Have we spent enough time identifying new risks?
-  You'll find that "unknown unknowns" can become "knowns" with effort, and deciding how to budget that effort can save time for mitigating your "knowns".
+  You may feel that not enough time has been spent exploring new risks. We can measure how likely efforts will be in uncovering new issues to mitigate, and if more risk assessment effort will be valuable.
 
 .. include:: toc.rst

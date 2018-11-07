@@ -2,6 +2,8 @@ Tutorials
 =========
 The following tutorials are quantitative risk methods with the least amount of rigor. (See :ref:`rigor`)
 
+All risk measurement must start somewhere, and this tutorial represents the earliest examples of measurement.
+
 Low rigor measurements are still useful for day to day, "back of envelope" risk modeling with low cost and effort. They can easily be expanded upon as requirements expand.
 
 As an organization becomes involved with extraordinary risk, it would take efforts to bolster these methods with the methods described in the documentation.
