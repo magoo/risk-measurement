@@ -2,7 +2,7 @@ Hello World!
 ============
 Let's quickly discuss some example outputs of this method.
 
-One :doc:`principle <principles>` of this method is that it should be portable to any form of risk. To get a hang of it, it helps to understand how it is applicable to many industries.
+One :doc:`principle <principles>` of this method is that our methods should be portable to any form of risk. To get a hang of it, it helps to understand how it is applicable to many industries.
 
 Inline are links that lead into the use of estimation techniques into the industry itself.
 
@@ -16,7 +16,7 @@ With this method, we structure risks as a :doc:`scenario </risk/scenarios>`, whi
 An example in Cyber-Security
 ----------------------------
 
-A 16 person panel forecasted the likelihood of the following scenario. [0_]
+A `16 person panel`_ forecasted the likelihood of a critical vulnerability being exploited in widely deployed software.
 
 .. admonition:: Scenario
   :class: warning
@@ -25,11 +25,11 @@ A 16 person panel forecasted the likelihood of the following scenario. [0_]
 
   `Yes` with a likelihood of `1.64%`.
 
-.. _0: https://github.com/magoo/forecast-documentation/blob/master/PREVIOUS.md#chromium-critical-sep2018
+.. _16 person panel: https://github.com/magoo/forecast-documentation/blob/master/PREVIOUS.md#chromium-critical-sep2018
 
-An example in Nuclear
----------------------
-Nuclear is concerned with combinations of events that may result in core damage or other outcomes. Expert elicitation techniques in Nuclear risk measurement are common. [1_, 2_]
+An example in Nuclear Safety
+----------------------------
+Nuclear is concerned with combinations of events that may result in core damage or other outcomes. `Expert elicitation techniques`_ in nuclear risk measurement are `common`_.
 
 .. admonition:: Scenario
   :class: warning
@@ -38,12 +38,12 @@ Nuclear is concerned with combinations of events that may result in core damage 
 
   `Yes` with a likelihood of `0.001%`
 
-.. _1: https://www.standards.doe.gov/standards-documents/1200/1628-2013/@@images/file
-.. _2: https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/probabilistic-risk-asses.html
+.. _Expert elicitation techniques: https://www.standards.doe.gov/standards-documents/1200/1628-2013/@@images/file
+.. _common: https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/probabilistic-risk-asses.html
 
 An example in Environmental Safety
 ----------------------------------
-Environmental impact organizations use the probabilistic risk assessment. [3_, 4_]
+`Environmental impact organizations`_ use the `probabilistic risk assessment`_.
 
 .. admonition:: Scenario
   :class: warning
@@ -52,13 +52,13 @@ Environmental impact organizations use the probabilistic risk assessment. [3_, 4
 
   Interval estimate: Reduction of *.001 -.05%* with *95%* confidence.
 
-.. _3: https://www.epa.gov/osa/basic-information-about-scientific-coordination
-.. _4: https://www.epa.gov/sites/production/files/2014-11/documents/raf-pra-faq-final.pdf
+.. _Environmental impact organizations: https://www.epa.gov/osa/basic-information-about-scientific-coordination
+.. _Probabilistic risk assessment: https://www.epa.gov/sites/production/files/2014-11/documents/raf-pra-faq-final.pdf
 
 An example in Meteorology
 -------------------------
 
-The United States spends billions on weather forecasting and its associated infrastructure.  [5_]
+The United States spends `billions`_ on weather forecasting and its associated infrastructure.
 
 .. admonition:: Scenario
   :class: warning
@@ -67,11 +67,11 @@ The United States spends billions on weather forecasting and its associated infr
 
   `Yes` with a likelihood of `50%`.
 
-.. _5: https://en.wikipedia.org/wiki/Weather_forecasting
+.. _billions: https://en.wikipedia.org/wiki/Weather_forecasting
 
 An example in Intelligence Analysis
 -----------------------------------
-All forms of intelligence gathering ultimately desire to inform decision making. [6_, 7_]
+All forms of `intelligence gathering`_ ultimately desire to `inform decision making`_.
 
 .. admonition:: Scenario
   :class: warning
@@ -80,5 +80,5 @@ All forms of intelligence gathering ultimately desire to inform decision making.
 
   `Yes` with a likelihood of `70%`.
 
-.. _6: https://en.wikipedia.org/wiki/List_of_intelligence_gathering_disciplines
-.. _7: https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/4estimates.html
+.. _intelligence gathering: https://en.wikipedia.org/wiki/List_of_intelligence_gathering_disciplines
+.. _inform decision making: https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/4estimates.html

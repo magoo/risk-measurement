@@ -1,6 +1,6 @@
 Tutorials
 =========
-The following tutorials are quantitative risk methods with the least amount of :doc:`rigor </enterprise/index>`.
+The following tutorials are quantitative risk methods with the least amount of rigor. (See :ref:`rigor`)
 
 Low rigor measurements are still useful for day to day, "back of envelope" risk modeling with low cost and effort. They can easily be expanded upon as requirements expand.
 
@@ -27,7 +27,9 @@ That is an example of risk analysis done quickly and simply.
 
 Risk Assessment
 ---------------
-In this example, we are concerned with gathering, and comparing more than one risk. In our example, lets say that we are assessing the risks involved with our CEO getting a virus on their laptop based on their request for an assessment.
+In this example, we are concerned with gathering, and comparing more than one risk.
+
+In our example, lets say that we are assessing the risks involved with our CEO getting a virus on their laptop based on their request for an assessment.
 
 In this case we will use two similar scenarios, and we'll just have to pretend that these were all the scenarios found in a risk discovery effort.
 

@@ -4,7 +4,7 @@ Many forms of cultural debt exist in the workplace that can hinder a team from r
 
 These items are difficult to enforce in the documentation and are better discussed more freely.
 
-Being prepared when prevention fails.
+Prepare for prevention failures.
 -------------------------------------
 Risk measurement is great at measuring "known knowns" and "known unknowns", but `Black Swan Theory`_ is an important aspect to consider when enumerating scenarios of risk.
 
@@ -21,16 +21,16 @@ Some simple tests to understand if you're thinking about risk correctly, are sce
 
 A mindset that mitigates few broad outcomes as opposed to preventing endless amounts of causes is valuable. This mindset helps mitigate eventual failure, and helps mitigate failures of human imagination.
 
-Celebrate minds that are open to new information.
--------------------------------------------------------------
+Minds that are open to new information.
+---------------------------------------
 Ones ability to update previous beliefs based on sound evidence should be cherished. An unwillingness to hold strong beliefs until equal evidence is shown is a cornerstone of quantitative reasoning. Being wishy-washy is OK so long as one can identify evidence that would influence them.
 
-Seek consensus, not agreement.
+Seek information, not agreement.
 -----------------------------------------
 When forming panels, it is important to withhold bullying and attempts to get others to find agreement. Toxicity brews this way and influences risk measurement poorly.
 
-Continuous practice
-------------------------------
+Continuously practice risk literacy.
+------------------------------------
 Opportunities to forecast outcomes are all around us. Find these future events that relate to your interests, your organization, or society and forecast them. Keep score and mind your calibration.
 
 Protect and encourage the "Post Mortem"

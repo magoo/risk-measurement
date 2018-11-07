@@ -6,11 +6,13 @@
 Simple Risk Management
 ======================
 
-:doc:`Simple Risk Management </index>` is a toolbox of simple methods that help support risk measurement, and decisions.
+:doc:`Simple Risk Management </index>` is a quantitative toolbox of simple methods that support risk measurement.
 
-It is designed to be an accessible practice for people who are closest to risk, and opposite from top-down methods founded by governance or compliance efforts.
+It is designed to be reliant on subject matter experts who are informed by evidence. It should be useful to those who professionally mitigate risk. It is different from top-down methods founded by governance or compliance needs.
 
 If you are already motivated by risk problems, you may find these techniques useful, well researched, and with plentiful industry examples.
+
+With these methods, you should be able to measure risk on a cocktail napkin, or launch a rocket ship into space.
 
 How does this help me?
 ------------------------------------------
@@ -32,36 +34,4 @@ How do we measure so many risks?
 Have we spent enough time identifying new risks?
   You'll find that "unknown unknowns" can become "knowns" with effort, and deciding how to budget that effort can save time for mitigating your "knowns".
 
-.. toctree::
-   :maxdepth: 3
-   :caption: Introduction
-
-   introduction/helloworld
-   introduction/examples
-   introduction/principles
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Risk
-
-   risk/defined
-   risk/scenarios
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Estimation
-
-   estimation/measurement
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Enterprise
-
-   enterprise/index.rst
-   enterprise/culture
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Other
-
-   research
+.. include:: toc.rst

@@ -10,6 +10,8 @@ Despite the variance in all of these disciplines, we still need to measure the l
 
 One of the first concepts to understand when discussing large efforts around risk is the concept of "rigor" as it applies to risk measurement.
 
+.. _rigor:
+
 Rigor
 =====
 
