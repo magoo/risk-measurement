@@ -27,7 +27,7 @@ As soon as industry specific methods creep into risk measurement, we are biasing
 
 Celebrate the "post mortem" to support validated learning.
 ----------------------------------------------------------
-While we use estimation methods to compensate for spotty data, we invest in frequentist approaches to bolster or replace subjective analysis.
+While we use estimation methods to compensate for spotty data, we must invest in infrastructure to observe and share failures to better inform us about risks. Our goal is to measurably progress away from uncertainty as we learn more about the root causes of our failures.
 
 Assume failure and assume the limitations of prediction.
 --------------------------------------------------------

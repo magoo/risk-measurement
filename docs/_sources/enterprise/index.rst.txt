@@ -95,8 +95,9 @@ A simple model like the above is relying on three independent probabilities whic
 
 This sort of delegation of risk can help decouple the prescription of risk mitigations from measurement. It allows the engineers focused on "rocket failure" to achieve their highest levels of certainty by any means, as opposed to following a prescribed checklist mandated by a leadership team.
 
+.. _monte carlo:
 
-The monte carlo simulation
+The Monte Carlo simulation
 ------------------------------------------
 To properly estimate the likelihood of mission success for January, February, or March, you would likely use a Monte Carlo simulation. A Monte Carlo approach to this problem depends on randomized trials to estimate outcomes.
 

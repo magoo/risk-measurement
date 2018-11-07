@@ -53,7 +53,7 @@ We would perform a Risk Analysis on both of these scenarios. Given that they are
 
 As an example, let's say the forecaster believes that Scenario A has a "Yes" likelihood of 1%, while Scenario B has a likelihood of 35%.
 
-This example would indicate that the forecaster believes Scenario B (a malicious website) to occur about annually, while an insider employee would occur once every twenty years.
+Those likelihoods, when simulated, would indicate that the forecaster believes Scenario B (a malicious website) to occur about annually, while an insider employee would occur once every twenty years. (See: :ref:`Monte Carlo`)
 
 Under the assumption that the "virus" is equally bad in both cases, we can numerically compare both of these risks.
 
