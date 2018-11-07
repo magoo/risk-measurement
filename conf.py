@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'risk-rtd'
+project = u'Simple Risk Measurement'
 copyright = u'2018, Ryan McGeehan'
 author = u'Ryan McGeehan'
 
@@ -63,7 +63,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = [u'_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = [u'_build', 'Thumbs.db', '.DS_Store', 'README.md']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = None
@@ -116,7 +116,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'risk-rtddoc'
+htmlhelp_basename = 'scrty-risk'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -143,7 +143,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'risk-rtd.tex', u'risk-rtd Documentation',
+    (master_doc, 'risk-rtd.tex', u'Simple Risk Documentation',
      u'Ryan McGeehan', 'manual'),
 ]
 
@@ -153,7 +153,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'risk-rtd', u'risk-rtd Documentation',
+    (master_doc, 'risk-rtd', u'Simple Risk Documentation',
      [author], 1)
 ]
 

@@ -1,0 +1,285 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Scenarios &mdash; Simple Risk Measurement  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Measurement" href="../estimation/measurement.html" />
+    <link rel="prev" title="Problems" href="defined.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Simple Risk Measurement
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/helloworld.html">Hello World!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/examples.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/principles.html">Principles</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Risk</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="defined.html">Problems</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Scenarios</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#always-include-a-specific-timeframe">Always include a specific timeframe.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#view-scenarios-as-a-hierarchy">View scenarios as a hierarchy.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#choosing-your-judgement-criteria">Choosing your “judgement” criteria</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Estimation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../estimation/measurement.html">Measurement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../estimation/measurement.html#forecasting">Forecasting</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Enterprise</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../enterprise/index.html">Organizing Risks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enterprise/index.html#rigor">Rigor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enterprise/index.html#decision-standards">Decision Standards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enterprise/culture.html">Culture</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Other</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/magoo/forecast-documentation/blob/master/READING.md">Reading</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Simple Risk Measurement</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Scenarios</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/risk/scenarios.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="scenarios">
+<h1>Scenarios<a class="headerlink" href="#scenarios" title="Permalink to this headline">¶</a></h1>
+<p>In our discussion about <a class="reference internal" href="defined.html"><span class="doc">risk</span></a> we discussed the <em>likelihood</em> and <em>impact</em> of a future event.</p>
+<p>A point of failure in measurement is ambiguity about a risk problem being solved. A group of very smart people can spin in circles discussing a risk if they don’t pin a specific outcome down first.</p>
+<p>To do this, we explicitly define a risk with a <em>scenario</em>, which is an unambiguous statement about a future value or event. These statements should make the author sweat.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Read up on <a class="reference external" href="https://en.wikipedia.org/wiki/Clarity_test">The Clarity Test</a> to better understand the standard a good scenario should meet.</p>
+</div>
+<p>Here’s a batch of examples:</p>
+<div class="warning admonition">
+<p class="first admonition-title">Scenario</p>
+<p class="last">The house burns down <em>next quarter</em>.</p>
+</div>
+<div class="warning admonition">
+<p class="first admonition-title">Scenario</p>
+<p class="last">An earthquake has destroyed one of the three critical bridges <em>this year</em>.</p>
+</div>
+<div class="warning admonition">
+<p class="first admonition-title">Scenario</p>
+<p class="last">We are named in a headline lawsuit in a major publication <em>within the next three months</em>.</p>
+</div>
+<p>You may have heard of this format for a risk before!</p>
+<p>Many industries advocate for the <em>tabletop scenario</em> as a way to encourage brainstorming and better understanding of risks.</p>
+<p>Scenarios are directly compatible with these activities, as they are simply scenarios without a timeframe. In a tabletop, you generally role play that a scenario has already happened.</p>
+<div class="section" id="always-include-a-specific-timeframe">
+<h2>Always include a specific timeframe.<a class="headerlink" href="#always-include-a-specific-timeframe" title="Permalink to this headline">¶</a></h2>
+<p>We must include a specific timeframe with our scenario if we want to forecast against it. A risk can be viewed completely differently if it described as something happening tomorrow, or within the next ten years.</p>
+</div>
+<div class="section" id="view-scenarios-as-a-hierarchy">
+<h2>View scenarios as a hierarchy.<a class="headerlink" href="#view-scenarios-as-a-hierarchy" title="Permalink to this headline">¶</a></h2>
+<p>A scenario has ties to <a class="reference external" href="https://en.wikipedia.org/wiki/Fault_tree_analysis">Fault Tree Analysis</a>, whereas higher level outcomes (the top of a tree) relate to more specific events (the branches of a tree).</p>
+<p>A specific example, a meltdown event at a nuclear facility is a scenario we’d like to avoid.</p>
+<div class="warning admonition">
+<p class="first admonition-title">Scenario</p>
+<p class="last">A core damage event releases nuclear material into the environment <em>this year</em>.</p>
+</div>
+<p>This scenario could be caused by a variety of issues that are far less vague and more specific.</p>
+<div class="warning admonition">
+<p class="first admonition-title">Scenario</p>
+<p class="last">A tsunami has flooded the power station and caused a loss of pressure in cooling systems, resulting in core damage and a release of nuclear material into the environment <em>this year</em>.</p>
+</div>
+<p>This is described as “decomposition” of a risk. It is a form of flexibility that allows you to be more or less specific and target more narrow measurement or wide view measurement. The former scenario would attract far more root causes that could cause a core damage event, while the latter scenario is highly dependent on factors like the weather and the resiliency of cooling systems.</p>
+<p>In <a class="reference internal" href="../enterprise/index.html"><span class="doc">Enterprise</span></a> this aspect of scenarios-informing-scenarios is used to inform larger organizational approaches to risk.</p>
+</div>
+<div class="section" id="choosing-your-judgement-criteria">
+<h2>Choosing your “judgement” criteria<a class="headerlink" href="#choosing-your-judgement-criteria" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../estimation/measurement.html" class="btn btn-neutral float-right" title="Measurement" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="defined.html" class="btn btn-neutral" title="Problems" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Ryan McGeehan
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
