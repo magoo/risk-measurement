@@ -9,7 +9,7 @@ Inline are links that lead into the use of estimation techniques into the indust
 .. tip::
   Your risks are unique. These examples might not apply to your risk. That is ok!
 
-With this method, we structure risks as a :doc:`scenario </risk/scenarios>`, which will look similar to the examples below. Then, we :doc:`forecast </estimation/measurement>` the values associated with them. If these decisions are important, in increase the :doc:`rigor </enterprise/index>` involved with the process. `
+With this method, we structure risks as a :doc:`scenario </risk/scenarios>`, which will look similar to the examples below. Then, we :doc:`forecast </estimation/measurement>` the values associated with them. If these decisions are important, increase the :doc:`rigor </enterprise/index>` involved with the process.
 
 .. _introduction: ../index
 
