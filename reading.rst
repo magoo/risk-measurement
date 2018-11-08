@@ -1,5 +1,7 @@
 Reading Material
 ================
+This document contains reading material bolstering the estimation, expert elicitation, quantitative certainty, scenario, and forecasting subject matters that guide Simple Risk Measurement. 
+
 
 Risk Language
 -------------
