@@ -19,7 +19,7 @@ In this example, we are concerned with a single risk. First, we develop a :doc:`
 
 This meets the criteria of a scenario by including an observable event, and includes a specific timeframe.
 
-The observable judgement criteria could be the bank's security team, or the creation of a police report.
+The observable judgment criteria could be the bank's security team, or the creation of a police report.
 
 The forecaster who is asked to measure the risk would then assign a likelihood to "Yes" or "No". (See: :ref:`forecasting`)
 
