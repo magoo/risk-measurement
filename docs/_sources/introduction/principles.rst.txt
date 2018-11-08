@@ -19,7 +19,7 @@ Risk measurement methods are quickly disposed from regular practice if they are 
 
 If the cost for measurement effort requires full time staff, dedicated software, and more than a couple hours of effort, it likely won't be leveraged closer to when a risk originates.
 
-The efforts involved with risk measurement should be simplified and centralized around likelihoods and impacts that don't exceed what can be easily learned with remedial math.
+The efforts involved with risk measurement should be simplified and centralized around likelihoods and impacts that don't exceed what can be easily learned with basic math.
 
 Remove industry specific instructions from risk measurement.
 ------------------------------------------------------------
