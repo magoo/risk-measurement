@@ -7,9 +7,9 @@ Ultimately, it is well understood that all forms of measurement are, in essence,
 .. _approximation: https://plato.stanford.edu/entries/measurement-science/
 .. _international standards: https://en.wikipedia.org/wiki/Joint_Committee_for_Guides_in_Metrology
 
-As an example, any wooden ruler you might own is an approximation of many intermediary approximations to a standard unit of measurement stored in an underground vault in France. Same with `weight scales`_.
+As an example, any weight scale you might own is likely calibrated to an approximation of many intermediary approximations to a "`international prototype`_" stored in an underground vault in France.
 
-.. _weight scales: https://www.bipm.org/en/bipm/mass/ipk/
+.. _international prototype: https://www.bipm.org/en/bipm/mass/ipk/
 
 In risk, we are concerned with future events and their impacts. No instrument exists that can *directly* measure future events. As a result, we often find ourselves approximating the most likely outcome by understanding past events or reference classes.
 
@@ -63,7 +63,21 @@ Forecasts that include their associated confidence can make use of the `Brier Sc
 
 .. _Brier Score: https://en.wikipedia.org/wiki/Brier_score
 
+The Good Judgement Open has an `accessible definition`_ of the Brier Score: ::
 
+  The Brier score is the squared error of a probabilistic forecast.
+  To calculate it, we divide your forecast by 100 so that your probabilities
+  range between 0 (0%) and 1 (100%). Then, we code reality as either 0 (if the
+  event did not happen) or 1 (if the event did happen). For each answer option,
+  we take the difference between your forecast and the correct answer, square
+  the differences, and add them all together. For a yes/no question where you
+  forecasted 70% and the event happened, your score would be (1 – 0.7)2 + (0 – 0.3)2 = 0.18.
+  For a question with three possible outcomes (A, B, C) where you forecasted
+  A = 60%, B = 10%, C = 30% and A occurred, your score would be
+  (1 – 0.6)2 + (0 – 0.1)2 + (0 – 0.3)2 = 0.26. The best (lowest) possible
+  Brier score is 0, and the worst (highest) possible Brier score is 2.
+
+.. _accessible definition: https://www.gjopen.com/faq
 
 Types of Forecasts
 ------------------
@@ -144,12 +158,15 @@ Skills
 
 Divide and Choose
 ~~~~~~~~~~~~~~~~~
-Divide and choose is a mental heuristic to determine if odds are fair or not. It is similar to the children's "fairness" concept where one child divides some candy, and another child picks first.
+Divide and choose is a mental heuristic to determine if odds are fair or not. It is similar to the children's "fairness" concept where one child slices a piece of cake, and another child chooses the slice they'd like.
 
-This method prevents the first child from creating an uneven amount of candy, as they won't be the one making a decision based on it.
+This method prevents the first child from slicing unevenly and taking the larger piece.
 
-As forecasting can often be related to gambling or a decision market, it can appear advantageous to "win" a forecast and aggressively assign likelihood to one option or another. A goal of forecasting is to assign "fair odds" that represent the whole uncertainty associated with an event or value.
+This equates to forecasting, where instead of assigning "fair odds" for an event, a forecaster assigns an extreme likelihood to a scenario in pursuit of a stronger accuracy score.
 
+As forecasting can often be related to gambling or a decision market, it can appear advantageous to "win" a forecast and aggressively assign likelihood to one option or another. A goal of forecasting is to assign "fair odds" that represent the whole uncertainty associated with an event or value, instead of strong accuracy scores.
+
+Strategies and incentives to maximize accuracy scores over calibration can hinder this approach, as it is not meant to be "gamified".
 
 Principle of Indifference
 ~~~~~~~~~~~~~~~~~~~~~~~~~

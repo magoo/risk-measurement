@@ -26,7 +26,7 @@ Leadership can require that a decision of "Launch" may require predetermined fac
 
 - Risks are decomposed into a register by the individuals mitigating them.
 - Forecasts are gathered by individuals who have been calibration trained.
-- Forecasters have a determined track record with Brier scores meeting a specific threshold.
+- Forecasters have a determined track record with Brier scores meeting a specific threshold. (See: :ref:`keeping score`)
 - Historical data was sought out and modeled with frequentist approaches to inform forecasting.
 - Measurement of "unknown" factors were a part of forecasts.
 - A panel of individuals were relied on instead of a single individual.
@@ -35,7 +35,7 @@ Leadership can require that a decision of "Launch" may require predetermined fac
 
 Requiring effective forecasters.
 ------------------------------------------
-After a certain amount of practice or calibration training, a decision maker can exclude forecasters with regularly poor calibration, or not meeting a threshold Brier Score.
+After a certain amount of practice or calibration training, a decision maker can exclude forecasters with regularly poor calibration, or not meeting a threshold Brier Score. (See: :ref:`keeping score`)
 
 Whistleblowing and Complaints
 ------------------------------------
