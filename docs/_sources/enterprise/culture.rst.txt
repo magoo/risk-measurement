@@ -23,7 +23,7 @@ A mindset that mitigates few broad outcomes as opposed to preventing endless amo
 
 Minds that are open to new information.
 ---------------------------------------
-Ones ability to update previous beliefs based on sound evidence should be cherished. An unwillingness to hold strong beliefs until equal evidence is shown is a cornerstone of quantitative reasoning. Being wishy-washy is OK so long as one can identify evidence that would influence them.
+One's ability to update previous beliefs based on sound evidence should be cherished. An unwillingness to hold strong beliefs until equal evidence is shown is a cornerstone of quantitative reasoning. Being wishy-washy is OK so long as one can identify evidence that would influence them.
 
 Seek information, not agreement.
 -----------------------------------------
