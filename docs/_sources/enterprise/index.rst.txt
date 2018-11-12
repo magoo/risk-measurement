@@ -101,15 +101,39 @@ The Monte Carlo simulation
 ------------------------------------------
 To properly estimate the likelihood of mission success for January, February, or March, you would likely use a Monte Carlo simulation. A Monte Carlo approach to this problem depends on randomized trials to estimate outcomes.
 
-In the above case, we would be estimating the likelihood of Mission Success for each month based on its underlying probabilities.
+Let's estimate the likelihood of any failure in January. If *any* condition (Rocket, hull, or electric failure) occurs, the mission failures. In pseudocode: ::
 
-For this, we'd get estimations of:
+  rocket_failure = rand()
+  hull_breach = rand()
+  electric_failure = rand()
 
-- January: 3% chance of mission failure.
-- February: 0.3% chance of mission failure.
-- March: 0.03% chance of mission failure.
+  failure = OR(rocket_failure < .01, hull_breach < .01, electric_failure < .01)
 
-As models become more complex, Monte Carlo tools allow for fast estimation without attempting to "solve" for risk mathematically. Monte Carlo methods are a powerful tool to critically inspect assumptions about risk, and help build models that can hold all of the known context about a risk.
+Each value would be the result of a `rand()` value. Run many thousands of times, you would find the average result of *failure*. We'd see a 3% chance of mission failure in January, because it would be the average likelihood of three independent conditions with 1% likelihoods each.
+
+As models become more complex, Monte Carlo tools allow for cheap models and estimation without attempting to "solve" for risk mathematically. Monte Carlo methods are a powerful tool to critically inspect assumptions about risk, help build models that support all known context about a risk, and introduce uncertainty for values that don't behave predictably.
+
+Quarterly estimations of a risk might be common in a business setting. If there is a belief that a scenario could occur with a specific quarterly likelihood, it could help estimate an annual likelihood as well, and vice versa.
+
+That said, a scenario with a 5% chance of occurring in a quarter may have a ~19% chance of occurring in a year, as there are four quarters in a year and four opportunities to occur during the year.
+
+==================================  ==============================
+Quarterly likelihood of Occurrence  Estimated Annual Occurrence (Monte Carlo)
+==================================  ==============================
+0.25%                               ~1.00%
+0.5%                                ~1.99%
+1%                                  ~3.94%
+3%                                  ~11%
+5%                                  ~19%
+13%                                 ~41%
+25%                                 ~69%
+50%                                 ~94%
+99%                                 ~100%
+==================================  ==============================
+
+These can be directly calculated with the `principle of inclusion / exclusion`_, but is generally easier to model risk with monte carlo methods.
+
+.. _principle of inclusion / exclusion: https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle
 
 Panels of Forecasters
 ------------------------------------------
@@ -155,7 +179,7 @@ An anonymous panel may be necessary in cases where individuals feel uncomfortabl
 Decision Standards
 ==================
 
-An organization can create "levels" of rigor associated with important risks. Here are some example thoughts on organizing the appropriate amount of rigor for a decision.
+An organization can create "levels" of rigor associated with important risks. Here are some example thoughts on organizing the appropriate amount of rigor for a decision. These "levels" do not belong to any standard in particular - instead, they show how decision making effort can be wrapped into a requirement.
 
 .. note::
   For a real-world example, see `NASA-STD-7009`_

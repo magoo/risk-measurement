@@ -6,18 +6,13 @@
 Simple Risk Measurement
 =======================
 
-:doc:`Simple Risk Measurement </index>` is a collection of simplified and probabilistic risk assessment methods.
+:doc:`Simple Risk Measurement </index>` is written to help you measure any risk.
 
-.. warning::
-  I am gathering feedback. Send any and all critique to magoo@r10n.com, or via slack.
-
-It is designed to enhance subject matter experts who work with risk, especially those who professionally mitigate risk.
-
-Simple Risk Measurement is different from top-down methods founded by governance or compliance needs, and is instead meant to be useful to those who *personally contribute to mitigations*.
-
-If you are motivated by risk problems, you may find this useful as the beginnings of a comprehensive and epistemic approach to risk.
+If you are motivated and slowed down by risk problems, you may find this useful as a very simple foundation for a comprehensive and epistemic approach to risk. It is designed to enhance subject matter experts who work with risk, especially those who mitigate complex risks on an ongoing basis.
 
 You should be able to measure risk on a napkin or organize a rocket launch with these methods.
+
+See :doc:`risk </risk/defined>` to better understand the risk problem in engineering.
 
 How does this help me?
 ------------------------------------------
@@ -25,18 +20,18 @@ How does this help me?
 You may be enthusiastic about some of the following risk problems:
 
 Is a risk worth mitigating?
-  We need to decide whether a risk is important enough to require our attention or investment. We must express the importance of a risk in quantitative terms if we want to inform these decisions.
+  We can gather quantitative data that informs decisions to invest in a mitigation, (or not).
 
 Has a specific risk gotten better or worse?
-  Risk can change over time, especially if we are actively mitigating them or are observing changes in the context they exist in.
+  We can measure a risk over time and observe differences if it is being mitigated (or not).
 
 Which mitigation option(s) should we choose?
-  When presented with competing options with which we can mitigate a risk, we use methods to evaluate each option and inform a decision.
+  We can measure many mitigation options and compare them quantitatively.
 
 How do we measure many risks?
-  It may become important to highlight areas of risk *inside* of many other risks. Sometimes, more focused areas can be our largest problems, and we must represent them.
+  We can organize many risks that are being measured and use them to inform broader risks.
 
 Have we spent enough time identifying new risks?
-  You may feel that not enough time has been spent exploring new risks. We can measure how likely efforts will be in uncovering new issues to mitigate, and if more risk assessment effort will be valuable.
+  We can measure if further risk assessments are likely to reveal new risks, (or not).
 
 .. include:: toc.rst

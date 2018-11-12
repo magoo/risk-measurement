@@ -1,8 +1,6 @@
 Hello World
 ===========
-Let's quickly discuss some example outputs of this method.
-
-One :doc:`principle <principles>` of this method is that our methods should be portable to any form of risk. To get a hang of it, it helps to understand how it is applicable to many industries.
+One :doc:`principle <principles>` of this method is that our methods should be portable to any form of risk. To get the hang of it, it helps to understand how widely flexible it is, for many industries.
 
 Inline are links that lead into the use of estimation techniques into the industry itself.
 
@@ -19,7 +17,7 @@ An example in Cyber-Security
 A `16 person panel`_ forecasted the likelihood of a critical vulnerability being exploited in widely deployed software.
 
 .. admonition:: Scenario
-  :class: warning
+  :class: attention
 
   Will a "Critical" Chromium exploit be discovered "in the wild" in September 2018?
 

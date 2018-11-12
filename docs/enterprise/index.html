@@ -259,14 +259,59 @@
 <div class="section" id="the-monte-carlo-simulation">
 <span id="monte-carlo"></span><h2>The Monte Carlo simulation<a class="headerlink" href="#the-monte-carlo-simulation" title="Permalink to this headline">¶</a></h2>
 <p>To properly estimate the likelihood of mission success for January, February, or March, you would likely use a Monte Carlo simulation. A Monte Carlo approach to this problem depends on randomized trials to estimate outcomes.</p>
-<p>In the above case, we would be estimating the likelihood of Mission Success for each month based on its underlying probabilities.</p>
-<p>For this, we’d get estimations of:</p>
-<ul class="simple">
-<li>January: 3% chance of mission failure.</li>
-<li>February: 0.3% chance of mission failure.</li>
-<li>March: 0.03% chance of mission failure.</li>
-</ul>
-<p>As models become more complex, Monte Carlo tools allow for fast estimation without attempting to “solve” for risk mathematically. Monte Carlo methods are a powerful tool to critically inspect assumptions about risk, and help build models that can hold all of the known context about a risk.</p>
+<p>Let’s estimate the likelihood of any failure in January. If <em>any</em> condition (Rocket, hull, or electric failure) occurs, the mission failures. In pseudocode:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rocket_failure</span> <span class="o">=</span> <span class="n">rand</span><span class="p">()</span>
+<span class="n">hull_breach</span> <span class="o">=</span> <span class="n">rand</span><span class="p">()</span>
+<span class="n">electric_failure</span> <span class="o">=</span> <span class="n">rand</span><span class="p">()</span>
+
+<span class="n">failure</span> <span class="o">=</span> <span class="n">OR</span><span class="p">(</span><span class="n">rocket_failure</span> <span class="o">&lt;</span> <span class="o">.</span><span class="mi">01</span><span class="p">,</span> <span class="n">hull_breach</span> <span class="o">&lt;</span> <span class="o">.</span><span class="mi">01</span><span class="p">,</span> <span class="n">electric_failure</span> <span class="o">&lt;</span> <span class="o">.</span><span class="mi">01</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Each value would be the result of a <cite>rand()</cite> value. Run many thousands of times, you would find the average result of <em>failure</em>. We’d see a 3% chance of mission failure in January, because it would be the average likelihood of three independent conditions with 1% likelihoods each.</p>
+<p>As models become more complex, Monte Carlo tools allow for cheap models and estimation without attempting to “solve” for risk mathematically. Monte Carlo methods are a powerful tool to critically inspect assumptions about risk, help build models that support all known context about a risk, and introduce uncertainty for values that don’t behave predictably.</p>
+<p>Quarterly estimations of a risk might be common in a business setting. If there is a belief that a scenario could occur with a specific quarterly likelihood, it could help estimate an annual likelihood as well, and vice versa.</p>
+<p>That said, a scenario with a 5% chance of occurring in a quarter may have a ~19% chance of occurring in a year, as there are four quarters in a year and four opportunities to occur during the year.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="45%" />
+<col width="55%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Quarterly likelihood of Occurrence</th>
+<th class="head">Estimated Annual Occurrence (Monte Carlo)</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>0.25%</td>
+<td>~1.00%</td>
+</tr>
+<tr class="row-odd"><td>0.5%</td>
+<td>~1.99%</td>
+</tr>
+<tr class="row-even"><td>1%</td>
+<td>~3.94%</td>
+</tr>
+<tr class="row-odd"><td>3%</td>
+<td>~11%</td>
+</tr>
+<tr class="row-even"><td>5%</td>
+<td>~19%</td>
+</tr>
+<tr class="row-odd"><td>13%</td>
+<td>~41%</td>
+</tr>
+<tr class="row-even"><td>25%</td>
+<td>~69%</td>
+</tr>
+<tr class="row-odd"><td>50%</td>
+<td>~94%</td>
+</tr>
+<tr class="row-even"><td>99%</td>
+<td>~100%</td>
+</tr>
+</tbody>
+</table>
+<p>These can be directly calculated with the <a class="reference external" href="https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle">principle of inclusion / exclusion</a>, but is generally easier to model risk with monte carlo methods.</p>
 </div>
 <div class="section" id="panels-of-forecasters">
 <h2>Panels of Forecasters<a class="headerlink" href="#panels-of-forecasters" title="Permalink to this headline">¶</a></h2>
@@ -300,7 +345,7 @@
 </div>
 <div class="section" id="decision-standards">
 <h1>Decision Standards<a class="headerlink" href="#decision-standards" title="Permalink to this headline">¶</a></h1>
-<p>An organization can create “levels” of rigor associated with important risks. Here are some example thoughts on organizing the appropriate amount of rigor for a decision.</p>
+<p>An organization can create “levels” of rigor associated with important risks. Here are some example thoughts on organizing the appropriate amount of rigor for a decision. These “levels” do not belong to any standard in particular - instead, they show how decision making effort can be wrapped into a requirement.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">For a real-world example, see <a class="reference external" href="https://standards.nasa.gov/standard/nasa/nasa-std-7009">NASA-STD-7009</a></p>

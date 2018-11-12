@@ -28,13 +28,14 @@ There are obviously consistent themes involved with all of these definitions. Th
 
 Risk in practice
 ----------------
-You are likely surrounded by a variety of factors that compose your ability to influence a risk.
+You are likely surrounded by a variety of factors that compose or limit your ability to influence a risk.
 
-- Your time and resources available to contribute.
+- Your time and resources available.
 - The skillsets you can contribute to a problem.
-- An short lived opportunity to mitigate a risk.
+- A short lived opportunity to mitigate a risk.
+- You, or your team's role in the mitigation
 
-As such, you might find yourself with many available strategies that have varying limitations associated with them.
+As such, you might find yourself with many available strategies that have limitations associated with them. Or, you may be simply asked to use a specific strategy arbitrarily.
 
 Here is an example scenario:
 
@@ -45,23 +46,27 @@ Here is an example scenario:
 
 We face limitations as engineers that may hinder our ability to influence the either the likelihoods *or* impacts that compose a risk.
 
-This goes against definitions of risk that attempt to track the *Expected Value* of a risk, which demand that both factors are calculated.
+This goes against definitions of risk that attempt to strictly track the *Expected Value* of a risk, which demand that both factors are calculated.
 
 .. note::
   The Expected Value of risk is equal to the product of its likelihood and impact. For example, a 50% likelihood of a $10 loss within a year has an expected value of $5 annually.
 
-However, we *may not want to measure both*!
+A fully rational approach to mitigating this risk would be to explore options that reduce the Expected Value of this risk.
 
-In our example vault was in a bank, the "losses" may be obvious. But what if artwork is in the vault? What about a softer subject, like, reputation? For instance, you may try to reduce the overnight holdings of the bank vault (impact). You may install a thicker vault to prevent robbery (likelihood). It's common to be limited to solutions that focus on one component of risk and not the other.
+However, in reality, we may not be operating in a fully quantified environment. For instance, we might be the company that manufactures the walls of the vault. We don't get to know what will be stored inside of our vaults, but we do know how likely a certain type of drill would pierce the vault, given a certain amount of time.
 
-Both of these impact the expected value of a loss. You can still work on these independent factors and trust that an expected value is being influenced positively.
+Alternatively, we may be in charge of customer use of the vault. Maybe this allows us to estimate the value of what is stored in the vault, but aren't tasked with understanding the likelihood of it being stolen.
 
-In some cases, an organization may be *very intentionally* increasing one factor or another. For instance, a business may be trying to collect as much artwork as possible, and limiting this operation may be counterintuitive to the business.
+Indeed, many people involved with risk will need their own measurement tooling before Expected Value can be considered.
 
-The world being as it is, the expected value of a risk is a desirable thing to measure, if it is reasonable to do so. We can trust that efforts to mitigate a risk may reduce the Expected Value of a loss, even if we don't have the full picture measured.
+There are plenty of examples where engineers will not be calculating the full Expected Value of losses, but this does not limit their measurement opportunity to help inform this value. It's important to recognize that an engineer may be surfacing specific details for future management, and that these values are useful.
+
+These sorts of measurement limitations are common in engineering. This documentation serves as guidance towards risk measurement in more practical situations so that they can be useful with broader risk management situations where expected values become useful while informing a broad picture of risk, and the decision making associated with it.
+
+The world being as it is, the Expected Value of a risk is a desirable thing to measure, but it is unreasonable to think that all participants in risk mitigation will be fully concerned with it. Instead, we can trust that efforts to mitigate a risk may reduce the Expected Value of a loss, even if an engineer doesn't have the full picture measured.
 
 Conclusion
 ----------
-As engineers, we must work on estimations of well defined likelihoods or impacts. We do not always need to measure both. First, we need to measure the targets of our efforts.
+As engineers, we must work to influence the likelihoods and impacts associated with a well defined future event. We do not always need to measure both, but we'd like to eventually. First, we need to measure that our individual efforts are making a difference.
 
 We can focus and target these areas of risk by defining them as :doc:`scenarios </risk/scenarios>`.

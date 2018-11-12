@@ -1,12 +1,10 @@
 Tutorials
 =========
-The following tutorials are quantitative risk methods with the least amount of rigor. (See :ref:`rigor`)
+The following tutorials are quantitative risk methods with the least amount of rigor.
 
-All risk measurement must start somewhere, and this tutorial represents the earliest examples of measurement.
+All risk measurement must start somewhere, and this tutorial represents the earliest examples of scenario measurement. (See :doc:`/risk/scenarios`)
 
-Low rigor measurements are still useful for day to day, "back of envelope" risk modeling with low cost and effort. They can easily be expanded upon as requirements expand.
-
-As an organization becomes involved with extraordinary risk, it would take efforts to bolster these methods with the methods described in the documentation.
+These example scenarios and their forecasts are similar to using your shoe to measure "one foot". Low rigor measurements are still useful for day to day, "back of envelope" risk modeling with low cost and effort. They can easily be expanded upon as requirements demand more rigor. (See :ref:`rigor`)
 
 Risk Analysis
 -------------
@@ -53,7 +51,7 @@ We would perform a Risk Analysis on both of these scenarios. Given that they are
 
 As an example, let's say the forecaster believes that Scenario A has a "Yes" likelihood of 1%, while Scenario B has a likelihood of 35%.
 
-Those likelihoods, when simulated, would indicate that the forecaster believes Scenario B (a malicious website) to occur about annually, while an insider employee would occur once every twenty years. (See: :ref:`Monte Carlo`)
+Those likelihoods, when simulated (See: :ref:`Monte Carlo`), would indicate that the forecaster believes Scenario B (a malicious website) to occur about annually, while an insider employee would occur once every twenty years.
 
 Under the assumption that the "virus" is equally bad in both cases, we can numerically compare both of these risks.
 
@@ -66,7 +64,7 @@ Let's use our first scenario from Risk Analysis again. In that example, our fore
 .. admonition:: Scenario
   :class: warning
 
-  A bank robber attempts robbery to one of our tellers next quarter. (Yes / No)
+  A bank robber threatens a teller next quarter. (Yes / No)
 
 Imagine if the bank wasn't OK with this level of risk to their employees, and decided to invest in a mitigation, like an armed guard near the tellers. Maybe they make this decision because other banks in the area don't have an armed guard, making them the least attractive target.
 
