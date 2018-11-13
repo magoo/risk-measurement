@@ -33,6 +33,12 @@ Assume failure and assume the limitations of prediction.
 --------------------------------------------------------
 We invest and measure responsive capabilities as we invest in prevention. We understand that risks cannot be properly enumerated, and we measure and understand impacts where prediction fails.
 
+These methods should be designed to rapidly harness failures, measurably improve on our understanding of why failures happen, and develop constructs to limit future harm.
+
 Appreciate that risk is a single decision making factor.
 --------------------------------------------------------
 Sometimes it is better to work on a risk that has momentum, resource, interest, and other management observations before one that measures higher. Risk is a small part of organizational needs, but risk should be understood properly.
+
+Fully quantitative workplaces do not exist.
+---------------------------------------------
+Even the most mature risk organization suffer from subjective, qualitative, or irrational decision making. Measurement approaches must be effective under these circumstances, so that they efforts can be observed and measured in the future regardless of how they began. More rational decision making cannot happen without starting somewhere. This documentation should celebrate environments that are just starting to measure risk, and assume a variety of limitations and external influences.
