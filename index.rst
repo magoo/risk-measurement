@@ -6,9 +6,9 @@
 Simple Risk Measurement
 =======================
 
-:doc:`Simple Risk Measurement </index>` is written to help you measure any risk.
+:doc:`Simple Risk Measurement </index>` is written to help you measure complicated risks.
 
-If you are motivated by risk problems and are frustrated by how difficult they are to measure, you may find this useful as a very simple foundation. Simple Risk Measurement can get you started towards a comprehensive and epistemic approach to risk. It is designed to enhance subject matter experts who work with risk, especially those who mitigate complex risks on an ongoing basis.
+If you are motivated by risk problems and are frustrated by how difficult they are to measure, you may find this documentation useful. Simple Risk Measurement can get you started towards a comprehensive and epistemic approach to risk. It is designed to enhance subject matter experts who work with risk, especially those who mitigate complex risks on an ongoing basis.
 
 You should be able to measure risk on a napkin or organize a rocket launch with these methods.
 
