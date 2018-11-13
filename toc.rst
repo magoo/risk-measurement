@@ -36,6 +36,6 @@
    :maxdepth: 3
    :caption: Other
 
+   principles
    reading
    thanks
-   principles
