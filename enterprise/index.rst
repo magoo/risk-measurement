@@ -2,7 +2,7 @@ Organizing Risks
 ================
 Instead of focusing on a single individual, this section of documentation focuses on how a group of individuals would mitigate a risk in unison.
 
-From the :doc:`principles </introduction/principles>` of this documentation, a single engineer working in isolation should be capable of measuring risk. They would do this by creating scenarios that describe their risks and forecasting its outcomes.
+From the :doc:`principles </principles>` of this documentation, a single engineer working in isolation should be capable of measuring risk. They would do this by creating scenarios that describe their risks and forecasting its outcomes.
 
 Organizations are likely to have lots of varying activities in flight that generate wildly different forms of risk. Let's take for instance, a rocket ship. Entirely different organizations and skillsets may be building the rocket, the hull, and the electronics used by astronauts.
 

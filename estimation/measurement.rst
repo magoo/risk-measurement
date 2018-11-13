@@ -21,7 +21,7 @@ The primary feature of this documentation is to make practical risk as vulnerabl
 
 Some thoughts on definitions:
 -----------------------------
-By it's :doc:`principles </introduction/principles>`, this documentation is opinionated on the usage of some risk language. *Estimations* are a form of approximation for any unknown value. A *forecast* is a an estimation of a value that doesn't exist yet. An estimate is not necessarily a forecast, but a forecast is an estimate.
+By it's :doc:`principles </principles>`, this documentation is opinionated on the usage of some risk language. *Estimations* are a form of approximation for any unknown value. A *forecast* is a an estimation of a value that doesn't exist yet. An estimate is not necessarily a forecast, but a forecast is an estimate.
 
 There are grey areas for these terms. For instance, an unknown quantity may also be a future value. These will be worked out as this documentation as opportunities to simplify may arise. The authors are already aware of industry conflicting definitions.
 

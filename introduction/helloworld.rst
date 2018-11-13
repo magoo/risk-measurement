@@ -1,6 +1,6 @@
 Hello World
 ===========
-One :doc:`principle <principles>` of this method is that our methods should be portable to any form of risk. To get the hang of it, it helps to understand how widely flexible it is, for many industries.
+One :doc:`principle </principles>` of this method is that our methods should be portable to any form of risk. To get the hang of it, it helps to understand how widely flexible it is, for many industries.
 
 Inline are links that lead into the use of estimation techniques into the industry itself.
 

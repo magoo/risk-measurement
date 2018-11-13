@@ -6,7 +6,7 @@
 
    introduction/helloworld
    introduction/examples
-   introduction/principles
+
 
 .. toctree::
    :hidden:
@@ -38,3 +38,4 @@
 
    reading
    thanks
+   principles
