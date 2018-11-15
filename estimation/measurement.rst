@@ -1,3 +1,5 @@
+.. highlight:: None
+
 Measurement
 ===========
 We often use instruments to measure things. For instance, a ruler to measure the size of a table. However, we rely on estimation when instruments do not exist for our area of measurement.
@@ -84,6 +86,8 @@ The Good Judgement Open has an `accessible definition`_ of the Brier Score: ::
 
 .. _accessible definition: https://www.gjopen.com/faq
 
+.. _Types of Forecasts:
+
 Types of Forecasts
 ------------------
 A scenario can prompt for several types of answers to create a forecast. Depending on the risk you are hoping to measure, you may want to prompt an expert for a different type of answer.
@@ -92,10 +96,13 @@ Yes or No
 ~~~~~~~~~
 The simplest type of forecast asks an expert for their belief of a binary outcome. For instance:
 
-.. admonition:: Scenario
-  :class: warning
+**Scenario** ::
 
-  Will it rain tomorrow? (Yes / No)
+  Will it rain tomorrow?
+
+**Outcome** ::
+
+  (Yes / No)
 
 A forecaster may express themselves by saying Yes: 60%, No: 40%, if they believe it's more likely that not to rain. Or for instance, Yes: 0.01%, No: 99.99% if the forecaster lives in the desert.
 
@@ -104,10 +111,13 @@ Over / Under
 ~~~~~~~~~~~~
 To include some aspect of "impact" in a risk, you can bake an over / under value into the scenario.
 
-.. admonition:: Scenario
-  :class: warning
+**Scenario** ::
 
   Will there be more than **three inches** of rainfall tomorrow? (Yes / No)
+
+**Outcome** ::
+
+  (Yes / No)
 
 This is similar to the previous forecast, but instead adds a numeric condition that must be met. This is useful when investigating the likelihood that some risk will meet a threshold or tolerance level you need to better understand. For instance, there may be a legal reason to close down schools with a certain height of snow, or maybe a certain amount of losses that your insurance couldn't cover.
 
@@ -115,10 +125,13 @@ Confidence Intervals
 ~~~~~~~~~~~~~~~~~~~~
 A confidence interval represents a range of possible values, and also includes a percentage belief that the outcome will fall into it. A forecaster would then expand their range of values to increase their expression of uncertainty, and an engineer's efforts would widen or narrow this range. For example:
 
-.. admonition:: Scenario
-  :class: warning
+**Scenario** ::
 
-  Police have responded to a protest at City Hall. (# of arrests, 70% confidence)
+  Police have responded to a protest at City Hall.
+
+**Outcome** ::
+
+  (# of arrests, 70% confidence)
 
 A forecaster may answer this with an interval of 5-10 arrests. If, for instance, they were asked for a more aggressive forecast (say, 70%), they may answer a more narrow range that results in a higher rate of being wrong. An example of a 60% confidence forecast for the same question could be 2-7 arrests, and so on.
 
@@ -150,13 +163,20 @@ Probability Distributions
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Some forecasts may include many outcomes. For instance:
 
-.. admonition:: Scenario
-  :class: warning
+**Scenario** ::
 
   Our potential customer has made a decision regarding their request for business.
 
 This could be answered with multiple options, like (A: Us, B: Competitor 1, C: Competitor 2, D, Competitor 3, E: No Decision / Walkout.)
 
+**Outcome** ::
+
+  % Likelihood
+  A: Us
+  B: Competitor 1
+  C: Competitor 2
+  D: Competitor 3
+  E: No Decision / Walkout / Other
 
 Skills
 ------

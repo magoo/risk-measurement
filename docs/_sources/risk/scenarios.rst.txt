@@ -1,3 +1,5 @@
+.. highlight:: None
+
 Scenarios
 =========
 
@@ -8,26 +10,23 @@ A point of failure in measurement is ambiguity about a risk problem being solved
 To do this, we explicitly define a risk with a *scenario*, which is an unambiguous statement about a future value or event. These statements should make the author sweat.
 
 .. note::
-  Read up on `The Clarity Test`_ to better understand the standard a good scenario should meet.
+  Read up on `The Clarity Test`_ to better understand the specificity a good scenario should meet.
 
 .. _The Clarity Test: https://en.wikipedia.org/wiki/Clarity_test
 
 Here's a batch of examples:
 
-.. admonition:: Scenario
-  :class: warning
+**Scenario** ::
 
-  The house burns down *next quarter*.
+    The house burns down next quarter.
 
-.. admonition:: Scenario
-  :class: warning
+**Scenario** ::
 
-  An earthquake has destroyed one of the three critical bridges *this year*.
+  An earthquake has destroyed one of the three critical bridges this year.
 
-.. admonition:: Scenario
-  :class: warning
+**Scenario** ::
 
-  We are named in a headline lawsuit in a major publication *within the next three months*.
+  We are named in a headline lawsuit in a major publication within the next three months.
 
 You may have heard of this format for a risk before!
 
@@ -45,17 +44,17 @@ A scenario has ties to the `Fault Tree`_ and `Tree diagram`_, whereas higher lev
 
 A specific example, a meltdown event at a nuclear facility is a scenario we'd like to avoid.
 
-.. admonition:: Scenario
-  :class: warning
+**Scenario** ::
 
-  A core damage event releases nuclear material into the environment *this year*.
+  A core damage event releases nuclear material into the environment this year.
 
 This scenario could be caused by a variety of issues that are far less vague and more specific.
 
-.. admonition:: Scenario
-  :class: warning
+**Scenario** ::
 
-  A tsunami has flooded the power station and caused a loss of pressure in cooling systems, resulting in core damage and a release of nuclear material into the environment *this year*.
+  A tsunami has flooded the power station and caused a loss of pressure in cooling systems,
+  resulting in core damage and a release of nuclear material into the environment this year.
+
 
 This is described as "decomposition" of a risk. It is a form of flexibility that allows you to be more or less specific and target more narrow measurement or wide view measurement. The former scenario would attract far more root causes that could cause a core damage event, while the latter scenario is highly dependent on factors like the weather and the resiliency of cooling systems.
 
@@ -71,12 +70,18 @@ Choosing your "judgment" criteria
 ----------------------------------
 One issue in forecasting is deciding on the criteria that "closes" a forecast. For instance:
 
-.. admonition:: Scenario
-  :class: warning
+**Scenario** ::
 
-  The Cubs win the World Series this year. (Yes / No)
+  The Cubs win the World Series this year.
+
+**Outcome** ::
+
+  (% Likelihood of Yes / No)
 
 This scenario is simple to judge, as you would likely respect the judgment of Major League Baseball, a reputable organization.
+
+.. hint::
+  You can estimate multiple types of outcomes or values. See: :ref:`Types of Forecasts`
 
 Dictating in your scenario, or elsewhere, who will judge the outcome of the scenario, is important. The "judge" is essentially the party being forecasted, and may influence the certainty of the forecasters if poorly chosen.
 
@@ -84,11 +89,11 @@ The judges that are selected to evaluate outcomes should be considered for their
 
 Judges could be given criteria on which to judge upon. For instance: "Judges will investigate official MLB scorecards 24 hours after competition".
 
-If there is concern that a Black Swan may invalidate the forecast, it is best to make sure the forecastable outcomes include "other" circumstances. For instance "The Cubs Win / The Cubs Lose / Neither / Other". This would allow you to factor in Wrigley Field exploding, a sudden players strike, or other unknowns.
+If there is concern that a Black Swan may invalidate the forecast, it is best to make sure the forecastable outcomes include "other" circumstances. For instance "The Cubs Win / The Cubs Lose / Other". This would allow you to factor in Wrigley Field exploding, a sudden players strike, or other unknowns.
 
 Additionally, decisions can reverse. Having a scenario that mitigates the flip-flopping of an outcome will help specify forecasts. For instance, a headline that "The MLB has ruled against the Cubs in a cheating investigation, retracting their title". A specific scenario may dictate that the MLB's official stance 24 hours after competition matters. Or, a week, or a month, or a year, etc.
 
-This sort of specificity with long timeframes has operational impact, since you would only be left with preliminary judgment until the scenario expires.
+This sort of specificity with long timeframes has an operational impact. You won't get data until they officially "expire", and would only be left with preliminary judgment until the scenario expires and data is confirmed.
 
 The reliability of judgment can also be bolstered to decision makers if included in whistleblowing policy or professional codes of conduct. (See: :ref:`whistleblowing`)
 

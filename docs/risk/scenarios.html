@@ -181,20 +181,20 @@
 <p>To do this, we explicitly define a risk with a <em>scenario</em>, which is an unambiguous statement about a future value or event. These statements should make the author sweat.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Read up on <a class="reference external" href="https://en.wikipedia.org/wiki/Clarity_test">The Clarity Test</a> to better understand the standard a good scenario should meet.</p>
+<p class="last">Read up on <a class="reference external" href="https://en.wikipedia.org/wiki/Clarity_test">The Clarity Test</a> to better understand the specificity a good scenario should meet.</p>
 </div>
 <p>Here’s a batch of examples:</p>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">The house burns down <em>next quarter</em>.</p>
+<p><strong>Scenario</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>The house burns down next quarter.
+</pre></div>
 </div>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">An earthquake has destroyed one of the three critical bridges <em>this year</em>.</p>
+<p><strong>Scenario</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>An earthquake has destroyed one of the three critical bridges this year.
+</pre></div>
 </div>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">We are named in a headline lawsuit in a major publication <em>within the next three months</em>.</p>
+<p><strong>Scenario</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>We are named in a headline lawsuit in a major publication within the next three months.
+</pre></div>
 </div>
 <p>You may have heard of this format for a risk before!</p>
 <p>Many industries advocate for the <em>tabletop scenario</em> as a way to encourage brainstorming and better understanding of risks.</p>
@@ -207,14 +207,15 @@
 <h2>View scenarios as a hierarchy.<a class="headerlink" href="#view-scenarios-as-a-hierarchy" title="Permalink to this headline">¶</a></h2>
 <p>A scenario has ties to the <a class="reference external" href="https://en.wikipedia.org/wiki/Fault_tree_analysis">Fault Tree</a> and <a class="reference external" href="https://en.wikipedia.org/wiki/Tree_diagram_(probability_theory)">Tree diagram</a>, whereas higher level outcomes at the top of a tree aggregate the likelihoods of more specific events at the branches of a tree.</p>
 <p>A specific example, a meltdown event at a nuclear facility is a scenario we’d like to avoid.</p>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">A core damage event releases nuclear material into the environment <em>this year</em>.</p>
+<p><strong>Scenario</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>A core damage event releases nuclear material into the environment this year.
+</pre></div>
 </div>
 <p>This scenario could be caused by a variety of issues that are far less vague and more specific.</p>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">A tsunami has flooded the power station and caused a loss of pressure in cooling systems, resulting in core damage and a release of nuclear material into the environment <em>this year</em>.</p>
+<p><strong>Scenario</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>A tsunami has flooded the power station and caused a loss of pressure in cooling systems,
+resulting in core damage and a release of nuclear material into the environment this year.
+</pre></div>
 </div>
 <p>This is described as “decomposition” of a risk. It is a form of flexibility that allows you to be more or less specific and target more narrow measurement or wide view measurement. The former scenario would attract far more root causes that could cause a core damage event, while the latter scenario is highly dependent on factors like the weather and the resiliency of cooling systems.</p>
 <p>In <a class="reference internal" href="../enterprise/index.html"><span class="doc">Enterprise</span></a> this aspect of scenarios-informing-scenarios is used to inform larger organizational approaches to risk.</p>
@@ -223,17 +224,25 @@
 <div class="section" id="choosing-your-judgment-criteria">
 <h2>Choosing your “judgment” criteria<a class="headerlink" href="#choosing-your-judgment-criteria" title="Permalink to this headline">¶</a></h2>
 <p>One issue in forecasting is deciding on the criteria that “closes” a forecast. For instance:</p>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">The Cubs win the World Series this year. (Yes / No)</p>
+<p><strong>Scenario</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>The Cubs win the World Series this year.
+</pre></div>
+</div>
+<p><strong>Outcome</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>(% Likelihood of Yes / No)
+</pre></div>
 </div>
 <p>This scenario is simple to judge, as you would likely respect the judgment of Major League Baseball, a reputable organization.</p>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">You can estimate multiple types of outcomes or values. See: <a class="reference internal" href="../estimation/measurement.html#types-of-forecasts"><span class="std std-ref">Types of Forecasts</span></a></p>
+</div>
 <p>Dictating in your scenario, or elsewhere, who will judge the outcome of the scenario, is important. The “judge” is essentially the party being forecasted, and may influence the certainty of the forecasters if poorly chosen.</p>
 <p>The judges that are selected to evaluate outcomes should be considered for their objectiveness to the outcome, and their lack of incentives to manipulate an outcome. In casual or workplace settings, it can be as simple as designating a team or individual to pass judgment on an outcome.</p>
 <p>Judges could be given criteria on which to judge upon. For instance: “Judges will investigate official MLB scorecards 24 hours after competition”.</p>
-<p>If there is concern that a Black Swan may invalidate the forecast, it is best to make sure the forecastable outcomes include “other” circumstances. For instance “The Cubs Win / The Cubs Lose / Neither / Other”. This would allow you to factor in Wrigley Field exploding, a sudden players strike, or other unknowns.</p>
+<p>If there is concern that a Black Swan may invalidate the forecast, it is best to make sure the forecastable outcomes include “other” circumstances. For instance “The Cubs Win / The Cubs Lose / Other”. This would allow you to factor in Wrigley Field exploding, a sudden players strike, or other unknowns.</p>
 <p>Additionally, decisions can reverse. Having a scenario that mitigates the flip-flopping of an outcome will help specify forecasts. For instance, a headline that “The MLB has ruled against the Cubs in a cheating investigation, retracting their title”. A specific scenario may dictate that the MLB’s official stance 24 hours after competition matters. Or, a week, or a month, or a year, etc.</p>
-<p>This sort of specificity with long timeframes has operational impact, since you would only be left with preliminary judgment until the scenario expires.</p>
+<p>This sort of specificity with long timeframes has an operational impact. You won’t get data until they officially “expire”, and would only be left with preliminary judgment until the scenario expires and data is confirmed.</p>
 <p>The reliability of judgment can also be bolstered to decision makers if included in whistleblowing policy or professional codes of conduct. (See: <a class="reference internal" href="../enterprise/index.html#whistleblowing"><span class="std std-ref">Whistleblowing and Complaints</span></a>)</p>
 <p>Higher quality judgment should <em>always</em> be desired by engineers. Back-of-napkin risk assessment, with the lowest standard rigor (See: <a class="reference internal" href="../enterprise/index.html#rigor"><span class="std std-ref">Rigor</span></a>), are generally self-judged, but will likely need greater rigor for organizational decision making.</p>
 </div>

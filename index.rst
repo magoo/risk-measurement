@@ -64,7 +64,7 @@ This documentation does not prescribe:
 
 1. The evidence or statistical methods that must be organized for an estimation.
 2. The scenarios you should define for your risks.
-3. The mitigations you should apply to mitigate your risks.
+3. The approaches you should to mitigate your risks.
 
 This method does prescribe creativity in your efforts, within a method that allows quantification.
 

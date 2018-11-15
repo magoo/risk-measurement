@@ -25,6 +25,8 @@ If the cost for measurement effort requires full time staff, dedicated software,
 
 The efforts involved with risk measurement should be simplified and centralized around likelihoods and impacts that don't exceed what can be easily learned with basic math.
 
+.. _Universality:
+
 Universality
 ------------------------------------------------------------
 Let's remove industry specific instructions from risk measurement.

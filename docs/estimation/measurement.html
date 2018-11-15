@@ -230,7 +230,7 @@
 <span id="id3"></span><h2>Keeping Score<a class="headerlink" href="#keeping-score" title="Permalink to this headline">¶</a></h2>
 <p>Forecasts that include their associated confidence can make use of the <a class="reference external" href="https://en.wikipedia.org/wiki/Brier_score">Brier Score</a> to record accuracy over time. This is simply calculated as the “Squared Error”.</p>
 <p>The Good Judgement Open has an <a class="reference external" href="https://www.gjopen.com/faq">accessible definition</a> of the Brier Score:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>The Brier score is the squared error of a probabilistic forecast.
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>The Brier score is the squared error of a probabilistic forecast.
 To calculate it, we divide your forecast by 100 so that your probabilities
 range between 0 (0%) and 1 (100%). Then, we code reality as either 0 (if the
 event did not happen) or 1 (if the event did happen). For each answer option,
@@ -245,36 +245,48 @@ Brier score is 0, and the worst (highest) possible Brier score is 2.
 </div>
 </div>
 <div class="section" id="types-of-forecasts">
-<h2>Types of Forecasts<a class="headerlink" href="#types-of-forecasts" title="Permalink to this headline">¶</a></h2>
+<span id="id4"></span><h2>Types of Forecasts<a class="headerlink" href="#types-of-forecasts" title="Permalink to this headline">¶</a></h2>
 <p>A scenario can prompt for several types of answers to create a forecast. Depending on the risk you are hoping to measure, you may want to prompt an expert for a different type of answer.</p>
 <div class="section" id="yes-or-no">
 <h3>Yes or No<a class="headerlink" href="#yes-or-no" title="Permalink to this headline">¶</a></h3>
 <p>The simplest type of forecast asks an expert for their belief of a binary outcome. For instance:</p>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">Will it rain tomorrow? (Yes / No)</p>
+<p><strong>Scenario</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>Will it rain tomorrow?
+</pre></div>
+</div>
+<p><strong>Outcome</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>(Yes / No)
+</pre></div>
 </div>
 <p>A forecaster may express themselves by saying Yes: 60%, No: 40%, if they believe it’s more likely that not to rain. Or for instance, Yes: 0.01%, No: 99.99% if the forecaster lives in the desert.</p>
 </div>
 <div class="section" id="over-under">
 <h3>Over / Under<a class="headerlink" href="#over-under" title="Permalink to this headline">¶</a></h3>
 <p>To include some aspect of “impact” in a risk, you can bake an over / under value into the scenario.</p>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">Will there be more than <strong>three inches</strong> of rainfall tomorrow? (Yes / No)</p>
+<p><strong>Scenario</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>Will there be more than **three inches** of rainfall tomorrow? (Yes / No)
+</pre></div>
+</div>
+<p><strong>Outcome</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>(Yes / No)
+</pre></div>
 </div>
 <p>This is similar to the previous forecast, but instead adds a numeric condition that must be met. This is useful when investigating the likelihood that some risk will meet a threshold or tolerance level you need to better understand. For instance, there may be a legal reason to close down schools with a certain height of snow, or maybe a certain amount of losses that your insurance couldn’t cover.</p>
 </div>
 <div class="section" id="confidence-intervals">
 <h3>Confidence Intervals<a class="headerlink" href="#confidence-intervals" title="Permalink to this headline">¶</a></h3>
 <p>A confidence interval represents a range of possible values, and also includes a percentage belief that the outcome will fall into it. A forecaster would then expand their range of values to increase their expression of uncertainty, and an engineer’s efforts would widen or narrow this range. For example:</p>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">Police have responded to a protest at City Hall. (# of arrests, 70% confidence)</p>
+<p><strong>Scenario</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>Police have responded to a protest at City Hall.
+</pre></div>
+</div>
+<p><strong>Outcome</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>(# of arrests, 70% confidence)
+</pre></div>
 </div>
 <p>A forecaster may answer this with an interval of 5-10 arrests. If, for instance, they were asked for a more aggressive forecast (say, 70%), they may answer a more narrow range that results in a higher rate of being wrong. An example of a 60% confidence forecast for the same question could be 2-7 arrests, and so on.</p>
 <p>A visual example of a percentage belief that an unknown value will end up within this range when revealed.:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>                               70% Certainty
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>                               70% Certainty
 
                                      │
                                      │
@@ -299,11 +311,20 @@ Brier score is 0, and the worst (highest) possible Brier score is 2.
 <div class="section" id="probability-distributions">
 <h3>Probability Distributions<a class="headerlink" href="#probability-distributions" title="Permalink to this headline">¶</a></h3>
 <p>Some forecasts may include many outcomes. For instance:</p>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">Our potential customer has made a decision regarding their request for business.</p>
+<p><strong>Scenario</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>Our potential customer has made a decision regarding their request for business.
+</pre></div>
 </div>
 <p>This could be answered with multiple options, like (A: Us, B: Competitor 1, C: Competitor 2, D, Competitor 3, E: No Decision / Walkout.)</p>
+<p><strong>Outcome</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>% Likelihood
+A: Us
+B: Competitor 1
+C: Competitor 2
+D: Competitor 3
+E: No Decision / Walkout / Other
+</pre></div>
+</div>
 </div>
 </div>
 <div class="section" id="skills">
