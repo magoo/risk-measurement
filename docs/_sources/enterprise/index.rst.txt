@@ -37,6 +37,8 @@ Requiring effective forecasters.
 ------------------------------------------
 After a certain amount of practice or calibration training, a decision maker can exclude forecasters with regularly poor calibration, or not meeting a threshold Brier Score. (See: :ref:`keeping score`)
 
+.. _whistleblowing:
+
 Whistleblowing and Complaints
 ------------------------------------
 Some industries have created, and enforce, whistleblower regulation to protect channels that would surface risks or other failures. (See: `NRC Whistleblower Protection`_)

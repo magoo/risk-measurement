@@ -17,7 +17,7 @@ An estimation of a likelihood is typically called forecast.
 
 As the role of information becomes more prevalent in a forecast, we can reduce (but never eliminate) our uncertainty in a given scenario.
 
-The primary feature of this documentation is to make practical risk as vulnerable to quantitative techniques as possible, and forecasting is one of these important methods.
+The primary feature of this documentation is to make all concepts of "risk" subject to quantitative techniques, and forecasting is one of these important methods.
 
 Some thoughts on definitions:
 -----------------------------
@@ -31,12 +31,17 @@ A *prediction* does not necessarily mean a "100% belief", but should probably be
 
 Forecasting
 ===========
-
 Forecasting is a disciplined practice to estimate the likelihoods and impacts of future events. It is a subject matter with over a half-century of multidisciplinary research into risk, decision making, and predictions.
 
-Most of this research has concluded that human intuition is very poor at prediction, but it can be improved when rigorous methods are used to support our strengths.
+Every day, you forecast things related to your basic needs. Choosing what time you wake up in the morning is a forecast of how much time you'll need to prepare for the day. Peeking out your window is a forecast of the weather and informs a decision about clothes to wear. Examples are infinite.
 
-When culturally supported and invested in, predictive approaches to risk have great opportunity for engineers to attack large risks methodically.
+You'll notice that you can seek information to support these forecasts, outside of relying on your expertise or intuition. Sometimes this data is readily available, sometimes it is not.
+
+Forecasting is relied on in either case. Even when a meteorologist is presented with significant data about a ten day forecast, it is common for them to make a personal estimate based on that data instead of using it directly.
+
+With forecasting, we do our best to approximate values that best represent our intuition. We stick to methods that improve our forecasting skills, and defend ourselves against well known forms of cognitive bias. As subject matter experts of the risks care about, we can create risk data that is highly leveraged by quantitative methods.
+
+When culturally supported and invested in, groups of engineers can attack large risks methodically.
 
 .. _calibration:
 
