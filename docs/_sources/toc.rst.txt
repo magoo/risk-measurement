@@ -5,7 +5,7 @@
    :caption: Introduction
 
    introduction/helloworld
-   introduction/examples
+   introduction/tutorials
 
 
 .. toctree::

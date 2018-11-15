@@ -17,7 +17,7 @@ See :doc:`risk </risk/defined>` to better understand the risk problem in enginee
 
 How does it work?
 ------------------------------------------
-This approach is very simple to trivialize into a few steps. Once introduced into your industry, it will feel far more sophisticated.
+This approach is very simple to trivialize into a few steps.
 
 1. **Define a risk scenario**: A well defined, undesirable future event that we want to measure.
 2. **Gather the evidence**: We gather facts, reference classes, models, experiences, and opinions.
@@ -62,9 +62,9 @@ This method is *industry agnostic*. This creates very helpful limitations that, 
 
 This documentation does not prescribe:
 
-1. The evidence or statistical methods that must be organized for estimation.
-2. The scenarios you should create for your risks.
-3. The mitigations you should apply to your risks.
+1. The evidence or statistical methods that must be organized for an estimation.
+2. The scenarios you should define for your risks.
+3. The mitigations you should apply to mitigate your risks.
 
 This method does prescribe creativity in your efforts, within a method that allows quantification.
 

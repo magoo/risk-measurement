@@ -181,23 +181,28 @@ An anonymous panel may be necessary in cases where individuals feel uncomfortabl
 Decision Standards
 ==================
 
-An organization can create "levels" of rigor associated with important risks. Here are some example thoughts on organizing the appropriate amount of rigor for a decision. These "levels" do not belong to any standard in particular - instead, they show how decision making effort can be wrapped into a requirement.
+An organization can create "levels" of rigor associated with important risks. Here are some example thoughts on organizing the appropriate amount of rigor for a decision.
+
+These "levels" do not belong to any standard in particular - instead, they show how decision making effort can be wrapped into a requirement.
 
 .. note::
   For a real-world example, see `NASA-STD-7009`_
 
 .. _NASA-STD-7009: https://standards.nasa.gov/standard/nasa/nasa-std-7009
 
+Level Zero
+  A single individual estimate.
+
 Level One
-  A single individual has forecasted.
+  A estimate from a single individual who has received risk training, with reasonable access to reference classes or specific historical data.
 
 Level Two
-  In addition to previous levels, this individual is calibration trained (See: :ref:`calibration`) and has maintained a Brier score under *.3*. (See :ref:`keeping score`)
+  In addition to previous levels, this estimation is from an individual who is calibration trained (See: :ref:`calibration`) and has maintained a Brier score under *.4*. (See :ref:`keeping score`)
 
 Level Three
-  In addition to previous levels, a panel of calibrated individuals were involved.
+  In addition to previous levels, a panel of three or more calibrated individuals were involved with this estimation.
 
 Level Four
-  In addition to previous levels, an external expert was involved on the panel. Reference classes or historical data was made available to panelists.
+  In addition to previous levels, an external expert was involved with the estimation.
 
 Such levels can be created that map to an organizations necessary decisions, depending on the decision making resources available and the stakes involved with the decision.
