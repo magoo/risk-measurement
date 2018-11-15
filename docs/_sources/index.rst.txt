@@ -32,7 +32,7 @@ For example:
 
   With little effort, for example and entertainment purposes, this author prepares a ``2.5% Yes`` forecast, based on a starting point of ``1/30`` teams in the MLB (``3%``). The author observes that other teams more often win the World Series, a World Series might not happen at all, and the author holds an irrational and indefensible belief in the `Curse of the Billy Goat`_ reducing this forecast further.
 
-  With greater evidence, time, and additional expert opinions, this documentation suggests methods to make this forecast increasingly rigorous, *defending against cognitive bias* and introducing knowledge. This can result in a a more reliable value than an expert opinion that qualitatively states "They probably won't win in 2020" which can not be leveraged by scientific measurement or as an engineering approach.
+  With greater evidence, time, and additional expert opinions, this documentation suggests methods to make this forecast increasingly rigorous, *defending against cognitive bias* (The author believes in curses? Really?) and introducing values that represent other knowledge. This can result in a more reliable value than an expert opinion that qualitatively states "They probably won't win in 2020" which can not be leveraged by scientific measurement or as an engineering approach.
 
 .. _Curse of the Billy Goat: https://en.wikipedia.org/wiki/Curse_of_the_Billy_Goat
 

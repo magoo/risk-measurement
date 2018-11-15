@@ -37,6 +37,12 @@ Let's celebrate the "post mortem" to support validated learning.
 
 While we use estimation methods to compensate for spotty data, we must invest in infrastructure to observe and share failures to better inform us about risks. Our goal is to measurably progress away from uncertainty as we learn more about the root causes of our failures.
 
+Several industries have open databases that provide substantially informative data, useful for forecasting infrastructure. Meteorology_, Nuclear_, and Chemical_ are examples of industries that have built infrastructure to inform probabilistic risk methods.
+
+.. _Meteorology: https://www.ncdc.noaa.gov/data-access
+.. _Nuclear: https://www.nrc.gov/reading-rm/doc-collections/event-status/event/
+.. _Chemical: https://www.csb.gov/investigations/
+
 .. _Limitation:
 
 Limitation
