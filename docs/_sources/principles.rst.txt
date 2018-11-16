@@ -3,6 +3,8 @@ Principles
 
 The following principles are guiding the opinions behind this documentation.
 
+.. _Precision:
+
 Precision
 ----------------------------------------------
 Let's defend against the ambiguity of risk language.

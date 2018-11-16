@@ -202,7 +202,7 @@
 <p>The primary feature of this documentation is to make all concepts of “risk” subject to quantitative techniques, and forecasting is one of these important methods.</p>
 <div class="section" id="some-thoughts-on-definitions">
 <h2>Some thoughts on definitions:<a class="headerlink" href="#some-thoughts-on-definitions" title="Permalink to this headline">¶</a></h2>
-<p>By it’s <a class="reference internal" href="../principles.html"><span class="doc">principles</span></a>, this documentation is opinionated on the usage of some risk language. <em>Estimations</em> are a form of approximation for any unknown value. A <em>forecast</em> is a an estimation of a value that doesn’t exist yet. An estimate is not necessarily a forecast, but a forecast is an estimate.</p>
+<p>By sticking to principles (See: <span class="xref std std-ref">principles</span>), this documentation is opinionated on the usage of some risk language. <em>Estimations</em> are a form of approximation for any unknown value. A <em>forecast</em> is a an estimation of a value that doesn’t exist yet. An estimate is not necessarily a forecast, but a forecast is an estimate.</p>
 <p>There are grey areas for these terms. For instance, an unknown quantity may also be a future value. These will be worked out as this documentation as opportunities to simplify may arise. The authors are already aware of industry conflicting definitions.</p>
 <p>A <em>prediction</em> does not necessarily mean a “100% belief”, but should probably be avoided as it can be interpreted poorly.</p>
 </div>
@@ -244,6 +244,124 @@ A = 60%, B = 10%, C = 30% and A occurred, your score would be
 Brier score is 0, and the worst (highest) possible Brier score is 2.
 </pre></div>
 </div>
+<p>An average Brier score is useful for tracking the reliability of a forecaster. It can be tracked by certain topics, panels, individuals, etc.</p>
+<p>For instance, let’s take a batch of some pretty good weather predictions.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="22%" />
+<col width="11%" />
+<col width="15%" />
+<col width="14%" />
+<col width="28%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Forecast</th>
+<th class="head">% Rain</th>
+<th class="head">% No Rain</th>
+<th class="head">Outcome</th>
+<th class="head">Brier Score</th>
+<th class="head">Brier Score (Work)</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>0.99</td>
+<td>0.01</td>
+<td>Rain</td>
+<td>0.0002</td>
+<td>(1-.99)^2+(0-.01)^2</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>0.8</td>
+<td>0.2</td>
+<td>Rain</td>
+<td>0.08</td>
+<td>(1-.8)^2+(0-.2)^2</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>0.334</td>
+<td>0.666</td>
+<td>No Rain</td>
+<td>0.223112</td>
+<td>(0-.334)^2 + (1-.666)^2</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>0.01</td>
+<td>0.99</td>
+<td>No Rain</td>
+<td>0.0002</td>
+<td>(0-.01)^2 + (1-.99)^2</td>
+</tr>
+<tr class="row-even"><td>5</td>
+<td>0.95</td>
+<td>0.05</td>
+<td>Rain</td>
+<td>0.005</td>
+<td>(1-.95)^2 + (0-.05)^2</td>
+</tr>
+</tbody>
+</table>
+<p>This table shows an average Brier Score of <code class="docutils literal notranslate"><span class="pre">0.0617024</span></code>. If we observed this forecast score from our local meteorologist, we’d be pleased and consider this forecast source <em>useful</em>. Let’s put together a table of pretty terrible weather forecasts for comparison.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="21%" />
+<col width="11%" />
+<col width="14%" />
+<col width="13%" />
+<col width="31%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Forecast</th>
+<th class="head">% Rain</th>
+<th class="head">% No Rain</th>
+<th class="head">Outcome</th>
+<th class="head">Brier Score</th>
+<th class="head">Brier Score (Work)</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>0.1</td>
+<td>0.9</td>
+<td>1</td>
+<td>1.62</td>
+<td>(1-.01)^2+(0-.9)^2</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>0.04</td>
+<td>0.96</td>
+<td>1</td>
+<td>1.8432</td>
+<td>(1-.04)^2+(0-.96)^2</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>0.77</td>
+<td>0.23</td>
+<td>0</td>
+<td>1.1858</td>
+<td>(0-.77)^2+(1-.23)^2</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>0.88</td>
+<td>0.12</td>
+<td>0</td>
+<td>1.5488</td>
+<td>(0-.88)^2+(1-.12)^2</td>
+</tr>
+<tr class="row-even"><td>5</td>
+<td>0.2</td>
+<td>0.8</td>
+<td>1</td>
+<td>1.28</td>
+<td>(1-.2)^2+(0-.8)^2</td>
+</tr>
+</tbody>
+</table>
+<p>This table shows an average brier score of <code class="docutils literal notranslate"><span class="pre">1.49556</span></code>. Any reasonable individual would consider those forecasts <em>not useful</em>.</p>
+<p>Industry will vary on what a “useful” threshold for a forecast source would be. For instance, a Brier Score measuring forecasts about parts that explode will be very different from a risk forecast about missed project deadlines.</p>
+<p>However, all industries can agree that reduction of a Brier Score over time is a good thing, and is a useful engineering metric that can be targeted over time.</p>
 </div>
 <div class="section" id="types-of-forecasts">
 <span id="id4"></span><h2>Types of Forecasts<a class="headerlink" href="#types-of-forecasts" title="Permalink to this headline">¶</a></h2>

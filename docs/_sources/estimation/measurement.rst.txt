@@ -23,7 +23,7 @@ The primary feature of this documentation is to make all concepts of "risk" subj
 
 Some thoughts on definitions:
 -----------------------------
-By it's :doc:`principles </principles>`, this documentation is opinionated on the usage of some risk language. *Estimations* are a form of approximation for any unknown value. A *forecast* is a an estimation of a value that doesn't exist yet. An estimate is not necessarily a forecast, but a forecast is an estimate.
+By sticking to principles (See: :ref:`principles`), this documentation is opinionated on the usage of some risk language. *Estimations* are a form of approximation for any unknown value. A *forecast* is a an estimation of a value that doesn't exist yet. An estimate is not necessarily a forecast, but a forecast is an estimate.
 
 There are grey areas for these terms. For instance, an unknown quantity may also be a future value. These will be worked out as this documentation as opportunities to simplify may arise. The authors are already aware of industry conflicting definitions.
 
@@ -85,6 +85,38 @@ The Good Judgement Open has an `accessible definition`_ of the Brier Score: ::
   Brier score is 0, and the worst (highest) possible Brier score is 2.
 
 .. _accessible definition: https://www.gjopen.com/faq
+
+An average Brier score is useful for tracking the reliability of a forecaster. It can be tracked by certain topics, panels, individuals, etc.
+
+For instance, let's take a batch of some pretty good weather predictions.
+
+========  ==================  =========             ============  =========== =======================
+Forecast  % Rain              % No Rain             Outcome       Brier Score Brier Score (Work)
+========  ==================  =========             ============  =========== =======================
+1         0.99                0.01                  Rain          0.0002      (1-.99)^2+(0-.01)^2
+2         0.8                 0.2                   Rain          0.08        (1-.8)^2+(0-.2)^2
+3         0.334               0.666                 No Rain       0.223112    (0-.334)^2 + (1-.666)^2
+4         0.01                0.99                  No Rain       0.0002      (0-.01)^2 + (1-.99)^2
+5         0.95                0.05                  Rain          0.005       (1-.95)^2 + (0-.05)^2
+========  ==================  =========             ============  =========== =======================
+
+This table shows an average Brier Score of ``0.0617024``. If we observed this forecast score from our local meteorologist, we'd be pleased and consider this forecast source *useful*. Let's put together a table of pretty terrible weather forecasts for comparison.
+
+========  ==================  =========             ============  =========== =======================
+Forecast  % Rain              % No Rain             Outcome       Brier Score Brier Score (Work)
+========  ==================  =========             ============  =========== =======================
+1         0.1	                0.9	                  1             1.62	      (1-.01)^2+(0-.9)^2
+2         0.04                0.96                  1             1.8432      (1-.04)^2+(0-.96)^2
+3         0.77                0.23                  0             1.1858      (0-.77)^2+(1-.23)^2
+4         0.88                0.12                  0             1.5488      (0-.88)^2+(1-.12)^2
+5         0.2	                0.8	                  1             1.28        (1-.2)^2+(0-.8)^2
+========  ==================  =========             ============  =========== =======================
+
+This table shows an average brier score of ``1.49556``. Any reasonable individual would consider those forecasts *not useful*.
+
+Industry will vary on what a "useful" threshold for a forecast source would be. For instance, a Brier Score measuring forecasts about parts that explode will be very different from a risk forecast about missed project deadlines.
+
+However, all industries can agree that reduction of a Brier Score over time is a good thing, and is a useful engineering metric that can be targeted over time.
 
 .. _Types of Forecasts:
 

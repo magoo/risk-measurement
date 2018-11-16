@@ -28,7 +28,7 @@ This section contains supporting reading for specific scenario building.
 .. [#] Decision Analysis: Practice and Promise. Ronald A. Howard. Management Science, Vol. 34, No. 6. (Jun., 1988), pp. 679-695.
 
 Hierarchy of Scenarios
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 The hierarchal relationship between specific future events.
 
 .. [#] Wikipedia contributors. "Fault tree analysis." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 16 Jul. 2018. Web. 8 Nov. 2018.
