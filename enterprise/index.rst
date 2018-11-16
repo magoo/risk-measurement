@@ -206,3 +206,8 @@ Level Four
   In addition to previous levels, an external expert was involved with the estimation.
 
 Such levels can be created that map to an organizations necessary decisions, depending on the decision making resources available and the stakes involved with the decision.
+
+Further Reading
+---------------
+
+See :ref:`Expert Groups`, :ref:`Cognitive Error`, :ref:`Industry`

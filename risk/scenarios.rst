@@ -98,3 +98,7 @@ This sort of specificity with long timeframes has an operational impact. You won
 The reliability of judgment can also be bolstered to decision makers if included in whistleblowing policy or professional codes of conduct. (See: :ref:`whistleblowing`)
 
 Higher quality judgment should *always* be desired by engineers. Back-of-napkin risk assessment, with the lowest standard rigor (See: :ref:`Rigor`), are generally self-judged, but will likely need greater rigor for organizational decision making.
+
+Further Reading
+~~~~~~~~~~~~~~~
+See :ref:`Specific Scenarios`

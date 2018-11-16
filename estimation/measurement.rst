@@ -212,3 +212,7 @@ This form of test has been used as an interview prompt in psychological research
 Reference Class
 ~~~~~~~~~~~~~~~
 When data is not available to study a risk, alternative data may suffice as a reference. For instance, the history of reversals in the Supreme Court may inform a type of case that may be considered unprecedented.
+
+Further Reading
+~~~~~~~~~~~~~~~
+See :ref:`Measurement / Approximation`, :ref:`Forecasting research`

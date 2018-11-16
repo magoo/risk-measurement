@@ -1,12 +1,13 @@
 Reading Material
 ================
-This document contains reading material bolstering the estimation, expert elicitation, quantitative certainty, scenario, and forecasting subject matters that guide Simple Risk Measurement. 
-
+This document contains reading material bolstering the estimation, expert elicitation, quantitative certainty, scenario, and forecasting subject matters that guide Simple Risk Measurement.
 
 Risk Language
 -------------
 This section includes reading that helps navigate the problems with "risk" language, miscommunications and so forth.
 
+
+.. _Defining Risk:
 
 Defining Risk
 ~~~~~~~~~~~~~
@@ -16,6 +17,7 @@ The language of risk is used in a variety of ways and shows up with different in
 
 .. [#] Boholm, M. , Möller, N. and Hansson, S. O. (2016), The Concepts of Risk, Safety, and Security: Applications in Everyday Language. Risk Analysis, 36: 320-338. doi:10.1111/risa.12464
 
+.. _Specific Scenarios:
 
 Specific Scenarios
 ~~~~~~~~~~~~~~~~~~
@@ -25,7 +27,7 @@ This section contains supporting reading for specific scenario building.
 
 .. [#] Decision Analysis: Practice and Promise. Ronald A. Howard. Management Science, Vol. 34, No. 6. (Jun., 1988), pp. 679-695.
 
-Scenario Hierarchy
+Hierarchy of Scenarios
 ~~~~~~~~~~~~~~~~~~
 The hierarchal relationship between specific future events.
 
@@ -37,7 +39,9 @@ The hierarchal relationship between specific future events.
 .. [#] Swiderski, F., & Snyder, W. (2009). Threat Modeling. New York: O'Reilly Media, Inc.
 .. [#] Shostack, A. (2014). Threat modeling: Designing for security.
 
-Measurement & Approximation
+.. _Measurement / Approximation:
+
+Measurement / Approximation
 ---------------------------
 This section includes all references to, and arguments that measurements are estimates. Generally speaking, everything we do is some form of approximation, even when employing the use of measurement instruments.
 
@@ -56,9 +60,12 @@ This section includes all references to, and arguments that measurements are est
 .. [#] Wikipedia contributors. (2018, November 6). Kibble balance. In Wikipedia, The Free Encyclopedia. Retrieved 18:15, November 8, 2018, from https://en.wikipedia.org/w/index.php?title=Kibble_balance&oldid=867616683
 .. [#] Evaluation of measurement data – Guide to the expression of uncertainty in measurement JCGM 100:2008 (GUM 1995 with minor corrections)
 
+
+.. _Expert Estimation:
+
 Expert Estimation
 -----------------
-This section generally appeals to how experts can be queried for quantitative data. The process of doing so, industrial examples, history of.
+This section generally appeals to how experts can be queried for quantitative data.
 
 Combining Expert Estimations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -81,6 +88,8 @@ Humorous Examples
 .. [#] Miyamoto's Secret Hobby https://kotaku.com/5381876/miyamotos-secret-hobby-measuring-stuff
 
 .. [#] Shigeru Miyamoto Guesses The Size of Random Objects (Jimmy Fallon) https://youtu.be/DiUeuc7eOh0?t=16s
+
+.. _RAND:
 
 RAND
 ------------------------------------------------
@@ -108,6 +117,8 @@ RAND has been developing methods for expert estimation for decades, described as
 .. [#] Experimental Assessment of Delphi Procedures with Group Value Judgments https://www.rand.org/pubs/reports/R0612.html
 .. [#] Comparison of Group Judgment Techniques with Short-Range Predictions and Almanac Questions https://www.rand.org/pubs/reports/R0678.html
 .. [#] Delphi Assessment https://www.rand.org/pubs/reports/R1283.html
+
+.. _Expert Groups:
 
 Expert Groups
 ------------------
@@ -137,8 +148,10 @@ Constructive critique of Cooke's method can be found here:
 
 .. [#] Bolger, F. and Rowe, G. (2015), The Aggregation of Expert Judgment: Do Good Things Come to Those Who Weight?. Risk Analysis, 35: 5-11. doi:10.1111/risa.12272
 
+.. _Forecasting Research:
+
 Forecasting
------------
+--------------------
 
 .. _tetlock:
 
@@ -160,6 +173,7 @@ Maybe the oldest area of forecasting. Understanding the industrial development o
 .. [#] Weather Analysis and Forecasting https://www.ametsoc.org/ams/index.cfm/about-ams/ams-statements/statements-of-the-ams-in-force/weather-analysis-and-forecasting/
 .. [#] Wikipedia contributors. "Timeline of meteorology." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 27 Sep. 2018. Web. 8 Nov. 2018.
 
+.. _Cognitive Error:
 
 Cognitive Error
 ---------------
@@ -183,7 +197,9 @@ Taleb explores the limitations of our ability to understand randomness and the n
 
 .. [#] Taleb, N. N., Taleb, N. N., Taleb, N. N., Taleb, N. N., & Taleb, N. N. (2016). Incerto.
 
-Intelligence Processing
+.. _Intelligence Analysis:
+
+Intelligence Analysis
 -----------------------
 
 Sherman Kent
@@ -206,6 +222,7 @@ There is research around Canada's application of modern intelligence processing 
 .. [#] Canada Is Actually Pretty Good At Intelligence Forecasting, Ben Makuch - https://motherboard.vice.com/en_us/article/kbz7gn/canadian-intelligence-agencies-are-actually-pretty-good-at-strategic-forecasting
 .. [#] Accuracy Of Forecasts in Strategic Intelligence, David Mandel-Alan Barnes - http://www.pnas.org/content/111/30/10984
 
+.. _Industry:
 
 Industry
 --------

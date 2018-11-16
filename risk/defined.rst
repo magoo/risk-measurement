@@ -70,3 +70,7 @@ Conclusion
 As engineers, we must work to influence the likelihoods and impacts associated with a well defined future event. We do not always need to measure both, but we'd like to eventually. First, we need to measure that our individual efforts are making a difference.
 
 We can focus and target these areas of risk by defining them as :doc:`scenarios </risk/scenarios>`.
+
+Further Reading
+~~~~~~~~~~~~~~~
+See :ref:`Defining Risk`
