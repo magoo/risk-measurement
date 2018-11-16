@@ -93,11 +93,11 @@ For instance, let's take a batch of some pretty good weather predictions.
 ========  ==================  =========             ============  =========== =======================
 Forecast  % Rain              % No Rain             Outcome       Brier Score Brier Score (Work)
 ========  ==================  =========             ============  =========== =======================
-1         0.99                0.01                  Rain          0.0002      (1-.99)^2+(0-.01)^2
-2         0.8                 0.2                   Rain          0.08        (1-.8)^2+(0-.2)^2
-3         0.334               0.666                 No Rain       0.223112    (0-.334)^2 + (1-.666)^2
-4         0.01                0.99                  No Rain       0.0002      (0-.01)^2 + (1-.99)^2
-5         0.95                0.05                  Rain          0.005       (1-.95)^2 + (0-.05)^2
+1         0.99                0.01                  Rain          0.0002      ``(1-.99)^2+(0-.01)^2``
+2         0.8                 0.2                   Rain          0.08        ``(1-.8)^2+(0-.2)^2``
+3         0.334               0.666                 No Rain       0.223112    ``(0-.334)^2 + (1-.666)^2``
+4         0.01                0.99                  No Rain       0.0002      ``(0-.01)^2 + (1-.99)^2``
+5         0.95                0.05                  Rain          0.005       ``(1-.95)^2 + (0-.05)^2``
 ========  ==================  =========             ============  =========== =======================
 
 This table shows an average Brier Score of ``0.0617024``. If we observed this forecast score from our local meteorologist, we'd be pleased and consider this forecast source *useful*. Let's put together a table of pretty terrible weather forecasts for comparison.
@@ -105,18 +105,18 @@ This table shows an average Brier Score of ``0.0617024``. If we observed this fo
 ========  ==================  =========             ============  =========== =======================
 Forecast  % Rain              % No Rain             Outcome       Brier Score Brier Score (Work)
 ========  ==================  =========             ============  =========== =======================
-1         0.1	                0.9	                  1             1.62	      (1-.01)^2+(0-.9)^2
-2         0.04                0.96                  1             1.8432      (1-.04)^2+(0-.96)^2
-3         0.77                0.23                  0             1.1858      (0-.77)^2+(1-.23)^2
-4         0.88                0.12                  0             1.5488      (0-.88)^2+(1-.12)^2
-5         0.2	                0.8	                  1             1.28        (1-.2)^2+(0-.8)^2
+1         0.1	                0.9	                  1             1.62	      ``(1-.01)^2+(0-.9)^2``
+2         0.04                0.96                  1             1.8432      ``(1-.04)^2+(0-.96)^2``
+3         0.77                0.23                  0             1.1858      ``(0-.77)^2+(1-.23)^2``
+4         0.88                0.12                  0             1.5488      ``(0-.88)^2+(1-.12)^2``
+5         0.2	                0.8	                  1             1.28        ``(1-.2)^2+(0-.8)^2``
 ========  ==================  =========             ============  =========== =======================
 
 This table shows an average brier score of ``1.49556``. Any reasonable individual would consider those forecasts *not useful*.
 
-Industry will vary on what a "useful" threshold for a forecast source would be. For instance, a Brier Score measuring forecasts about parts that explode will be very different from a risk forecast about missed project deadlines.
+Your industry will vary on what a "useful" threshold for a forecast source would be. For instance, a Brier Score that forecasts data related to part failures and explosions will be very different from a risk forecast about missed project deadlines. This documentation leaves that up to the engineers involved to set their requirements.
 
-However, all industries can agree that reduction of a Brier Score over time is a good thing, and is a useful engineering metric that can be targeted over time.
+However, all industries can agree that engineers seeing a reduction of a Brier Score over time is a favorable trend, and is a useful engineering metric that can be targeted over time and improved upon.
 
 .. _Types of Forecasts:
 
