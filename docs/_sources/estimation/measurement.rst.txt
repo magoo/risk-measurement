@@ -120,9 +120,13 @@ However, all industries can agree that engineers seeing a reduction of a Brier S
 
 .. _Types of Forecasts:
 
-Types of Forecasts
+Types of Outcomes
 ------------------
-A scenario can prompt for several types of answers to create a forecast. Depending on the risk you are hoping to measure, you may want to prompt an expert for a different type of answer.
+A scenario can prompt for several types of outcomes to forecast. Depending on the risk you are hoping to measure, you may want to prompt an expert for a different type of outcome.
+
+*Yes or No*, *Over / Under*, and *Multiple Options* are probability distributions. They can be used to forecast with a percentage likelihood that a certain event will, or will not happen. Likelihood is split between mutually exclusive options, and must equal 100%.
+
+Confidence intervals are a bit different. They can be used to forecast an unknown value, like the potential impact (money lost, injuries, delays) associated with any scenario.
 
 Yes or No
 ~~~~~~~~~
@@ -137,6 +141,8 @@ The simplest type of forecast asks an expert for their belief of a binary outcom
   (Yes / No)
 
 A forecaster may express themselves by saying Yes: 60%, No: 40%, if they believe it's more likely that not to rain. Or for instance, Yes: 0.01%, No: 99.99% if the forecaster lives in the desert.
+
+Both likelihoods would need to sum to 100%.
 
 
 Over / Under
@@ -153,9 +159,34 @@ To include some aspect of "impact" in a risk, you can bake an over / under value
 
 This is similar to the previous forecast, but instead adds a numeric condition that must be met. This is useful when investigating the likelihood that some risk will meet a threshold or tolerance level you need to better understand. For instance, there may be a legal reason to close down schools with a certain height of snow, or maybe a certain amount of losses that your insurance couldn't cover.
 
+Both likelihoods would need to sum to 100%.
+
+Multiple Options
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Some forecasts may include many outcomes. For instance:
+
+**Scenario** ::
+
+  Our potential customer has decided on a vendor.
+
+This could be answered with multiple options, like (A: Us, B: Competitor 1, C: Competitor 2, D, Competitor 3, E: No Decision / Walkout.)
+
+**Outcome** ::
+
+  % Likelihood
+  A: Us
+  B: Competitor 1
+  C: Competitor 2
+  D: Competitor 3
+  E: No Decision / Walkout / Other
+
+All likelihoods would need to equal 100%.
+
 Confidence Intervals
 ~~~~~~~~~~~~~~~~~~~~
-A confidence interval represents a range of possible values, and also includes a percentage belief that the outcome will fall into it. A forecaster would then expand their range of values to increase their expression of uncertainty, and an engineer's efforts would widen or narrow this range. For example:
+A `confidence interval`_ represents a range of possible values, and also includes a percentage belief that the outcome will fall into it. A forecaster would then expand their range of values to increase their expression of uncertainty, and an engineer's efforts would widen or narrow this range. For example:
+
+.. _confidence interval: https://en.wikipedia.org/wiki/Confidence_interval
 
 **Scenario** ::
 
@@ -190,25 +221,6 @@ To summarize, a forecaster would provide:
 - A percentage belief the outcome lies within.
 
 A scenario can also demand the percentage belief beforehand.
-
-Probability Distributions
-~~~~~~~~~~~~~~~~~~~~~~~~~
-Some forecasts may include many outcomes. For instance:
-
-**Scenario** ::
-
-  Our potential customer has made a decision regarding their request for business.
-
-This could be answered with multiple options, like (A: Us, B: Competitor 1, C: Competitor 2, D, Competitor 3, E: No Decision / Walkout.)
-
-**Outcome** ::
-
-  % Likelihood
-  A: Us
-  B: Competitor 1
-  C: Competitor 2
-  D: Competitor 3
-  E: No Decision / Walkout / Other
 
 Skills
 ------

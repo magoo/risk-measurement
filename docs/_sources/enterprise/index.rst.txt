@@ -39,7 +39,7 @@ After a certain amount of practice or calibration training, a decision maker can
 
 .. _whistleblowing:
 
-Whistleblowing and Complaints
+Whistleblowing and Complaints.
 ------------------------------------
 Some industries have created, and enforce, whistleblower regulation to protect channels that would surface risks or other failures. (See: `NRC Whistleblower Protection`_)
 
@@ -93,7 +93,14 @@ As aerospace engineers approach a launch date, they could forecast outcomes base
 
 A simple model like the above is relying on three independent probabilities which cannot be directly added. They are instead calculated with the `Inclusion / Exclusion Principle`_, however we can more easily estimate these values in a practical working environment using Monte Carlo software.
 
+With either approach, we would have a likelihood of mission failure of about ``~2.9%`` in January, ``~0.29%`` in February, and ``~0.029%`` in March.
+
+PoW
+  ``(.01 + .01 + .01) - (.01 * .01) - (.01 * .01) - (.01 * .01) + (.01 * .01 * .01) = 0.029701``
+
 .. _Inclusion / Exclusion Principle: https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle
+
+With an approach like this, we can start to decompose a high level failure statement like "Mission Failure" into multiple areas of mitigation effort, or the discovery of new risks that influence failure.
 
 This sort of delegation of risk can help decouple the prescription of risk mitigations from measurement. It allows the engineers focused on "rocket failure" to achieve their highest levels of certainty by any means, as opposed to following a prescribed checklist mandated by a leadership team.
 

@@ -99,7 +99,7 @@
 <li class="toctree-l1"><a class="reference internal" href="#rigor">Rigor</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#the-expectation-of-rigor-in-measurement">The expectation of “rigor” in measurement.</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#requiring-effective-forecasters">Requiring effective forecasters.</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#whistleblowing-and-complaints">Whistleblowing and Complaints</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#whistleblowing-and-complaints">Whistleblowing and Complaints.</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#decomposition-of-risk-into-a-register">Decomposition of risk into a register.</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#the-monte-carlo-simulation">The Monte Carlo simulation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#panels-of-forecasters">Panels of Forecasters</a></li>
@@ -212,7 +212,7 @@
 <p>After a certain amount of practice or calibration training, a decision maker can exclude forecasters with regularly poor calibration, or not meeting a threshold Brier Score. (See: <a class="reference internal" href="../estimation/measurement.html#keeping-score"><span class="std std-ref">Keeping Score</span></a>)</p>
 </div>
 <div class="section" id="whistleblowing-and-complaints">
-<span id="whistleblowing"></span><h2>Whistleblowing and Complaints<a class="headerlink" href="#whistleblowing-and-complaints" title="Permalink to this headline">¶</a></h2>
+<span id="whistleblowing"></span><h2>Whistleblowing and Complaints.<a class="headerlink" href="#whistleblowing-and-complaints" title="Permalink to this headline">¶</a></h2>
 <p>Some industries have created, and enforce, whistleblower regulation to protect channels that would surface risks or other failures. (See: <a class="reference external" href="https://www.nrc.gov/insp-gen/whistleblower.html">NRC Whistleblower Protection</a>)</p>
 <p>Decision makers knowing that these channels exist which could question the integrity of risk measurement may find greater certainty in the information brought to them when issues are not surfaced.</p>
 <p>The quality of these channels can also be measured, and if distrust of these channels exist, it can also be mitigated.</p>
@@ -257,6 +257,12 @@
 </pre></div>
 </div>
 <p>A simple model like the above is relying on three independent probabilities which cannot be directly added. They are instead calculated with the <a class="reference external" href="https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle">Inclusion / Exclusion Principle</a>, however we can more easily estimate these values in a practical working environment using Monte Carlo software.</p>
+<p>With either approach, we would have a likelihood of mission failure of about <code class="docutils literal notranslate"><span class="pre">~2.9%</span></code> in January, <code class="docutils literal notranslate"><span class="pre">~0.29%</span></code> in February, and <code class="docutils literal notranslate"><span class="pre">~0.029%</span></code> in March.</p>
+<dl class="docutils">
+<dt>PoW</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">(.01</span> <span class="pre">+</span> <span class="pre">.01</span> <span class="pre">+</span> <span class="pre">.01)</span> <span class="pre">-</span> <span class="pre">(.01</span> <span class="pre">*</span> <span class="pre">.01)</span> <span class="pre">-</span> <span class="pre">(.01</span> <span class="pre">*</span> <span class="pre">.01)</span> <span class="pre">-</span> <span class="pre">(.01</span> <span class="pre">*</span> <span class="pre">.01)</span> <span class="pre">+</span> <span class="pre">(.01</span> <span class="pre">*</span> <span class="pre">.01</span> <span class="pre">*</span> <span class="pre">.01)</span> <span class="pre">=</span> <span class="pre">0.029701</span></code></dd>
+</dl>
+<p>With an approach like this, we can start to decompose a high level failure statement like “Mission Failure” into multiple areas of mitigation effort, or the discovery of new risks that influence failure.</p>
 <p>This sort of delegation of risk can help decouple the prescription of risk mitigations from measurement. It allows the engineers focused on “rocket failure” to achieve their highest levels of certainty by any means, as opposed to following a prescribed checklist mandated by a leadership team.</p>
 </div>
 <div class="section" id="the-monte-carlo-simulation">
