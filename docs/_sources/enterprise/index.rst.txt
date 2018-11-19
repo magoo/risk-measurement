@@ -95,8 +95,12 @@ A simple model like the above is relying on three independent probabilities whic
 
 With either approach, we would have a likelihood of mission failure of about ``~2.9%`` in January, ``~0.29%`` in February, and ``~0.029%`` in March.
 
-PoW
+Proof of work
+  Using the inclusion and exclusion principle, we estimate a total failure of any one of these issues causing the mission to fail.
+
   ``(.01 + .01 + .01) - (.01 * .01) - (.01 * .01) - (.01 * .01) + (.01 * .01 * .01) = 0.029701``
+
+This is far easier to reproduce with a Monte Carlo simulation, which may require writing code or using statistics software, which this documentation will not cover.
 
 .. _Inclusion / Exclusion Principle: https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle
 
@@ -118,7 +122,7 @@ Let's estimate the likelihood of any failure in January. If *any* condition (Roc
 
   failure = OR(rocket_failure < .01, hull_breach < .01, electric_failure < .01)
 
-Each value would be the result of a `rand()` value. Run many thousands of times, you would find the average result of *failure*. We'd see a 3% chance of mission failure in January, because it would be the average likelihood of three independent conditions with 1% likelihoods each.
+Each value would be the result of a `rand()` value. Run many thousands of times, you would find the average result of *failure*. We'd see a ``2.9%`` chance of mission failure in January, because it would be the average likelihood of three independent conditions with 1% likelihoods each.
 
 As models become more complex, Monte Carlo tools allow for cheap models and estimation without attempting to "solve" for risk mathematically. Monte Carlo methods are a powerful tool to critically inspect assumptions about risk, help build models that support all known context about a risk, and introduce uncertainty for values that don't behave predictably.
 
@@ -154,7 +158,7 @@ Philip Tetlock's research into forecasting teams suggests that diversity in pers
 
 .. _ensemble forecasting: https://en.wikipedia.org/wiki/Ensemble_forecasting
 
-There does not need to be much to the elicitation of experts on a panel, but there are more formal approaches of panel estimations like the `Delphi method`_.
+There does not need to be much to the elicitation of experts on a panel, but there are more formal approaches of panel estimations like the `Delphi Method`_.
 
 .. _Delphi Method: https://www.rand.org/topics/delphi-method.html
 
