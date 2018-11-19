@@ -22,7 +22,7 @@ Carl Sagan once said "Extraordinary claims require extraordinary evidence". For 
 
 A decision to launch a rocket ship is not one to be taken lightly, nor would you expect it to be the sole decision of a single individual.
 
-Leadership can require that a decision of "Launch" may require predetermined factors that indicate that risks have been exhaustively mitigated. Some examples will be listed here, and extrapolated in the continuing documentation:
+Leadership can require that a "Launch" decision meet certain requirements that defend it against negligence, cognitive error, corruption, imaginative failures, or gaps of evidence. Some examples will be listed here, and extrapolated in the continuing documentation:
 
 - Risks are decomposed into a register by the individuals mitigating them.
 - Forecasts are gathered by individuals who have been calibration trained.
@@ -31,7 +31,7 @@ Leadership can require that a decision of "Launch" may require predetermined fac
 - Measurement of "unknown" factors were a part of forecasts.
 - A panel of individuals were relied on instead of a single individual.
 - The panel included outside expertise.
-- Monte carlo based uncertainty modeling was available to experts
+- Monte Carlo and uncertainty modeling was available to experts.
 
 Requiring effective forecasters.
 ------------------------------------------
