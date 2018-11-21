@@ -26,11 +26,11 @@ This approach is very simple to trivialize into a few steps.
 5. **Keep Score**: As outcomes occur, we check our work, improve our methods and reduce our uncertainty.
 
 For example:
-  ``The Cubs win the 2025 World Series (Yes / No)`` may be a future *scenario* you care about.
+  ``The Cubs win the 2025 World Series`` may be a future *scenario* you care about.
 
-  You may gather *evidence* by reviewing historical baseball data, interviewing experts, or building statistical models. You would then *estimate* a likelihood based on that information, and make *decisions* based on that information.
+  To better understand this scenario, you might gather *evidence* by reviewing historical baseball data, interviewing experts, or building statistical models. You would then *forecast* likelihood of outcomes like ``Yes`` or ``No``, or *estimate* other values based on that information, and make *decisions* as a result.
 
-  With little effort, for example and entertainment purposes, this author prepares a ``2.5% Yes`` forecast, based on a starting point of ``1/30`` teams in the MLB (``3%``). The author observes that other teams more often win the World Series, a World Series might not happen at all, and the author holds an irrational and indefensible belief in the `Curse of the Billy Goat`_ reducing this forecast further.
+  With little effort, for example and entertainment purposes, this author prepares a ``2.5% Yes`` and ``97.5% No`` forecast. This starts from an assumption of ``1/30`` teams in the MLB (``3%``). The author observes that other teams more often win the World Series, a World Series might not happen at all, and the author holds an irrational and indefensible belief in the `Curse of the Billy Goat`_ subjectively reducing this forecast further towards ``2.5%``.
 
   With greater evidence, time, and additional expert opinions, this documentation suggests methods to make this forecast increasingly rigorous, *defending against cognitive bias* (The author believes in curses? Really?) and introducing values that represent other knowledge. This can result in a more reliable value than an expert opinion that qualitatively states "They probably won't win in 2020" which can not be leveraged by scientific measurement or as an engineering approach.
 
