@@ -12,10 +12,11 @@ Risk Analysis
 -------------
 In this example, we are concerned with a single risk. First, we develop a :doc:`scenario </risk/scenarios>`.
 
-.. admonition:: Scenario
-  :class: warning
+Scenario
+  A bank robber threatens a teller next quarter.
 
-  A bank robber threatens a teller next quarter. (Yes / No)
+Outcome
+  ``% Likelihood of Yes / No:``
 
 This meets the criteria of a scenario by including an observable event ("A bank robber threatens a teller"), and includes a specific timeframe ("Next Quarter"). Without either of these, we lose our ability to quantify risk.
 
@@ -37,15 +38,14 @@ In our example, let's say that a CEO has asked us to assess the risks that they 
 
 We develop two :doc:`scenarios </risk/scenarios>`:
 
-.. admonition:: Scenario
-  :class: warning
+Scenario A
+  A malicious insider employee infects our CEO's laptop with a virus next quarter.
 
-  A: A malicious insider employee infects our CEO's laptop with a virus next quarter. (Yes / No)
+Scenario B
+  A malicious website infects our CEO's laptop with a virus next quarter.
 
-.. admonition:: Scenario
-  :class: warning
-
-  B: A malicious website infects our CEO's laptop with a virus next quarter. (Yes / No)
+Outcome (A, B)
+  ``% Likelihood of Yes / No:``
 
 We have two scenarios with similar outcomes (The CEO gets a virus), but differing threats (A malicious insider or a malicious website). Both share a similar timeframe.
 
@@ -55,7 +55,7 @@ As an example, let's say the forecaster believes that Scenario A has a "Yes" lik
 
 Those likelihoods, would indicate that the forecaster believes Scenario B (a malicious website) to occur a bit more than annually (every 2.8 quarters), while an insider employee would occur once every twenty five years (every 100 quarters).
 
-Under the assumption that the "virus" is equally bad in both cases, we can numerically compare both of these risks, and focus efforts on the more likely scenario. 
+Under the assumption that the "virus" is equally bad in both cases, we can numerically compare both of these risks, and focus efforts on the more likely scenario.
 
 Risk Management
 ---------------
@@ -63,10 +63,11 @@ In this example we are concerned with mitigating our risks over time, with our e
 
 Let's use our first scenario from Risk Analysis again. In that example, our forecaster assigned a 5% likelihood to the following scenario:
 
-.. admonition:: Scenario
-  :class: warning
+Scenario
+  A bank robber threatens a teller next quarter.
 
-  A bank robber threatens a teller next quarter. (Yes / No)
+Outcome
+  ``% Likelihood of Yes / No:`` Yes 5%
 
 Imagine if the bank wasn't OK with this level of risk to their employees, and decided to invest in a mitigation, like an armed guard near the tellers. Maybe they make this decision because other banks in the area don't have an armed guard, making them the least attractive target.
 

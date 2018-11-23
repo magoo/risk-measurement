@@ -17,10 +17,10 @@ An example in Cyber-Security
 A `16 person panel`_ forecasted the likelihood of a critical vulnerability being exploited in widely deployed software.
 
 Scenario
-  ``Will a "Critical" Chromium exploit be discovered "in the wild" in September 2018?``
+  Will a "Critical" Chromium exploit be discovered "in the wild" in September 2018?
 
 Outcome
-  ``Yes with a likelihood of 1.64%``
+  ``% Likelihood of Yes / No:`` Yes with a likelihood of 1.64%
 
 .. _16 person panel: https://github.com/magoo/forecast-documentation/blob/master/PREVIOUS.md#chromium-critical-sep2018
 
@@ -29,10 +29,10 @@ An example in Nuclear Safety
 Nuclear is concerned with combinations of events that may result in core damage or other outcomes. `Expert elicitation techniques`_ in nuclear risk measurement are `common`_.
 
 Scenario
-  ``Will a pump failure result in core damage within the next year?``
+  Will a pump failure result in core damage within the next year?
 
 Outcome
-  ``Yes with a likelihood of 0.001%``
+  ``% Likelihood of Yes / No:`` Yes with a likelihood of 0.001%
 
 The nuclear industry relies on extensive `data gathering`_ to inform estimation methods, and expert opinion is relied on when uncertainty is present.
 
@@ -45,14 +45,14 @@ An example in Environmental Safety
 `Environmental impact organizations`_ use the `probabilistic risk assessment`_.
 
 Scenario
-  ``The change in the mortality rate due to Fine Particles (PM2.5) decrease if we pass X regulation.``
+  The change in the mortality rate due to Fine Particles (PM2.5) decrease if we pass X regulation.
 
 Outcome
-  ``Interval estimate: Reduction of .001 -.05% with 95% confidence.``
+  ``Confidence Interval:`` Reduction of .001 -.05% with 95% confidence.
 
 The CSB `organizes investigations`_  that provide transparency into root causes informing probabilistic risk approaches supported in EPA policies.
 
-.. _organizes investigation: https://www.csb.gov/investigations/
+.. _organizes investigations: https://www.csb.gov/investigations/
 .. _Environmental impact organizations: https://www.epa.gov/osa/basic-information-about-scientific-coordination
 .. _Probabilistic risk assessment: https://www.epa.gov/sites/production/files/2014-11/documents/raf-pra-faq-final.pdf
 
@@ -62,10 +62,10 @@ An example in Meteorology
 The United States spends `billions`_ on weather forecasting and its associated infrastructure.
 
 Scenario
-  ``Will the east coast hurricane make landfall near our city before we can evacuate?``
+  Will the east coast hurricane make landfall near our city before we can evacuate?
 
 Outcome
-  ```Yes` with a likelihood of `50%`.``
+  ``% Likelihood of Yes / No:`` Yes with a likelihood of 50%.
 
 .. _billions: https://en.wikipedia.org/wiki/Weather_forecasting
 
@@ -76,10 +76,10 @@ An example in Intelligence Analysis
 All forms of `intelligence gathering`_ ultimately desire to `inform decision making`_.
 
 Scenario
-  ``Does the image taken by our satellite depict an adversary military aircraft?``
+  Does the image taken by our satellite depict an adversary military aircraft?
 
 Outcome
-  ``Yes with a likelihood of 70%.``
+  ``% Likelihood of Yes / No:`` Yes with a likelihood of 70%.
 
 .. _intelligence gathering: https://en.wikipedia.org/wiki/List_of_intelligence_gathering_disciplines
 .. _inform decision making: https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/4estimates.html

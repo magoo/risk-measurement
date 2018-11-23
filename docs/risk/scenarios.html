@@ -89,7 +89,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Scenarios</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#always-include-a-specific-timeframe">Always include a specific timeframe.</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#view-scenarios-as-a-hierarchy">View scenarios as a hierarchy.</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#choosing-your-judgment-criteria">Choosing your “judgment” criteria</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#outcomes-and-judgments">Outcomes and Judgments</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#further-reading">Further Reading</a></li>
 </ul>
 </li>
@@ -164,8 +164,6 @@
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/risk/scenarios.rst.txt" rel="nofollow"> View page source</a>
-          
         
       </li>
     
@@ -182,9 +180,10 @@
 <p>In our discussion about <a class="reference internal" href="defined.html"><span class="doc">risk</span></a> we discussed the <em>likelihood</em> and <em>impact</em> of a future event.</p>
 <p>A point of failure in measurement is ambiguity about a risk problem being solved. A group of very smart people can spin in circles discussing a risk if they don’t pin a specific outcome down first.</p>
 <p>To do this, we explicitly define a risk with a <em>scenario</em>, which is an unambiguous statement about a future value or event. These statements should make the author sweat.</p>
+<p>A scenario can have multiple <em>outcomes</em> to be estimated. For instance, an explosion may have costs, a loss of life, and periods of time before normalcy can be regained. That would be a single scenario with three outcomes to be estimated.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Read up on <a class="reference external" href="https://en.wikipedia.org/wiki/Clarity_test">The Clarity Test</a> to better understand the specificity a good scenario should meet.</p>
+<p class="last">Read up on <a class="reference external" href="https://en.wikipedia.org/wiki/Clarity_test">The Clarity Test</a> to better understand the specificity a good scenario, or outcome, should meet.</p>
 </div>
 <p>Here’s a batch of examples:</p>
 <p><strong>Scenario</strong></p>
@@ -224,25 +223,34 @@ resulting in core damage and a release of nuclear material into the environment 
 <p>In <a class="reference internal" href="../enterprise/index.html"><span class="doc">Enterprise</span></a> this aspect of scenarios-informing-scenarios is used to inform larger organizational approaches to risk.</p>
 <p>A principle of scenario building (see: <a class="reference internal" href="../principles.html#limitation"><span class="std std-ref">Limitation</span></a>) is to assume that unknown scenarios may occur. Erring towards upward investment in a hierarchy of scenarios helps defend against “unknown” branches. The initiating events that create complex problems can sometimes not be predicted, and assuming large forms of failure can help prevent disaster.</p>
 </div>
-<div class="section" id="choosing-your-judgment-criteria">
-<h2>Choosing your “judgment” criteria<a class="headerlink" href="#choosing-your-judgment-criteria" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="outcomes-and-judgments">
+<h2>Outcomes and Judgments<a class="headerlink" href="#outcomes-and-judgments" title="Permalink to this headline">¶</a></h2>
 <p>One issue in forecasting is deciding on the criteria that “closes” a forecast. For instance:</p>
 <p><strong>Scenario</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>The Cubs win the World Series this year.
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>The Cubs win the World Series in 2020.
 </pre></div>
 </div>
 <p><strong>Outcome</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>(% Likelihood of Yes / No)
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>% Likelihood of Yes / No
 </pre></div>
 </div>
-<p>This scenario is simple to judge, as you would likely respect the judgment of Major League Baseball, a reputable organization.</p>
+<p>This scenario is simple to judge, as you would likely respect the judgment of Major League Baseball to judge the outcome. Multiple outcomes can be mentioned as well. For instance:</p>
+<p><strong>Outcome</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>90% Confidence interval of margin of victory (in runs scored)
+</pre></div>
+</div>
+<p><strong>Outcome</strong></p>
+<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>% Likelihood the game went into extra innings (Yes / No)
+</pre></div>
+</div>
+<p>It’s perfectly OK to measure multiple types of outcomes related to a scenario, or have them expand upon the scenario with conditional circumstances (“Given that these condition occur…”).</p>
 <div class="admonition hint">
 <p class="first admonition-title">Hint</p>
 <p class="last">You can estimate multiple types of outcomes or values. See: <a class="reference internal" href="../estimation/measurement.html#types-of-forecasts"><span class="std std-ref">Types of Outcomes</span></a></p>
 </div>
-<p>Dictating in your scenario, or elsewhere, who will judge the outcome of the scenario, is important. The “judge” is essentially the party being forecasted, and may influence the certainty of the forecasters if poorly chosen.</p>
+<p>It is important to identify how a scenario will be judged, if this is not obvious. The “judge” becomes part of the  forecast, and may influence the certainty of the forecasters if poorly chosen.</p>
 <p>The judges that are selected to evaluate outcomes should be considered for their objectiveness to the outcome, and their lack of incentives to manipulate an outcome. In casual or workplace settings, it can be as simple as designating a team or individual to pass judgment on an outcome.</p>
-<p>Judges could be given criteria on which to judge upon. For instance: “Judges will investigate official MLB scorecards 24 hours after competition”.</p>
+<p>Judges could be given criteria on which to judge upon. For instance: “Judges will observe official MLB scorecards 24 hours after competition”.</p>
 <p>If there is concern that a Black Swan may invalidate the forecast, it is best to make sure the forecastable outcomes include “other” circumstances. For instance “The Cubs Win / The Cubs Lose / Other”. This would allow you to factor in Wrigley Field exploding, a sudden players strike, or other unknowns.</p>
 <p>Additionally, decisions can reverse. Having a scenario that mitigates the flip-flopping of an outcome will help specify forecasts. For instance, a headline that “The MLB has ruled against the Cubs in a cheating investigation, retracting their title”. A specific scenario may dictate that the MLB’s official stance 24 hours after competition matters. Or, a week, or a month, or a year, etc.</p>
 <p>This sort of specificity with long timeframes has an operational impact. You won’t get data until they officially “expire”, and would only be left with preliminary judgment until the scenario expires and data is confirmed.</p>

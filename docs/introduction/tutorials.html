@@ -161,8 +161,6 @@
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/introduction/tutorials.rst.txt" rel="nofollow"> View page source</a>
-          
         
       </li>
     
@@ -182,10 +180,12 @@
 <div class="section" id="risk-analysis">
 <span id="id1"></span><h2>Risk Analysis<a class="headerlink" href="#risk-analysis" title="Permalink to this headline">¶</a></h2>
 <p>In this example, we are concerned with a single risk. First, we develop a <a class="reference internal" href="../risk/scenarios.html"><span class="doc">scenario</span></a>.</p>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">A bank robber threatens a teller next quarter. (Yes / No)</p>
-</div>
+<dl class="docutils">
+<dt>Scenario</dt>
+<dd>A bank robber threatens a teller next quarter.</dd>
+<dt>Outcome</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">%</span> <span class="pre">Likelihood</span> <span class="pre">of</span> <span class="pre">Yes</span> <span class="pre">/</span> <span class="pre">No:</span></code></dd>
+</dl>
 <p>This meets the criteria of a scenario by including an observable event (“A bank robber threatens a teller”), and includes a specific timeframe (“Next Quarter”). Without either of these, we lose our ability to quantify risk.</p>
 <p>The observable judgment criteria could be established by bank’s security team declaring the incident, or maybe the creation of a police report. We would just need to trust that our criteria would offer us a stable, observable event.</p>
 <p>The forecaster who is asked to measure the risk would then assign a likelihood to “Yes” or “No”. (See: <a class="reference internal" href="../estimation/measurement.html#forecasting"><span class="std std-ref">Forecasting</span></a>)</p>
@@ -198,14 +198,14 @@
 <p>In this example, we are concerned with gathering, and comparing more than one risk.</p>
 <p>In our example, let’s say that a CEO has asked us to assess the risks that they will become infected with a virus on their laptop. For sake of an example, let’s say that after extensive brainstorming, we came up with only two possible scenarios.</p>
 <p>We develop two <a class="reference internal" href="../risk/scenarios.html"><span class="doc">scenarios</span></a>:</p>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">A: A malicious insider employee infects our CEO’s laptop with a virus next quarter. (Yes / No)</p>
-</div>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">B: A malicious website infects our CEO’s laptop with a virus next quarter. (Yes / No)</p>
-</div>
+<dl class="docutils">
+<dt>Scenario A</dt>
+<dd>A malicious insider employee infects our CEO’s laptop with a virus next quarter.</dd>
+<dt>Scenario B</dt>
+<dd>A malicious website infects our CEO’s laptop with a virus next quarter.</dd>
+<dt>Outcome (A, B)</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">%</span> <span class="pre">Likelihood</span> <span class="pre">of</span> <span class="pre">Yes</span> <span class="pre">/</span> <span class="pre">No:</span></code></dd>
+</dl>
 <p>We have two scenarios with similar outcomes (The CEO gets a virus), but differing threats (A malicious insider or a malicious website). Both share a similar timeframe.</p>
 <p>We would perform a <a class="reference internal" href="#risk-analysis"><span class="std std-ref">Risk Analysis</span></a> on both of these scenarios. Given that they are similar, a forecaster would likely rely on some useful data that informs both forecasts.</p>
 <p>As an example, let’s say the forecaster believes that Scenario A has a “Yes” likelihood of <code class="docutils literal notranslate"><span class="pre">1%</span></code> (and “No” of <code class="docutils literal notranslate"><span class="pre">99%</span></code>), while Scenario B has a likelihood of Yes of <code class="docutils literal notranslate"><span class="pre">35%</span></code> (and “No” of <code class="docutils literal notranslate"><span class="pre">65%</span></code>).</p>
@@ -216,10 +216,12 @@
 <h2>Risk Management<a class="headerlink" href="#risk-management" title="Permalink to this headline">¶</a></h2>
 <p>In this example we are concerned with mitigating our risks over time, with our efforts and resources.</p>
 <p>Let’s use our first scenario from Risk Analysis again. In that example, our forecaster assigned a 5% likelihood to the following scenario:</p>
-<div class="warning admonition">
-<p class="first admonition-title">Scenario</p>
-<p class="last">A bank robber threatens a teller next quarter. (Yes / No)</p>
-</div>
+<dl class="docutils">
+<dt>Scenario</dt>
+<dd>A bank robber threatens a teller next quarter.</dd>
+<dt>Outcome</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">%</span> <span class="pre">Likelihood</span> <span class="pre">of</span> <span class="pre">Yes</span> <span class="pre">/</span> <span class="pre">No:</span></code> Yes 5%</dd>
+</dl>
 <p>Imagine if the bank wasn’t OK with this level of risk to their employees, and decided to invest in a mitigation, like an armed guard near the tellers. Maybe they make this decision because other banks in the area don’t have an armed guard, making them the least attractive target.</p>
 <p>Assume that this information is valuable to the forecaster. Given that no other substantial information has changed regarding the risk, they would forecast again next quarter, let’s say at 3%, a reduction of 2% from the original 5%.</p>
 <p>If these assumptions weren’t correct, and for some reason this mitigation increased risks in the mind of the forecaster, then it would reflect itself with an increasing likelihood in the measurement.</p>
