@@ -1,6 +1,6 @@
 Culture
 =======
-Many forms of cultural debt exist in the workplace that can hinder a team from really taking advantage of collaborative risk measurement methods.
+Many forms of cultural debt exist in the workplace that can hinder a team from really taking advantage of collaborative risk measurement methods. Outside of the principles in this document, the focused norms adopted by a group should help improve probabilistic approaches to risk.
 
 These items are difficult to enforce in the documentation and are better discussed more freely.
 
@@ -19,7 +19,7 @@ Some simple tests to understand if you're thinking about risk correctly, are sce
 - An intruder has bypassed our frontline defenses. (Measure: How likely would you detect them? How long would it take to detect? How much damage would occur?)
 - Business has been interrupted due to a system outage. (Measure: How long until you'd come back online? Would you come online? How many customers would go away?)
 
-A mindset that mitigates few broad outcomes as opposed to preventing endless amounts of causes is valuable. This mindset helps mitigate eventual failure, and helps mitigate failures of human imagination.
+A mindset that mitigates a few broad outcomes as opposed to preventing endless amounts of causes is valuable. This mindset helps mitigate eventual failure, and helps mitigate failures of human imagination.
 
 Minds that are open to new information.
 ---------------------------------------
@@ -39,6 +39,6 @@ Blame should be avoided during post-mortem sessions. Root cause knowledge should
 
 Remove incentives that corrupt forecasts.
 -------------------------------------------
-A "million dollar" management problem that haunts all organization are the incentives to be promoted, secure a budget, etc. A principle of OKR's has always been to keep the pursuit of Key Results out of performance management. Decision markets have also seen toxicity brew as individual finances became involved.
+A "Million dollar" management problem that haunts all organization are the incentives to empire build, be promoted, secure a budget, etc. A principle of OKR's has always been to keep the pursuit of Key Results out of performance management. Decision markets have also seen toxicity brew as individual finances became involved.
 
 Avoiding outside influence that politicize or gamify forecasting will help match the culture and mindset currently seen in meteorology. Weather is not considered a betting environment, nor a market.

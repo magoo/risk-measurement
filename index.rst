@@ -11,9 +11,9 @@ Simple Risk Measurement
 .. note::
   In draft. Please send feedback to @magoo
 
-If you are motivated by risk problems and are frustrated by how difficult they are to measure, you may find this documentation useful. Simple Risk Measurement can get you started towards a comprehensive and scientific approach to risk. It is designed to enhance subject matter experts who work with risk, especially those who mitigate complex risks on an ongoing basis.
+If you are an engineer motivated by the reduction of risk and are frustrated by how to measure your progress, you may find this documentation useful. Simple Risk Measurement can get you started towards a comprehensive and scientific approach to risk. It is designed to enhance subject matter experts who work with risk, especially those who mitigate complex risks on an ongoing basis.
 
-See :doc:`risk </risk/defined>` to better understand the risk problem in engineering.
+See :doc:`Risk </risk/defined>` to better understand this problem in engineering.
 
 How does it work?
 ------------------------------------------
@@ -49,7 +49,7 @@ Has a specific risk gotten better or worse?
   We can measure a risk over time and observe differences if it is being mitigated (or not).
 
 Which mitigation option(s) should we choose?
-  We can measure many mitigation options and compare them quantitatively.
+  We can measure many mitigation options and quantitatively compare their impact on undesired outcomes.
 
 How do we measure many risks?
   We can organize many risks that are being measured and use them to inform broader risks.
@@ -63,12 +63,10 @@ This method is *industry agnostic*. This creates very helpful limitations that, 
 
 This documentation does not prescribe:
 
-1. The evidence or statistical methods that must be organized for an estimation.
+1. The governance of your risks, or accountable parties.
 2. The scenarios you should define for your risks.
 3. The approaches you should to mitigate your risks.
 
-This method does prescribe creativity in your efforts, within a method that allows quantification.
-
-There is always something to measure.
+By avoiding these subjects, this method hopes to measure any creative approaches to risk mitigation.
 
 .. include:: toc.rst

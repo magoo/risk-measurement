@@ -47,7 +47,7 @@ Some industries have created, and enforce, whistleblower regulation to protect c
 
 Decision makers knowing that these channels exist which could question the integrity of risk measurement may find greater certainty in the information brought to them when issues are not surfaced.
 
-The quality of these channels can also be measured, and if distrust of these channels exist, it can also be mitigated.
+The quality of these channels can also be measured, and if distrust of these channels exists, it can also be mitigated.
 
 Decomposition of risk into a register.
 ------------------------------------------
@@ -126,6 +126,8 @@ Each value would be the result of a `rand()` value. Run many thousands of times,
 
 As models become more complex, Monte Carlo tools allow for cheap models and estimation without attempting to "solve" for risk mathematically. Monte Carlo methods are a powerful tool to critically inspect assumptions about risk, help build models that support all known context about a risk, and introduce uncertainty for values that don't behave predictably.
 
+Most importantly, the complex interactions between risks can be considered in Monte Carlo models. For instance, as the stresses increase for a ```hull_breach``, the likelihood of an ``electric_failure`` may increase as well, even before a ``hull_breach`` condition is met. Major disasters are known for having several root causes with complicated, deeply coupled interactions with complex systems, and Monte Carlo modeling helps capture these interactions.
+
 Quarterly estimations of a risk might be common in a business setting. If there is a belief that a scenario could occur with a specific quarterly likelihood, it could help estimate an annual likelihood as well, and vice versa.
 
 That said, a scenario with a 5% chance of occurring in a quarter may have a ~19% chance of occurring in a year, as there are four quarters in a year and four opportunities to occur during the year.
@@ -147,6 +149,8 @@ Quarterly likelihood of Occurrence  Estimated Annual Occurrence (Monte Carlo)
 These can be directly calculated with the `principle of inclusion / exclusion`_, but is generally easier to model risk with monte carlo methods.
 
 .. _principle of inclusion / exclusion: https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle
+
+
 
 Panels of Forecasters
 ------------------------------------------

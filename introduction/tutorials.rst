@@ -69,7 +69,7 @@ Scenario
 Outcome
   ``% Likelihood of Yes / No:`` Yes 5%
 
-Imagine if the bank wasn't OK with this level of risk to their employees, and decided to invest in a mitigation, like an armed guard near the tellers. Maybe they make this decision because other banks in the area don't have an armed guard, making them the least attractive target.
+Imagine if the bank wasn't OK with this level of risk to their employees, and decided to invest in a mitigation, like an armed guard near the tellers. Maybe they make this decision because other banks in the area don't have an armed guard, making the guarded bank the least attractive target.
 
 Assume that this information is valuable to the forecaster. Given that no other substantial information has changed regarding the risk, they would forecast again next quarter, let's say at 3%, a reduction of 2% from the original 5%.
 

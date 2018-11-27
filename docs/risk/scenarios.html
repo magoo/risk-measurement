@@ -177,6 +177,7 @@
             
   <div class="section" id="scenarios">
 <h1>Scenarios<a class="headerlink" href="#scenarios" title="Permalink to this headline">¶</a></h1>
+<p>We use <strong>scenarios</strong> to specifically define future events that we’d like to measure. This must happen before we forecast its outcomes. (See <a class="reference internal" href="../estimation/measurement.html#forecasting"><span class="std std-ref">Forecasting</span></a>)</p>
 <p>In our discussion about <a class="reference internal" href="defined.html"><span class="doc">risk</span></a> we discussed the <em>likelihood</em> and <em>impact</em> of a future event.</p>
 <p>A point of failure in measurement is ambiguity about a risk problem being solved. A group of very smart people can spin in circles discussing a risk if they don’t pin a specific outcome down first.</p>
 <p>To do this, we explicitly define a risk with a <em>scenario</em>, which is an unambiguous statement about a future value or event. These statements should make the author sweat.</p>
@@ -187,60 +188,61 @@
 </div>
 <p>Here’s a batch of examples:</p>
 <p><strong>Scenario</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>The house burns down next quarter.
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>The house burns down next quarter.
 </pre></div>
 </div>
 <p><strong>Scenario</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>An earthquake has destroyed one of the three critical bridges this year.
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>An earthquake has destroyed one of the three critical bridges this year.
 </pre></div>
 </div>
 <p><strong>Scenario</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>We are named in a headline lawsuit in a major publication within the next three months.
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>We are named in a headline lawsuit in a major publication within the next three months.
 </pre></div>
 </div>
 <p>You may have heard of this format for a risk before!</p>
-<p>Many industries advocate for the <em>tabletop scenario</em> as a way to encourage brainstorming and better understanding of risks.</p>
-<p>Scenarios are directly compatible with these activities, as they are simply scenarios without a timeframe. In a tabletop, you generally role play that a scenario has already happened.</p>
+<p>It should be familiar because many industries advocate for the <a href="#id1"><span class="problematic" id="id2">`*tabletop scenario*`_</span></a> as a way to encourage brainstorming and better understanding of risks.</p>
+<p>The scenarios we create are closely related with these activities. They can easily be explored in a tabletop environment.</p>
 <div class="section" id="always-include-a-specific-timeframe">
 <h2>Always include a specific timeframe.<a class="headerlink" href="#always-include-a-specific-timeframe" title="Permalink to this headline">¶</a></h2>
-<p>We must include a specific timeframe with our scenario if we want to forecast against it. A risk can be viewed completely differently if it described as something happening tomorrow, or within the next ten years.</p>
+<p>We must include a specific timeframe with our scenarios. A risk can be viewed completely differently if it described as something happening tomorrow, or within the next ten years. Discussing scenarios without specific timeframes will cause communication and prioritization issues.</p>
 </div>
 <div class="section" id="view-scenarios-as-a-hierarchy">
 <h2>View scenarios as a hierarchy.<a class="headerlink" href="#view-scenarios-as-a-hierarchy" title="Permalink to this headline">¶</a></h2>
 <p>A scenario has ties to the <a class="reference external" href="https://en.wikipedia.org/wiki/Fault_tree_analysis">Fault Tree</a> and <a class="reference external" href="https://en.wikipedia.org/wiki/Tree_diagram_(probability_theory)">Tree diagram</a>, whereas higher level outcomes at the top of a tree aggregate the likelihoods of more specific events at the branches of a tree.</p>
 <p>A specific example, a meltdown event at a nuclear facility is a scenario we’d like to avoid.</p>
-<p><strong>Scenario</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>A core damage event releases nuclear material into the environment this year.
+<p><strong>Scenario A</strong></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>A core damage event releases nuclear material into the environment this year.
 </pre></div>
 </div>
-<p>This scenario could be caused by a variety of issues that are far less vague and more specific.</p>
-<p><strong>Scenario</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>A tsunami has flooded the power station and caused a loss of pressure in cooling systems,
+<p>This scenario could be caused by a variety of issues that are far less vague and more specific. For instance, the following <strong>Scenario B</strong> caused <strong>Scenario A</strong>, just mentioned above, in the Fukishima disaster.</p>
+<p><strong>Scenario B</strong></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>A tsunami has flooded the power station and caused a loss of pressure in cooling systems,
 resulting in core damage and a release of nuclear material into the environment this year.
 </pre></div>
 </div>
-<p>This is described as “decomposition” of a risk. It is a form of flexibility that allows you to be more or less specific and target more narrow measurement or wide view measurement. The former scenario would attract far more root causes that could cause a core damage event, while the latter scenario is highly dependent on factors like the weather and the resiliency of cooling systems.</p>
+<p>This is described as “decomposition” of a risk. It is a form of flexibility in scenario building. With this flexibility, one could target broad failures, or more narrow ones, by being more or less precise with language . The former <strong>Scenario A</strong> would include the likelihood of many possible root causes that could cause a core damage event. The latter <strong>Scenario B</strong> is more narrowly dependent on factors like the weather and the resiliency of cooling systems.</p>
 <p>In <a class="reference internal" href="../enterprise/index.html"><span class="doc">Enterprise</span></a> this aspect of scenarios-informing-scenarios is used to inform larger organizational approaches to risk.</p>
 <p>A principle of scenario building (see: <a class="reference internal" href="../principles.html#limitation"><span class="std std-ref">Limitation</span></a>) is to assume that unknown scenarios may occur. Erring towards upward investment in a hierarchy of scenarios helps defend against “unknown” branches. The initiating events that create complex problems can sometimes not be predicted, and assuming large forms of failure can help prevent disaster.</p>
+<p>We can use this flexibility to model risks and measure them. We can decompose a risk with greater resource and available effort, but not so much that we lose sight of our risks and become vulnerable to uncertainty that was not accounted for.</p>
 </div>
 <div class="section" id="outcomes-and-judgments">
 <h2>Outcomes and Judgments<a class="headerlink" href="#outcomes-and-judgments" title="Permalink to this headline">¶</a></h2>
 <p>One issue in forecasting is deciding on the criteria that “closes” a forecast. For instance:</p>
 <p><strong>Scenario</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>The Cubs win the World Series in 2020.
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>The Cubs win the World Series in 2020.
 </pre></div>
 </div>
 <p><strong>Outcome</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>% Likelihood of Yes / No
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>% Likelihood of Yes / No
 </pre></div>
 </div>
 <p>This scenario is simple to judge, as you would likely respect the judgment of Major League Baseball to judge the outcome. Multiple outcomes can be mentioned as well. For instance:</p>
 <p><strong>Outcome</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>90% Confidence interval of margin of victory (in runs scored)
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>90% Confidence interval of margin of victory (in runs scored)
 </pre></div>
 </div>
 <p><strong>Outcome</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>% Likelihood the game went into extra innings (Yes / No)
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>% Likelihood the game went into extra innings (Yes / No)
 </pre></div>
 </div>
 <p>It’s perfectly OK to measure multiple types of outcomes related to a scenario, or have them expand upon the scenario with conditional circumstances (“Given that these condition occur…”).</p>

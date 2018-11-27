@@ -172,6 +172,7 @@ Maybe the oldest area of forecasting. Understanding the industrial development o
 
 .. [#] Weather Analysis and Forecasting https://www.ametsoc.org/ams/index.cfm/about-ams/ams-statements/statements-of-the-ams-in-force/weather-analysis-and-forecasting/
 .. [#] Wikipedia contributors. "Timeline of meteorology." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 27 Sep. 2018. Web. 8 Nov. 2018.
+.. [#] Bauer, Peter & Thorpe, Alan & Brunet, Gilbert. (2015). The quiet revolution of numerical weather prediction. Nature. 525. 47-55. 10.1038/nature14956. https://www.researchgate.net/publication/281516336_The_quiet_revolution_of_numerical_weather_prediction
 
 .. _Cognitive Error:
 

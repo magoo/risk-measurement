@@ -191,18 +191,22 @@
             
   <div class="section" id="measurement">
 <h1>Measurement<a class="headerlink" href="#measurement" title="Permalink to this headline">¶</a></h1>
+<p>With scenarios created (See: <a class="reference internal" href="../risk/scenarios.html"><span class="doc">Scenarios</span></a>), we can measure our certainty related to the outcomes associated with them with forecasts. (See: <a class="reference internal" href="#forecasting"><span class="std std-ref">Forecasting</span></a>)</p>
+<p>This requires a perspective on measurement that makes the concept of “uncertainty” forefront.</p>
 <p>We often use instruments to measure things. For instance, a ruler to measure the size of a table. However, we rely on estimation when instruments do not exist for our area of measurement.</p>
-<p>Ultimately, it is well understood that all forms of measurement are, in essence, an <a class="reference external" href="https://plato.stanford.edu/entries/measurement-science/">approximation</a>. This is well discussed both in philosophy and more practically in <a class="reference external" href="https://en.wikipedia.org/wiki/Joint_Committee_for_Guides_in_Metrology">international standards</a>.</p>
-<p>As an example, any weight scale you might own is likely calibrated to an approximation of many intermediary approximations to a “<a class="reference external" href="https://www.bipm.org/en/bipm/mass/ipk/">international prototype</a>” stored in an underground vault in France.</p>
-<p>In risk, we are concerned with future events and their impacts. No instrument exists that can <em>directly</em> measure future events. As a result, we often find ourselves approximating the most likely outcome by understanding past events or reference classes.</p>
-<p>An estimation of a likelihood is typically called forecast.</p>
+<p>Ultimately, it is well understood that all forms of measurement are, in essence, an <a class="reference external" href="https://plato.stanford.edu/entries/measurement-science/">approximation</a>. This is discussed very broadly in philosophy and more practically in <a class="reference external" href="https://en.wikipedia.org/wiki/Joint_Committee_for_Guides_in_Metrology">international standards</a>.</p>
+<p>As an example, any weight scale you might own today is likely calibrated to an approximation of many intermediary approximations to an <a class="reference external" href="https://www.bipm.org/en/bipm/mass/ipk/">international prototype</a> stored in an underground vault in France. The definition of a “kilogram” has changed over time. Only recently (Nov 2018) has it been defined by a universal constant. Even so, devices will be calibrated to an approximation of this constant.</p>
+<p>In risk, we are concerned with future events and their impacts. No instrument exists that can <em>directly</em> measure future events. As a result, we often find ourselves needing to approximate the likelihood and impact of any number of potential future outcomes of an event by relying on expert interpretation of historical data, reference classes, and statistical models.</p>
+<p>This approximation of future outcomes is typically called a <strong>forecast</strong>. As individuals concerned with future, undesirable events (our risk), we find ourselves forecasting the likelihood or impacts of these events.</p>
 <p>As the role of information becomes more prevalent in a forecast, we can reduce (but never eliminate) our uncertainty in a given scenario.</p>
 <p>The primary feature of this documentation is to make all concepts of “risk” subject to quantitative techniques, and forecasting is one of these important methods.</p>
 <div class="section" id="some-thoughts-on-definitions">
 <h2>Some thoughts on definitions:<a class="headerlink" href="#some-thoughts-on-definitions" title="Permalink to this headline">¶</a></h2>
-<p>By sticking to principles (See: <span class="xref std std-ref">principles</span>), this documentation is opinionated on the usage of some risk language. <em>Estimations</em> are a form of approximation for any unknown value. A <em>forecast</em> is a an estimation of a value that doesn’t exist yet. An estimate is not necessarily a forecast, but a forecast is an estimate.</p>
-<p>There are grey areas for these terms. For instance, an unknown quantity may also be a future value. These will be worked out as this documentation as opportunities to simplify may arise. The authors are already aware of industry conflicting definitions.</p>
-<p>A <em>prediction</em> does not necessarily mean a “100% belief”, but should probably be avoided as it can be interpreted poorly.</p>
+<p>By sticking to principles (See: <a class="reference internal" href="../principles.html"><span class="doc">Principles</span></a>), this documentation is opinionated on the usage of some risk language. <em>Estimations</em> are a form of approximation for any unknown value. A <em>forecast</em> is a an estimation of a value that doesn’t exist yet. An estimate is not necessarily a forecast, but a forecast is an estimate.</p>
+<p>For the purposes of this documentation, there is not much different between something that is unknown (or, “yet to be revealed”) and something that hasn’t happened (“a future event”). For instance, an unknown quantity may also be a future value. It may not be known if a value exists yet.</p>
+<p>An example: “Monsters are underneath the bed” could both be a future event (they might not be there yet, but they could be there soon) and also information to be revealed (they were / are always there, you just haven’t looked yet).</p>
+<p>There are likely more grey areas for these terms. These will be worked out as this documentation as opportunities to simplify may arise.</p>
+<p>Lastly, a <em>prediction</em> does not necessarily mean a “100% belief”, but that language probably be avoided as it can be interpreted poorly. Forecast seems to be more appropriate, given people’s familiarity with the uncertainty of weather predictions. IE, “<em>We predict an 80% likelihood</em>” versus “<em>We forecast an 80% likelihood</em>”.</p>
 </div>
 </div>
 <div class="section" id="forecasting">
@@ -229,7 +233,7 @@
 <span id="id3"></span><h2>Keeping Score<a class="headerlink" href="#keeping-score" title="Permalink to this headline">¶</a></h2>
 <p>Forecasts that include their associated confidence can make use of the <a class="reference external" href="https://en.wikipedia.org/wiki/Brier_score">Brier Score</a> to record accuracy over time. This is simply calculated as the “Squared Error”.</p>
 <p>The Good Judgement Open has an <a class="reference external" href="https://www.gjopen.com/faq">accessible definition</a> of the Brier Score:</p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>The Brier score is the squared error of a probabilistic forecast.
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>The Brier score is the squared error of a probabilistic forecast.
 To calculate it, we divide your forecast by 100 so that your probabilities
 range between 0 (0%) and 1 (100%). Then, we code reality as either 0 (if the
 event did not happen) or 1 (if the event did happen). For each answer option,
@@ -360,6 +364,9 @@ Brier score is 0, and the worst (highest) possible Brier score is 2.
 <p>This table shows an average brier score of <code class="docutils literal notranslate"><span class="pre">1.49556</span></code>. Any reasonable individual would consider those forecasts <em>not useful</em>.</p>
 <p>Your industry will vary on what a “useful” threshold for a forecast source would be. For instance, a Brier Score that forecasts data related to part failures and explosions will be very different from a risk forecast about missed project deadlines. This documentation leaves that up to the engineers involved to set their requirements.</p>
 <p>However, all industries can agree that engineers seeing a reduction of a Brier Score over time is a favorable trend, and is a useful engineering metric that can be targeted over time and improved upon.</p>
+<p>Forecast sources can also be compared with the “Brier Skill Score”, in which we can discover better risk prediction  models or methods. This is heavily used in meteorology to compare the value of a predictive model to a tried and true model, like a simple historical average. It is expressed simply with two Brier scores being compared below.</p>
+<blockquote>
+<div><code class="docutils literal notranslate"><span class="pre">BrierSkillScore</span> <span class="pre">=</span> <span class="pre">1.0</span> <span class="pre">–</span> <span class="pre">BrierScoreNew</span> <span class="pre">/</span> <span class="pre">BrierScoreReference</span></code></div></blockquote>
 </div>
 <div class="section" id="types-of-outcomes">
 <span id="types-of-forecasts"></span><h2>Types of Outcomes<a class="headerlink" href="#types-of-outcomes" title="Permalink to this headline">¶</a></h2>
@@ -370,11 +377,11 @@ Brier score is 0, and the worst (highest) possible Brier score is 2.
 <h3>Yes or No<a class="headerlink" href="#yes-or-no" title="Permalink to this headline">¶</a></h3>
 <p>The simplest type of forecast asks an expert for their belief of a binary outcome. For instance:</p>
 <p><strong>Scenario</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>Will it rain tomorrow?
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Will it rain tomorrow?
 </pre></div>
 </div>
 <p><strong>Outcome</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>(Yes / No)
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>(Yes / No)
 </pre></div>
 </div>
 <p>A forecaster may express themselves by saying Yes: 60%, No: 40%, if they believe it’s more likely that not to rain. Or for instance, Yes: 0.01%, No: 99.99% if the forecaster lives in the desert.</p>
@@ -384,26 +391,30 @@ Brier score is 0, and the worst (highest) possible Brier score is 2.
 <h3>Over / Under<a class="headerlink" href="#over-under" title="Permalink to this headline">¶</a></h3>
 <p>To include some aspect of “impact” in a risk, you can bake an over / under value into the scenario.</p>
 <p><strong>Scenario</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>Will there be more than **three inches** of rainfall tomorrow? (Yes / No)
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Will there be more than **three inches** of rainfall tomorrow? (Yes / No)
 </pre></div>
 </div>
 <p><strong>Outcome</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>(Yes / No)
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>(Yes / No)
 </pre></div>
 </div>
-<p>This is similar to the previous forecast, but instead adds a numeric condition that must be met. This is useful when investigating the likelihood that some risk will meet a threshold or tolerance level you need to better understand. For instance, there may be a legal reason to close down schools with a certain height of snow, or maybe a certain amount of losses that your insurance couldn’t cover.</p>
 <p>Both likelihoods would need to sum to 100%.</p>
+<p>This is similar to the previous forecast, but instead adds a numeric condition that must be met. This is useful when investigating the likelihood that some risk will meet a threshold or tolerance level you need to better understand. For instance, there may be a legal reason to close down schools with a certain height of snow, or maybe a certain amount of losses that your insurance couldn’t cover.</p>
+<p>Alternatively, this could help determine a value for <a class="reference external" href="https://www.naic.org/cipr_topics/topic_parametric_disaster_insurance.htm">parametric insurance</a>, in which a payout occurs if a threshold is met. For instance:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>A policy that pays $100,000 if an earthquake with magnitude 5.0 or greater occurs.
+</pre></div>
+</div>
 </div>
 <div class="section" id="multiple-options">
 <h3>Multiple Options<a class="headerlink" href="#multiple-options" title="Permalink to this headline">¶</a></h3>
 <p>Some forecasts may include many outcomes. For instance:</p>
 <p><strong>Scenario</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>Our potential customer has decided on a vendor.
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Our potential customer has decided on a vendor.
 </pre></div>
 </div>
 <p>This could be answered with multiple options, like (A: Us, B: Competitor 1, C: Competitor 2, D, Competitor 3, E: No Decision / Walkout.)</p>
 <p><strong>Outcome</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>% Likelihood
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>% Likelihood
 A: Us
 B: Competitor 1
 C: Competitor 2
@@ -415,18 +426,19 @@ E: No Decision / Walkout / Other
 </div>
 <div class="section" id="confidence-intervals">
 <h3>Confidence Intervals<a class="headerlink" href="#confidence-intervals" title="Permalink to this headline">¶</a></h3>
-<p>A <a class="reference external" href="https://en.wikipedia.org/wiki/Confidence_interval">confidence interval</a> represents a range of possible values, and also includes a percentage belief that the outcome will fall into it. A forecaster would then expand their range of values to increase their expression of uncertainty, and an engineer’s efforts would widen or narrow this range. For example:</p>
+<p>A <a class="reference external" href="https://en.wikipedia.org/wiki/Confidence_interval">confidence interval</a> represents a range of possible values, and also includes a percentage belief (<code class="docutils literal notranslate"><span class="pre">confidence</span></code>) that the outcome will fall into it. A forecast source (a model, or an expert) would then expand their range of values to increase their expression of uncertainty, and increased effort and data would widen or narrow this uncertainty. For example:</p>
 <p><strong>Scenario</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>Police have responded to a protest at City Hall.
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Police have responded to a protest at City Hall.
 </pre></div>
 </div>
 <p><strong>Outcome</strong></p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>(# of arrests, 70% confidence)
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>(# of arrests, 70% confidence)
 </pre></div>
 </div>
-<p>A forecaster may answer this with an interval of 5-10 arrests. If, for instance, they were asked for a more aggressive forecast (say, 70%), they may answer a more narrow range that results in a higher rate of being wrong. An example of a 60% confidence forecast for the same question could be 2-7 arrests, and so on.</p>
+<p>A forecast source may answer this with an interval of 5-10 arrests, with a caveat that they expect with 70% likelihood, to eventually be correct (their confidence). If, for instance, they were asked for a less uncertain forecast, they may respond with a 6-8 interval with a 50% confidence.</p>
+<p>Depending on your subject matter, it should be clear that some combinations of confidence and uncertainty are more or less useful than others. For instance, a 50% confidence of -1000-1000 arrests is not very useful, given the scenario of arrests at city hall.</p>
 <p>A visual example of a percentage belief that an unknown value will end up within this range when revealed.:</p>
-<div class="highlight-None notranslate"><div class="highlight"><pre><span></span>                               70% Certainty
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>                               70% Certainty
 
                                      │
                                      │

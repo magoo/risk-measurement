@@ -21,9 +21,9 @@ Locality
 --------------------------------------------------------------------
 Let's make risk measurement accessible to those closest to the mitigation.
 
-Risk measurement methods are quickly disposed from regular practice if they are too cumbersome to wield. An engineer tasked with risk mitigation tasks should be able to measure their work, independently.
+Risk measurement methods are quickly disposed from regular practice if they are too cumbersome to wield. An engineer tasked with risk mitigation should be able to measure their work, independently.
 
-If the cost for measurement effort requires full time staff, dedicated software, and more than a couple hours of effort, it likely won't be leveraged closer to when a risk originates.
+If the cost for measurement effort requires full time staff, dedicated software, and more than a couple hours of effort, it likely won't be leveraged by engineers directly involved where risk is created.
 
 The efforts involved with risk measurement should be simplified and centralized around likelihoods and impacts that don't exceed what can be easily learned with basic math.
 
@@ -63,10 +63,10 @@ Relativity
 --------------------------------------------------------
 Let's appreciate that risk is a single decision making factor.
 
-Sometimes it is better to work on a risk that has momentum, resource, interest, and other management observations before one that measures higher. Risk is a small part of organizational needs, but risk should be understood properly.
+Sometimes it is better to work on a risk that has momentum, resource, interest, and other management observations before a  measurably higher risk. Risk is a simply part of an organizations goals. A low prioritization of risk at an organization should only change the rigor and resource associated with measurement, not the wholesale removal of scientific approach.
 
 Irrationality
 ---------------------------------------------
 Let's assume that fully quantitative workplaces do not exist.
 
-Even the most mature risk organization suffer from subjective, qualitative, or irrational decision making. Measurement approaches must be effective under these circumstances, so that they efforts can be observed and measured in the future regardless of how they began. More rational decision making cannot happen without starting somewhere. This documentation should celebrate environments that are just starting to measure risk, and assume a variety of limitations and external influences.
+Even the most mature risk organization suffer from subjective, qualitative, or irrational decision making. Measurement approaches must be effective under these circumstances, so that their efforts can be observed and measured in the future regardless of how those efforts began. More rational decision making cannot happen without starting somewhere. This documentation should celebrate environments that are just starting to measure risk, and assume a variety of limitations and external influences.

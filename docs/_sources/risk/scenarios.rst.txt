@@ -1,7 +1,9 @@
-.. highlight:: None
+.. highlight:: none
 
 Scenarios
 =========
+
+We use **scenarios** to specifically define future events that we'd like to measure. This must happen before we forecast its outcomes. (See :ref:`Forecasting`)
 
 In our discussion about :doc:`risk </risk/defined>` we discussed the *likelihood* and *impact* of a future event.
 
@@ -32,13 +34,15 @@ Here's a batch of examples:
 
 You may have heard of this format for a risk before!
 
-Many industries advocate for the *tabletop scenario* as a way to encourage brainstorming and better understanding of risks.
+It should be familiar because many industries advocate for the `*tabletop scenario*`_ as a way to encourage brainstorming and better understanding of risks.
 
-Scenarios are directly compatible with these activities, as they are simply scenarios without a timeframe. In a tabletop, you generally role play that a scenario has already happened.
+.. _tabletop scenario: https://www.ready.gov/business/testing/exercises
+
+The scenarios we create are closely related with these activities. They can easily be explored in a tabletop environment.
 
 Always include a specific timeframe.
 ------------------------------------
-We must include a specific timeframe with our scenario if we want to forecast against it. A risk can be viewed completely differently if it described as something happening tomorrow, or within the next ten years.
+We must include a specific timeframe with our scenarios. A risk can be viewed completely differently if it described as something happening tomorrow, or within the next ten years. Discussing scenarios without specific timeframes will cause communication and prioritization issues.
 
 View scenarios as a hierarchy.
 ------------------------------
@@ -46,19 +50,18 @@ A scenario has ties to the `Fault Tree`_ and `Tree diagram`_, whereas higher lev
 
 A specific example, a meltdown event at a nuclear facility is a scenario we'd like to avoid.
 
-**Scenario** ::
+**Scenario A** ::
 
   A core damage event releases nuclear material into the environment this year.
 
-This scenario could be caused by a variety of issues that are far less vague and more specific.
+This scenario could be caused by a variety of issues that are far less vague and more specific. For instance, the following **Scenario B** caused **Scenario A**, just mentioned above, in the Fukishima disaster.
 
-**Scenario** ::
+**Scenario B** ::
 
   A tsunami has flooded the power station and caused a loss of pressure in cooling systems,
   resulting in core damage and a release of nuclear material into the environment this year.
 
-
-This is described as "decomposition" of a risk. It is a form of flexibility that allows you to be more or less specific and target more narrow measurement or wide view measurement. The former scenario would attract far more root causes that could cause a core damage event, while the latter scenario is highly dependent on factors like the weather and the resiliency of cooling systems.
+This is described as "decomposition" of a risk. It is a form of flexibility in scenario building. With this flexibility, one could target broad failures, or more narrow ones, by being more or less precise with language . The former **Scenario A** would include the likelihood of many possible root causes that could cause a core damage event. The latter **Scenario B** is more narrowly dependent on factors like the weather and the resiliency of cooling systems.
 
 .. _Fault tree: https://en.wikipedia.org/wiki/Fault_tree_analysis
 
@@ -67,6 +70,8 @@ This is described as "decomposition" of a risk. It is a form of flexibility that
 In :doc:`Enterprise </enterprise/index>` this aspect of scenarios-informing-scenarios is used to inform larger organizational approaches to risk.
 
 A principle of scenario building (see: :ref:`Limitation`) is to assume that unknown scenarios may occur. Erring towards upward investment in a hierarchy of scenarios helps defend against "unknown" branches. The initiating events that create complex problems can sometimes not be predicted, and assuming large forms of failure can help prevent disaster.
+
+We can use this flexibility to model risks and measure them. We can decompose a risk with greater resource and available effort, but not so much that we lose sight of our risks and become vulnerable to uncertainty that was not accounted for.
 
 Outcomes and Judgments
 ----------------------------------

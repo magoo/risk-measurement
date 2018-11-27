@@ -1,21 +1,26 @@
-.. highlight:: None
+.. highlight:: none
 
 Measurement
 ===========
+
+With scenarios created (See: :doc:`Scenarios </risk/scenarios>`), we can measure our certainty related to the outcomes associated with them with forecasts. (See: :ref:`Forecasting`)
+
+This requires a perspective on measurement that makes the concept of "uncertainty" forefront.
+
 We often use instruments to measure things. For instance, a ruler to measure the size of a table. However, we rely on estimation when instruments do not exist for our area of measurement.
 
-Ultimately, it is well understood that all forms of measurement are, in essence, an approximation_. This is well discussed both in philosophy and more practically in `international standards`_.
+Ultimately, it is well understood that all forms of measurement are, in essence, an approximation_. This is discussed very broadly in philosophy and more practically in `international standards`_.
 
 .. _approximation: https://plato.stanford.edu/entries/measurement-science/
 .. _international standards: https://en.wikipedia.org/wiki/Joint_Committee_for_Guides_in_Metrology
 
-As an example, any weight scale you might own is likely calibrated to an approximation of many intermediary approximations to a "`international prototype`_" stored in an underground vault in France.
+As an example, any weight scale you might own today is likely calibrated to an approximation of many intermediary approximations to an `international prototype`_ stored in an underground vault in France. The definition of a "kilogram" has changed over time. Only recently (Nov 2018) has it been defined by a universal constant. Even so, devices will be calibrated to an approximation of this constant.
 
 .. _international prototype: https://www.bipm.org/en/bipm/mass/ipk/
 
-In risk, we are concerned with future events and their impacts. No instrument exists that can *directly* measure future events. As a result, we often find ourselves approximating the most likely outcome by understanding past events or reference classes.
+In risk, we are concerned with future events and their impacts. No instrument exists that can *directly* measure future events. As a result, we often find ourselves needing to approximate the likelihood and impact of any number of potential future outcomes of an event by relying on expert interpretation of historical data, reference classes, and statistical models.
 
-An estimation of a likelihood is typically called forecast.
+This approximation of future outcomes is typically called a **forecast**. As individuals concerned with future, undesirable events (our risk), we find ourselves forecasting the likelihood or impacts of these events.
 
 As the role of information becomes more prevalent in a forecast, we can reduce (but never eliminate) our uncertainty in a given scenario.
 
@@ -23,11 +28,15 @@ The primary feature of this documentation is to make all concepts of "risk" subj
 
 Some thoughts on definitions:
 -----------------------------
-By sticking to principles (See: :ref:`principles`), this documentation is opinionated on the usage of some risk language. *Estimations* are a form of approximation for any unknown value. A *forecast* is a an estimation of a value that doesn't exist yet. An estimate is not necessarily a forecast, but a forecast is an estimate.
+By sticking to principles (See: :doc:`Principles </principles>`), this documentation is opinionated on the usage of some risk language. *Estimations* are a form of approximation for any unknown value. A *forecast* is a an estimation of a value that doesn't exist yet. An estimate is not necessarily a forecast, but a forecast is an estimate.
 
-There are grey areas for these terms. For instance, an unknown quantity may also be a future value. These will be worked out as this documentation as opportunities to simplify may arise. The authors are already aware of industry conflicting definitions.
+For the purposes of this documentation, there is not much different between something that is unknown (or, "yet to be revealed") and something that hasn't happened ("a future event"). For instance, an unknown quantity may also be a future value. It may not be known if a value exists yet.
 
-A *prediction* does not necessarily mean a "100% belief", but should probably be avoided as it can be interpreted poorly.
+An example: "Monsters are underneath the bed" could both be a future event (they might not be there yet, but they could be there soon) and also information to be revealed (they were / are always there, you just haven't looked yet).
+
+There are likely more grey areas for these terms. These will be worked out as this documentation as opportunities to simplify may arise.
+
+Lastly, a *prediction* does not necessarily mean a "100% belief", but that language probably be avoided as it can be interpreted poorly. Forecast seems to be more appropriate, given people's familiarity with the uncertainty of weather predictions. IE, "*We predict an 80% likelihood*" versus "*We forecast an 80% likelihood*".
 
 .. _forecasting:
 
@@ -118,6 +127,14 @@ Your industry will vary on what a "useful" threshold for a forecast source would
 
 However, all industries can agree that engineers seeing a reduction of a Brier Score over time is a favorable trend, and is a useful engineering metric that can be targeted over time and improved upon.
 
+Forecast sources can also be compared with the "Brier Skill Score", in which we can discover better risk prediction  models or methods. This is heavily used in meteorology to compare the value of a predictive model to a tried and true model, like a simple historical average. It is expressed simply with two Brier scores being compared below.
+
+  ``BrierSkillScore = 1.0 – BrierScoreNew / BrierScoreReference``
+
+
+
+
+
 .. _Types of Forecasts:
 
 Types of Outcomes
@@ -157,9 +174,16 @@ To include some aspect of "impact" in a risk, you can bake an over / under value
 
   (Yes / No)
 
+Both likelihoods would need to sum to 100%.
+
 This is similar to the previous forecast, but instead adds a numeric condition that must be met. This is useful when investigating the likelihood that some risk will meet a threshold or tolerance level you need to better understand. For instance, there may be a legal reason to close down schools with a certain height of snow, or maybe a certain amount of losses that your insurance couldn't cover.
 
-Both likelihoods would need to sum to 100%.
+Alternatively, this could help determine a value for `parametric insurance`_, in which a payout occurs if a threshold is met. For instance: ::
+
+  A policy that pays $100,000 if an earthquake with magnitude 5.0 or greater occurs.
+
+.. _parametric insurance: https://www.naic.org/cipr_topics/topic_parametric_disaster_insurance.htm
+
 
 Multiple Options
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -184,7 +208,7 @@ All likelihoods would need to equal 100%.
 
 Confidence Intervals
 ~~~~~~~~~~~~~~~~~~~~
-A `confidence interval`_ represents a range of possible values, and also includes a percentage belief that the outcome will fall into it. A forecaster would then expand their range of values to increase their expression of uncertainty, and an engineer's efforts would widen or narrow this range. For example:
+A `confidence interval`_ represents a range of possible values, and also includes a percentage belief (``confidence``) that the outcome will fall into it. A forecast source (a model, or an expert) would then expand their range of values to increase their expression of uncertainty, and increased effort and data would widen or narrow this uncertainty. For example:
 
 .. _confidence interval: https://en.wikipedia.org/wiki/Confidence_interval
 
@@ -196,7 +220,9 @@ A `confidence interval`_ represents a range of possible values, and also include
 
   (# of arrests, 70% confidence)
 
-A forecaster may answer this with an interval of 5-10 arrests. If, for instance, they were asked for a more aggressive forecast (say, 70%), they may answer a more narrow range that results in a higher rate of being wrong. An example of a 60% confidence forecast for the same question could be 2-7 arrests, and so on.
+A forecast source may answer this with an interval of 5-10 arrests, with a caveat that they expect with 70% likelihood, to eventually be correct (their confidence). If, for instance, they were asked for a less uncertain forecast, they may respond with a 6-8 interval with a 50% confidence.
+
+Depending on your subject matter, it should be clear that some combinations of confidence and uncertainty are more or less useful than others. For instance, a 50% confidence of -1000-1000 arrests is not very useful, given the scenario of arrests at city hall.
 
 A visual example of a percentage belief that an unknown value will end up within this range when revealed.::
 
