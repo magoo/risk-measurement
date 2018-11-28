@@ -114,7 +114,7 @@ The Monte Carlo simulation
 ------------------------------------------
 To properly estimate the likelihood of mission success for January, February, or March, you would likely use a Monte Carlo simulation. A Monte Carlo approach to this problem depends on randomized trials to estimate outcomes.
 
-Let's estimate the likelihood of any failure in January. If *any* condition (Rocket, hull, or electric failure) occurs, the mission failures. In pseudocode: ::
+Let's estimate the likelihood of any failure in January. If *any* condition (Rocket, hull, or electric failure) occurs, the entire mission fails. In pseudocode: ::
 
   rocket_failure = rand()
   hull_breach = rand()

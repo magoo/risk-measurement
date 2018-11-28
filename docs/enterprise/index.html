@@ -269,7 +269,7 @@
 <div class="section" id="the-monte-carlo-simulation">
 <span id="monte-carlo"></span><h2>The Monte Carlo simulation<a class="headerlink" href="#the-monte-carlo-simulation" title="Permalink to this headline">¶</a></h2>
 <p>To properly estimate the likelihood of mission success for January, February, or March, you would likely use a Monte Carlo simulation. A Monte Carlo approach to this problem depends on randomized trials to estimate outcomes.</p>
-<p>Let’s estimate the likelihood of any failure in January. If <em>any</em> condition (Rocket, hull, or electric failure) occurs, the mission failures. In pseudocode:</p>
+<p>Let’s estimate the likelihood of any failure in January. If <em>any</em> condition (Rocket, hull, or electric failure) occurs, the entire mission fails. In pseudocode:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rocket_failure</span> <span class="o">=</span> <span class="n">rand</span><span class="p">()</span>
 <span class="n">hull_breach</span> <span class="o">=</span> <span class="n">rand</span><span class="p">()</span>
 <span class="n">electric_failure</span> <span class="o">=</span> <span class="n">rand</span><span class="p">()</span>

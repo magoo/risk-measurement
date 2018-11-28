@@ -22,7 +22,8 @@ This meets the criteria of a scenario by including an observable event ("A bank 
 
 The observable judgment criteria could be established by bank's security team declaring the incident, or maybe the creation of a police report. We would just need to trust that our criteria would offer us a stable, observable event.
 
-The forecaster who is asked to measure the risk would then assign a likelihood to "Yes" or "No". (See: :ref:`forecasting`)
+Forecast
+  The forecaster who is asked to measure the risk would estimates a likelihood to "Yes" or "No". (See: :ref:`forecasting`)
 
 As an example, we'll say that the forecaster believes that "Yes" has a likelihood of ``5%``, which would estimate an occurrence of every five years.
 
