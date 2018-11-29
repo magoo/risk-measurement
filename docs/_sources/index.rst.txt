@@ -8,9 +8,6 @@ Simple Risk Measurement
 
 :doc:`Simple Risk Measurement </index>` is written to help you measure complicated risks using a process that's simple enough to work out on the back of a napkin and powerful enough to organize a rocket launch.
 
-.. note::
-  Please send feedback to @magoo
-
 If you are an engineer motivated by the reduction of risk and are frustrated by how to measure your progress, you may find this documentation useful. Simple Risk Measurement can get you started towards a comprehensive and scientific approach to risk. It is designed to enhance subject matter experts who work with risk, especially those who mitigate complex risks on an ongoing basis.
 
 See :doc:`Risk </risk/defined>` to better understand this problem in engineering.
