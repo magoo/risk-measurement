@@ -38,4 +38,3 @@
 
    principles
    reading
-   thanks

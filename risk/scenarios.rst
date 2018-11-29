@@ -34,7 +34,7 @@ Here's a batch of examples:
 
 You may have heard of this format for a risk before!
 
-It should be familiar because many industries advocate for the `*tabletop scenario*`_ as a way to encourage brainstorming and better understanding of risks.
+It should be familiar because many industries advocate for the `tabletop scenario`_ as a way to encourage brainstorming and better understanding of risks.
 
 .. _tabletop scenario: https://www.ready.gov/business/testing/exercises
 
