@@ -146,7 +146,7 @@ Quarterly likelihood of Occurrence  Estimated Annual Occurrence (Monte Carlo)
 99%                                 ~100%
 ==================================  ==============================
 
-These can be directly calculated with the `principle of inclusion / exclusion`_, but is generally easier to model risk with monte carlo methods.
+These can be directly calculated with the `principle of inclusion / exclusion`_, but is generally easier to model risk with Monte Carlo methods.
 
 .. _principle of inclusion / exclusion: https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle
 
@@ -156,7 +156,7 @@ Panels of Forecasters
 ------------------------------------------
 Groups of forecasters seem to benefit from the "Wisdom of Crowds" effect, and research has suggested that simple averages across multiple perspectives will have a debiasing effect on a forecast and generally improve effectiveness.
 
-This is seen in practice with `ensemble forecasting`_ in meteorolgy.
+This is seen in practice with `ensemble forecasting`_ in meteorology.
 
 Philip Tetlock's research into forecasting teams suggests that diversity in perspective also improves the effectiveness of forecasts.
 
