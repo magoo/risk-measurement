@@ -143,7 +143,7 @@ A scenario can prompt for several types of outcomes to forecast. Depending on th
 
 *Yes or No*, *Over / Under*, and *Multiple Options* are probability distributions. They can be used to forecast with a percentage likelihood that a certain event will, or will not happen. Likelihood is split between mutually exclusive options, and must equal 100%.
 
-Confidence intervals are a bit different. They can be used to forecast an unknown value, like the potential impact (money lost, injuries, delays) associated with any scenario.
+Credible intervals are a bit different. They can be used to forecast an unknown value, like the potential impact (money lost, injuries, delays) associated with any scenario.
 
 Yes or No
 ~~~~~~~~~
@@ -206,11 +206,11 @@ This could be answered with multiple options, like (A: Us, B: Competitor 1, C: C
 
 All likelihoods would need to equal 100%.
 
-Confidence Intervals
+Credible Intervals
 ~~~~~~~~~~~~~~~~~~~~
-A `confidence interval`_ represents a range of possible values, and also includes a percentage belief (``confidence``) that the outcome will fall into it. A forecast source (a model, or an expert) would then expand their range of values to increase their expression of uncertainty, and increased effort and data would widen or narrow this uncertainty. For example:
+A `credible interval`_ represents a range of possible values, and also includes a percentage belief (``confidence``) that the outcome will fall into it. A forecast source (a model, or an expert) would then expand their range of values to increase their expression of uncertainty, and increased effort and data would widen or narrow this uncertainty. For example:
 
-.. _confidence interval: https://en.wikipedia.org/wiki/Confidence_interval
+.. _credible interval: https://en.wikipedia.org/wiki/Credible_interval
 
 **Scenario** ::
 

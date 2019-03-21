@@ -101,7 +101,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#yes-or-no">Yes or No</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#over-under">Over / Under</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#multiple-options">Multiple Options</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#confidence-intervals">Confidence Intervals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#credible-intervals">Credible Intervals</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#skills">Skills</a><ul>
@@ -204,14 +204,14 @@
 <p>By sticking to principles (See: <a class="reference internal" href="../principles.html"><span class="doc">Principles</span></a>), this documentation is opinionated on the usage of some risk language. <em>Estimations</em> are a form of approximation for any unknown value. A <em>forecast</em> is a an estimation of a value that doesn’t exist yet. An estimate is not necessarily a forecast, but a forecast is an estimate.</p>
 <p>For the purposes of this documentation, there is not much different between something that is unknown (or, “yet to be revealed”) and something that hasn’t happened (“a future event”). For instance, an unknown quantity may also be a future value. It may not be known if a value exists yet.</p>
 <p>An example: “Monsters are underneath the bed” could both be a future event (they might not be there yet, but they could be there soon) and also information to be revealed (they were / are always there, you just haven’t looked yet).</p>
-<p>There are likely more grey areas for these terms. These will be worked out as this documentation as opportunities to simplify may arise.</p>
-<p>Lastly, a <em>prediction</em> does not necessarily mean a “100% belief”, but that language probably be avoided as it can be interpreted poorly. Forecast seems to be more appropriate, given people’s familiarity with the uncertainty of weather predictions. IE, “<em>We predict an 80% likelihood</em>” versus “<em>We forecast an 80% likelihood</em>”.</p>
+<p>There are likely more grey areas for these terms. These will be worked out as opportunities to simplify arise.</p>
+<p>Lastly, a <em>prediction</em> does not necessarily mean a “100% belief”, but that language should probably be avoided as it can be interpreted poorly. Forecast seems to be more appropriate, given people’s familiarity with the uncertainty of weather predictions. IE, “<em>We predict an 80% likelihood</em>” versus “<em>We forecast an 80% likelihood</em>”.</p>
 </div>
 </div>
 <div class="section" id="forecasting">
 <span id="id1"></span><h1>Forecasting<a class="headerlink" href="#forecasting" title="Permalink to this headline">¶</a></h1>
 <p>Forecasting is a disciplined practice to estimate the likelihoods and impacts of future events. It is a subject matter with over a half-century of multidisciplinary research into risk, decision making, and predictions.</p>
-<p>Every day, you forecast things related to your basic needs. Choosing what time you wake up in the morning is a forecast of how much time you’ll need to prepare for the day. Peeking out your window is a forecast of the weather and informs a decision about clothes to wear. Examples are infinite.</p>
+<p>Every day, you forecast things related to your basic needs. Choosing what time you wake up in the morning is a forecast of how much time you’ll need to prepare for the day. Peeking out your window informs a forecast of the weather which informs a decision about clothes to wear. Examples are infinite.</p>
 <p>You’ll notice that you can seek information to support these forecasts, outside of relying on your expertise or intuition. Sometimes this data is readily available, sometimes it is not.</p>
 <p>Forecasting is relied on in either case. Even when a meteorologist is presented with significant data about a ten day forecast, it is common for them to make a personal estimate based on that data instead of using it directly.</p>
 <p>With forecasting, we do our best to approximate values that best represent our intuition. We stick to methods that improve our forecasting skills, and defend ourselves against well known forms of cognitive bias. As subject matter experts of the risks care about, we can create risk data that is highly leveraged by quantitative methods.</p>
@@ -269,35 +269,35 @@ Brier score is 0, and the worst (highest) possible Brier score is 2.
 <tr class="row-even"><td>1</td>
 <td>0.99</td>
 <td>0.01</td>
-<td>Rain</td>
+<td>Rain (1)</td>
 <td>0.0002</td>
 <td><code class="docutils literal notranslate"><span class="pre">(1-.99)^2+(0-.01)^2</span></code></td>
 </tr>
 <tr class="row-odd"><td>2</td>
 <td>0.8</td>
 <td>0.2</td>
-<td>Rain</td>
+<td>Rain (1)</td>
 <td>0.08</td>
 <td><code class="docutils literal notranslate"><span class="pre">(1-.8)^2+(0-.2)^2</span></code></td>
 </tr>
 <tr class="row-even"><td>3</td>
 <td>0.334</td>
 <td>0.666</td>
-<td>No Rain</td>
+<td>No Rain (0)</td>
 <td>0.223112</td>
 <td><code class="docutils literal notranslate"><span class="pre">(0-.334)^2</span> <span class="pre">+</span> <span class="pre">(1-.666)^2</span></code></td>
 </tr>
 <tr class="row-odd"><td>4</td>
 <td>0.01</td>
 <td>0.99</td>
-<td>No Rain</td>
+<td>No Rain (0)</td>
 <td>0.0002</td>
 <td><code class="docutils literal notranslate"><span class="pre">(0-.01)^2</span> <span class="pre">+</span> <span class="pre">(1-.99)^2</span></code></td>
 </tr>
 <tr class="row-even"><td>5</td>
 <td>0.95</td>
 <td>0.05</td>
-<td>Rain</td>
+<td>Rain (1)</td>
 <td>0.005</td>
 <td><code class="docutils literal notranslate"><span class="pre">(1-.95)^2</span> <span class="pre">+</span> <span class="pre">(0-.05)^2</span></code></td>
 </tr>
@@ -306,12 +306,12 @@ Brier score is 0, and the worst (highest) possible Brier score is 2.
 <p>This table shows an average Brier Score of <code class="docutils literal notranslate"><span class="pre">0.0617024</span></code>. If we observed this forecast score from our local meteorologist, we’d be pleased and consider this forecast source <em>useful</em>. Let’s put together a table of pretty terrible weather forecasts for comparison.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="9%" />
-<col width="20%" />
 <col width="10%" />
+<col width="22%" />
+<col width="11%" />
+<col width="15%" />
 <col width="14%" />
-<col width="13%" />
-<col width="34%" />
+<col width="28%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Forecast</th>
@@ -326,35 +326,35 @@ Brier score is 0, and the worst (highest) possible Brier score is 2.
 <tr class="row-even"><td>1</td>
 <td>0.1</td>
 <td>0.9</td>
-<td>1</td>
+<td>Rain (1)</td>
 <td>1.62</td>
 <td><code class="docutils literal notranslate"><span class="pre">(1-.01)^2+(0-.9)^2</span></code></td>
 </tr>
 <tr class="row-odd"><td>2</td>
 <td>0.04</td>
 <td>0.96</td>
-<td>1</td>
+<td>Rain (1)</td>
 <td>1.8432</td>
 <td><code class="docutils literal notranslate"><span class="pre">(1-.04)^2+(0-.96)^2</span></code></td>
 </tr>
 <tr class="row-even"><td>3</td>
 <td>0.77</td>
 <td>0.23</td>
-<td>0</td>
+<td>No Rain (0)</td>
 <td>1.1858</td>
 <td><code class="docutils literal notranslate"><span class="pre">(0-.77)^2+(1-.23)^2</span></code></td>
 </tr>
 <tr class="row-odd"><td>4</td>
 <td>0.88</td>
 <td>0.12</td>
-<td>0</td>
+<td>No Rain (0)</td>
 <td>1.5488</td>
 <td><code class="docutils literal notranslate"><span class="pre">(0-.88)^2+(1-.12)^2</span></code></td>
 </tr>
 <tr class="row-even"><td>5</td>
 <td>0.2</td>
 <td>0.8</td>
-<td>1</td>
+<td>Rain (1)</td>
 <td>1.28</td>
 <td><code class="docutils literal notranslate"><span class="pre">(1-.2)^2+(0-.8)^2</span></code></td>
 </tr>
@@ -371,7 +371,7 @@ Brier score is 0, and the worst (highest) possible Brier score is 2.
 <span id="types-of-forecasts"></span><h2>Types of Outcomes<a class="headerlink" href="#types-of-outcomes" title="Permalink to this headline">¶</a></h2>
 <p>A scenario can prompt for several types of outcomes to forecast. Depending on the risk you are hoping to measure, you may want to prompt an expert for a different type of outcome.</p>
 <p><em>Yes or No</em>, <em>Over / Under</em>, and <em>Multiple Options</em> are probability distributions. They can be used to forecast with a percentage likelihood that a certain event will, or will not happen. Likelihood is split between mutually exclusive options, and must equal 100%.</p>
-<p>Confidence intervals are a bit different. They can be used to forecast an unknown value, like the potential impact (money lost, injuries, delays) associated with any scenario.</p>
+<p>Credible intervals are a bit different. They can be used to forecast an unknown value, like the potential impact (money lost, injuries, delays) associated with any scenario.</p>
 <div class="section" id="yes-or-no">
 <h3>Yes or No<a class="headerlink" href="#yes-or-no" title="Permalink to this headline">¶</a></h3>
 <p>The simplest type of forecast asks an expert for their belief of a binary outcome. For instance:</p>
@@ -423,9 +423,9 @@ E: No Decision / Walkout / Other
 </div>
 <p>All likelihoods would need to equal 100%.</p>
 </div>
-<div class="section" id="confidence-intervals">
-<h3>Confidence Intervals<a class="headerlink" href="#confidence-intervals" title="Permalink to this headline">¶</a></h3>
-<p>A <a class="reference external" href="https://en.wikipedia.org/wiki/Confidence_interval">confidence interval</a> represents a range of possible values, and also includes a percentage belief (<code class="docutils literal notranslate"><span class="pre">confidence</span></code>) that the outcome will fall into it. A forecast source (a model, or an expert) would then expand their range of values to increase their expression of uncertainty, and increased effort and data would widen or narrow this uncertainty. For example:</p>
+<div class="section" id="credible-intervals">
+<h3>Credible Intervals<a class="headerlink" href="#credible-intervals" title="Permalink to this headline">¶</a></h3>
+<p>A <a class="reference external" href="https://en.wikipedia.org/wiki/Credible_interval">credible interval</a> represents a range of possible values, and also includes a percentage belief (<code class="docutils literal notranslate"><span class="pre">confidence</span></code>) that the outcome will fall into it. A forecast source (a model, or an expert) would then expand their range of values to increase their expression of uncertainty, and increased effort and data would widen or narrow this uncertainty. For example:</p>
 <p><strong>Scenario</strong></p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Police have responded to a protest at City Hall.
 </pre></div>

@@ -21,7 +21,13 @@ The language of risk is used in a variety of ways and shows up with different in
 
 Specific Scenarios
 ~~~~~~~~~~~~~~~~~~
-This section contains supporting reading for specific scenario building.
+This section contains supporting reading for specific scenario building. The "Scenario" is frequently used language in modern approaches to risk analysis.
+
+  This form of the scenario is produced immediately from fault tree analyses and similar methods associated
+  with engineering safety studies (i.e., nuclear reactor safety studies). Each scenario represents a unique
+  concatenation of events.
+
+.. [#] K. D. Wall, DRMI, Naval Postgraduate School, July 29, 2011, The Kaplan and Garrick Definition of Risk and its Application to Managerial Decision Problems https://my.nps.edu/documents/103424423/106950799/DRMI+Working+Paper+2011-3.pdf/bad99104-b54b-4646-9d92-45e16c2f80d8
 
 .. [#] Wikipedia contributors. (2018, June 24). Clarity test. In Wikipedia, The Free Encyclopedia. Retrieved 17:49, November 8, 2018, from https://en.wikipedia.org/w/index.php?title=Clarity_test&oldid=847323771
 

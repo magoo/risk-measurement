@@ -48,7 +48,7 @@ Scenario
   The change in the mortality rate due to Fine Particles (PM2.5) decrease if we pass X regulation.
 
 Outcome
-  ``Confidence Interval:`` Reduction of .001 -.05% with 95% confidence.
+  ``Credible Interval:`` Reduction of .001 -.05% with 95% confidence.
 
 The CSB `organizes investigations`_  that provide transparency into root causes informing probabilistic risk approaches supported in EPA policies.
 

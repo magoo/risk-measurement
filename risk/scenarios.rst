@@ -89,7 +89,7 @@ This scenario is simple to judge, as you would likely respect the judgment of Ma
 
 **Outcome** ::
 
-  90% Confidence interval of margin of victory (in runs scored)
+  90% Credible interval of runs scored margin
 
 **Outcome** ::
 

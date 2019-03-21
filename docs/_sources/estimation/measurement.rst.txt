@@ -34,9 +34,9 @@ For the purposes of this documentation, there is not much different between some
 
 An example: "Monsters are underneath the bed" could both be a future event (they might not be there yet, but they could be there soon) and also information to be revealed (they were / are always there, you just haven't looked yet).
 
-There are likely more grey areas for these terms. These will be worked out as this documentation as opportunities to simplify may arise.
+There are likely more grey areas for these terms. These will be worked out as opportunities to simplify arise.
 
-Lastly, a *prediction* does not necessarily mean a "100% belief", but that language probably be avoided as it can be interpreted poorly. Forecast seems to be more appropriate, given people's familiarity with the uncertainty of weather predictions. IE, "*We predict an 80% likelihood*" versus "*We forecast an 80% likelihood*".
+Lastly, a *prediction* does not necessarily mean a "100% belief", but that language should probably be avoided as it can be interpreted poorly. Forecast seems to be more appropriate, given people's familiarity with the uncertainty of weather predictions. IE, "*We predict an 80% likelihood*" versus "*We forecast an 80% likelihood*".
 
 .. _forecasting:
 
@@ -44,7 +44,7 @@ Forecasting
 ===========
 Forecasting is a disciplined practice to estimate the likelihoods and impacts of future events. It is a subject matter with over a half-century of multidisciplinary research into risk, decision making, and predictions.
 
-Every day, you forecast things related to your basic needs. Choosing what time you wake up in the morning is a forecast of how much time you'll need to prepare for the day. Peeking out your window is a forecast of the weather and informs a decision about clothes to wear. Examples are infinite.
+Every day, you forecast things related to your basic needs. Choosing what time you wake up in the morning is a forecast of how much time you'll need to prepare for the day. Peeking out your window informs a forecast of the weather which informs a decision about clothes to wear. Examples are infinite.
 
 You'll notice that you can seek information to support these forecasts, outside of relying on your expertise or intuition. Sometimes this data is readily available, sometimes it is not.
 
@@ -102,11 +102,11 @@ For instance, let's take a batch of some pretty good weather predictions.
 ========  ==================  =========             ============  =========== =======================
 Forecast  % Rain              % No Rain             Outcome       Brier Score Brier Score (Work)
 ========  ==================  =========             ============  =========== =======================
-1         0.99                0.01                  Rain          0.0002      ``(1-.99)^2+(0-.01)^2``
-2         0.8                 0.2                   Rain          0.08        ``(1-.8)^2+(0-.2)^2``
-3         0.334               0.666                 No Rain       0.223112    ``(0-.334)^2 + (1-.666)^2``
-4         0.01                0.99                  No Rain       0.0002      ``(0-.01)^2 + (1-.99)^2``
-5         0.95                0.05                  Rain          0.005       ``(1-.95)^2 + (0-.05)^2``
+1         0.99                0.01                  Rain (1)      0.0002      ``(1-.99)^2+(0-.01)^2``
+2         0.8                 0.2                   Rain (1)      0.08        ``(1-.8)^2+(0-.2)^2``
+3         0.334               0.666                 No Rain (0)   0.223112    ``(0-.334)^2 + (1-.666)^2``
+4         0.01                0.99                  No Rain (0)   0.0002      ``(0-.01)^2 + (1-.99)^2``
+5         0.95                0.05                  Rain (1)      0.005       ``(1-.95)^2 + (0-.05)^2``
 ========  ==================  =========             ============  =========== =======================
 
 This table shows an average Brier Score of ``0.0617024``. If we observed this forecast score from our local meteorologist, we'd be pleased and consider this forecast source *useful*. Let's put together a table of pretty terrible weather forecasts for comparison.
@@ -114,11 +114,11 @@ This table shows an average Brier Score of ``0.0617024``. If we observed this fo
 ========  ==================  =========             ============  =========== =======================
 Forecast  % Rain              % No Rain             Outcome       Brier Score Brier Score (Work)
 ========  ==================  =========             ============  =========== =======================
-1         0.1	                0.9	                  1             1.62	      ``(1-.01)^2+(0-.9)^2``
-2         0.04                0.96                  1             1.8432      ``(1-.04)^2+(0-.96)^2``
-3         0.77                0.23                  0             1.1858      ``(0-.77)^2+(1-.23)^2``
-4         0.88                0.12                  0             1.5488      ``(0-.88)^2+(1-.12)^2``
-5         0.2	                0.8	                  1             1.28        ``(1-.2)^2+(0-.8)^2``
+1         0.1	                0.9	            Rain (1)      1.62	      ``(1-.01)^2+(0-.9)^2``
+2         0.04                0.96                  Rain (1)      1.8432      ``(1-.04)^2+(0-.96)^2``
+3         0.77                0.23                  No Rain (0)   1.1858      ``(0-.77)^2+(1-.23)^2``
+4         0.88                0.12                  No Rain (0)   1.5488      ``(0-.88)^2+(1-.12)^2``
+5         0.2	                0.8	            Rain (1)      1.28        ``(1-.2)^2+(0-.8)^2``
 ========  ==================  =========             ============  =========== =======================
 
 This table shows an average brier score of ``1.49556``. Any reasonable individual would consider those forecasts *not useful*.
@@ -143,7 +143,7 @@ A scenario can prompt for several types of outcomes to forecast. Depending on th
 
 *Yes or No*, *Over / Under*, and *Multiple Options* are probability distributions. They can be used to forecast with a percentage likelihood that a certain event will, or will not happen. Likelihood is split between mutually exclusive options, and must equal 100%.
 
-Confidence intervals are a bit different. They can be used to forecast an unknown value, like the potential impact (money lost, injuries, delays) associated with any scenario.
+Credible intervals are a bit different. They can be used to forecast an unknown value, like the potential impact (money lost, injuries, delays) associated with any scenario.
 
 Yes or No
 ~~~~~~~~~
@@ -206,11 +206,11 @@ This could be answered with multiple options, like (A: Us, B: Competitor 1, C: C
 
 All likelihoods would need to equal 100%.
 
-Confidence Intervals
+Credible Intervals
 ~~~~~~~~~~~~~~~~~~~~
-A `confidence interval`_ represents a range of possible values, and also includes a percentage belief (``confidence``) that the outcome will fall into it. A forecast source (a model, or an expert) would then expand their range of values to increase their expression of uncertainty, and increased effort and data would widen or narrow this uncertainty. For example:
+A `credible interval`_ represents a range of possible values, and also includes a percentage belief (``confidence``) that the outcome will fall into it. A forecast source (a model, or an expert) would then expand their range of values to increase their expression of uncertainty, and increased effort and data would widen or narrow this uncertainty. For example:
 
-.. _confidence interval: https://en.wikipedia.org/wiki/Confidence_interval
+.. _credible interval: https://en.wikipedia.org/wiki/Credible_interval
 
 **Scenario** ::
 
