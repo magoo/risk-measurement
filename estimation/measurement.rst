@@ -131,9 +131,37 @@ Forecast sources can also be compared with the "Brier Skill Score", in which we 
 
   ``BrierSkillScore = 1.0 – BrierScoreNew / BrierScoreReference``
 
+Panel Forecasting
+-----------------
+A "Panel Estimate" is very easily calculated. For instance:
 
+**Scenario** ::
 
+  Will the home team win tomorrow? (Yes / No)
 
+The following panel can produce a belief of ``61% Yes``.
+
+=======     ==========  ==========  ==========  ==========  ==========  ========
+Outcome     Panelist 1  Panelist 2  Panelist 3  Panelist 4  Panelist 5  AVERAGE
+=======     ==========  ==========  ==========  ==========  ==========  ========
+Win         55%         60%         45%         80%         63%         **61%**
+Lose        45%         40%         55%         20%         37%         **39%**
+=======     ==========  ==========  ==========  ==========  ==========  ========
+
+The same can be done with a credible interval.
+
+**Scenario** ::
+
+  How many runs will the home team score tomorrow? (90% CI)
+
+The following panel produces a credible interval of ``0-7.4`` with 90% certainty. For a case like this, you might agree to round.
+
+=======     ==========  ==========  ==========  ==========  ==========  ========
+Outcome     Panelist 1  Panelist 2  Panelist 3  Panelist 4  Panelist 5  AVERAGE
+=======     ==========  ==========  ==========  ==========  ==========  ========
+Min         0           0           0           0           0           **0**
+Max         5           9           4           11          8           **7.4**
+=======     ==========  ==========  ==========  ==========  ==========  ========
 
 .. _Types of Forecasts:
 

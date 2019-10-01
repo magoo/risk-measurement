@@ -13,7 +13,7 @@ Too often we find ourselves speaking about `completely different subjects <https
 
 We must protect ourselves from letting conversations about risk slip into wildly unaligned conversations comparable to unstructured debates about love, or art.
 
-Risk has quantitative foundations we can agree on, and known methods for measuring some of its more subjective characteristics. We can still pursue scientific goals while acknowledging that the "undesirable" aspect of risk may be wholly subjective.
+Risk has quantitative foundations we can agree on. We can pursue scientific goals while acknowledging that the "undesirable" aspect of risk may be wholly subjective.
 
 The opinion of this documentation is that risk discussions should be structured around :doc:`scenarios </risk/scenarios>`
 
@@ -21,27 +21,31 @@ Locality
 --------------------------------------------------------------------
 Let's make risk measurement accessible to those closest to the mitigation.
 
-Risk measurement methods are quickly disposed from regular practice if they are too cumbersome to wield. An engineer tasked with risk mitigation should be able to measure their work, independently.
+Measurement is quickly disposed if it is too cumbersome to wield. An engineer tasked with risk mitigation should be able to measure their work efficiently.
 
-If the cost for measurement effort requires full time staff, dedicated software, and more than a couple hours of effort, it likely won't be leveraged by engineers directly involved where risk is created.
+If the cost of measurement is too much for an individual, it likely won't employed by engineers directly involved where risk is created.
 
-The efforts involved with risk measurement should be simplified and centralized around likelihoods and impacts that don't exceed what can be easily learned with basic math.
+The efforts involved with risk measurement should rarely exceed what can be easily learned with basic math.
 
 .. _Universality:
 
 Universality
 ------------------------------------------------------------
-Let's remove industry specific instructions from risk measurement.
+Remove industry specific instructions from risk measurement.
 
-As soon as industry specific methods creep into risk measurement, we are biasing our approach with prescriptive influence and/or agendas. Risk is a universal aspect of many disciplines, and its backbone can be found in any industry and reflected here.
+Industry specific language leads to bias, prescription, and industry agendas.
+
+Risk is a universal aspect of many disciplines and measurement should be commonly described.
 
 Validation
 ----------------------------------------------------------
 Let's celebrate the "post mortem" to support validated learning.
 
-While we use estimation methods to compensate for spotty data, we must invest in infrastructure to observe and share failures to better inform us about risks. Our goal is to measurably progress away from uncertainty as we learn more about the root causes of our failures.
+We must invest in infrastructure to observe and share failures to better inform us about risks.
 
-Several industries have open databases that provide substantially informative data, useful for forecasting infrastructure. Meteorology_, Nuclear_, and Chemical_ are examples of industries that have built infrastructure to inform probabilistic risk methods.
+Our goal is to measurably progress away from uncertainty and reduce our reliance on experts.
+
+Catch up to industries with retrospective infrastructure. (Meteorology_, Nuclear_, and Chemical_)
 
 .. _Meteorology: https://www.ncdc.noaa.gov/data-access
 .. _Nuclear: https://www.nrc.gov/reading-rm/doc-collections/event-status/event/
@@ -51,22 +55,22 @@ Several industries have open databases that provide substantially informative da
 
 Limitation
 --------------
-Let's assume that we'll have failures of imagination.
+Assume that we'll have failures of imagination.
 
-We'll never enumerate all of the ways things can go wrong. An appreciation towards studying risk outcomes helps mitigate unknown risks. This is how the "defense in depth" advice is interpreted by this documentation.
+Our models will be wrong. We will invest in incident response and retrospective processes.
 
-We invest and measure responsive capabilities as well as investing in prevention. We understand that risks cannot be properly enumerated, and we measure and understand impacts where prediction fails.
-
-These methods should be designed to rapidly harness failures, measurably improve on our understanding of why failures happen, and develop constructs to limit future harm.
+We'll have our umbrellas nearby whether we predict rain or not.
 
 Relativity
 --------------------------------------------------------
 Let's appreciate that risk is a single decision making factor.
 
-Sometimes it is better to work on a risk that has momentum, resource, interest, and other management observations before a  measurably higher risk. Risk is a simply part of an organizations goals. A low prioritization of risk at an organization should only change the rigor and resource associated with measurement, not the wholesale removal of scientific approach.
+Leadership still has to consider non-risk data in everyday decision making.
+
+Risk measurement does not make decisions, people do.
 
 Irrationality
 ---------------------------------------------
 Let's assume that fully quantitative workplaces do not exist.
 
-Even the most mature risk organization suffer from subjective, qualitative, or irrational decision making. Measurement approaches must be effective under these circumstances, so that their efforts can be observed and measured in the future regardless of how those efforts began. More rational decision making cannot happen without starting somewhere. This documentation should celebrate environments that are just starting to measure risk, and assume a variety of limitations and external influences.
+Some environments are just starting to measure risk under a variety of limitations.

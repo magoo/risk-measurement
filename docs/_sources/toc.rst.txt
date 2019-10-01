@@ -30,6 +30,7 @@
 
    enterprise/index.rst
    enterprise/culture
+   enterprise/kpi
 
 .. toctree::
    :hidden:

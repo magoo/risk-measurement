@@ -49,6 +49,8 @@ Decision makers knowing that these channels exist which could question the integ
 
 The quality of these channels can also be measured, and if distrust of these channels exists, it can also be mitigated.
 
+.. _Decomposition:
+
 Decomposition of risk into a register.
 ------------------------------------------
 Given our familiarity with :doc:`scenarios </risk/scenarios>`, we understand that a natural hierarchy forms as we add conditions to a scenario.
@@ -156,11 +158,7 @@ Panels of Forecasters
 ------------------------------------------
 Groups of forecasters seem to benefit from the "Wisdom of Crowds" effect, and research has suggested that simple averages across multiple perspectives will have a debiasing effect on a forecast and generally improve effectiveness.
 
-This is seen in practice with `ensemble forecasting`_ in meteorology.
-
 Philip Tetlock's research into forecasting teams suggests that diversity in perspective also improves the effectiveness of forecasts.
-
-.. _ensemble forecasting: https://en.wikipedia.org/wiki/Ensemble_forecasting
 
 There does not need to be much to the elicitation of experts on a panel, but there are more formal approaches of panel estimations like the `Delphi Method`_.
 

@@ -194,7 +194,7 @@ Daniel Kahneman and Amos Tversky offer observations into how fallible the human 
 Meehl / Dawes
 ~~~~~~~~~~~~~
 
-Paul E. Meehl and Robyn Dawes work in prediction inspired a scientific full fledged assault on the credibility of expert prediction. Comprehensive findings that mechanical statistical models beat experts at prediction.
+Paul E. Meehl and Robyn Dawes work in prediction inspired a full fledged assault on the credibility of expert prediction. Comprehensive findings that mechanical statistical models beat experts at prediction.
 
 .. [#] Meehl, P. E. (1966). Clinical versus Statistical Prediction. Place of publication not identified: University of Minnesota Press. http://meehl.umn.edu/sites/g/files/pua1696/f/155dfm1993_0.pdf)
 
