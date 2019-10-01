@@ -148,7 +148,7 @@ Win         55%         60%         45%         80%         63%         **61%**
 Lose        45%         40%         55%         20%         37%         **39%**
 =======     ==========  ==========  ==========  ==========  ==========  ========
 
-The same can be done with a credible interval.
+The same can be done with a `credible interval`_.
 
 **Scenario** ::
 
@@ -171,7 +171,7 @@ A scenario can prompt for several types of outcomes to forecast. Depending on th
 
 *Yes or No*, *Over / Under*, and *Multiple Options* are probability distributions. They can be used to forecast with a percentage likelihood that a certain event will, or will not happen. Likelihood is split between mutually exclusive options, and must equal 100%.
 
-Credible intervals are a bit different. They can be used to forecast an unknown value, like the potential impact (money lost, injuries, delays) associated with any scenario.
+A `credible interval`_ is a bit different. They can be used to forecast an unknown value, like the potential impact (money lost, injuries, delays) associated with any scenario.
 
 Yes or No
 ~~~~~~~~~
