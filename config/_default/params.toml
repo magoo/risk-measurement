@@ -1,0 +1,88 @@
+# Meta Data for SEO
+
+## Homepage
+title = "Simple Risk Measurement"
+titleSeparator = "-"
+titleAddition = "Making risk measurement easier to understand"
+description = "Simple Risk Measurement is written to help you measure complicated risks using a process that’s simple enough to work out on the back of a napkin and powerful enough to organize a rocket launch."
+
+## Documentation
+# docsVersion = "0.3"
+
+## Open Graph
+images = ["doks.png"]
+ogLocale = "en_US"
+domainTLD = "doks.netlify.app"
+titleHome = "Simple Risk Measurement"
+
+## Twitter Cards
+twitterSite = "@magoo"
+twitterCreator = "@magoo"
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "Simple Risk Measurement"
+schemaAuthor = "magoo"
+schemaAuthorTwitter = "https://twitter.com/magoo"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/m4goo/"
+schemaAuthorGitHub = "https://github.com/magoo"
+schemaLocale = "en-US"
+schemaLogo = "logo-doks.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "doks.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = "https://twitter.com/magoo"
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/magoo/simple-risk"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "300"
+
+# Footer
+footer = "Send feedback to <a href=\"https://www.twitter.com/magoo\">@magoo</a>"
+
+# Feed
+copyRight = "Copyright (c) 2020-2021 Ryan McGeehan"
+
+# Alert
+alert = false
+alertDismissable = true
+# alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
+alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+#repoHost = "Gitea"
+docsRepo = "https://github.com/magoo/simple-risk"
+docsRepoBranch = "master"
+editPage = false
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = false
+  highLight = true
+  kaTex = false
+  collapsibleSidebar = true
+  multilingualMode = false
+  docsVersioning = false
