@@ -1,6 +1,6 @@
 # Deploy your Hyas site to GitHub Pages
 
-name: GitHub Pages
+name: GitHub Pages (doks)
 
 on:
   push:
