@@ -1,4 +1,4 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://magoo.github.io/simple-risk/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
