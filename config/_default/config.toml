@@ -1,4 +1,4 @@
-baseurl = "https://magoo.github.io/simple-risk/"
+baseurl = "https://magoo.github.io/simple-risk-config-toml"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

@@ -22,7 +22,7 @@ We may be asked what the impact would be if we suffered a breach. The following 
 - [x] Are we counting costs imposed to others (imposed risk)?
 - [x] Are we also speculating on legal costs?
 - [x] Are we talking about operational costs?
-- [x] Do sales and growth from reptuation hits and future business losses count?
+- [x] Do sales and growth from reputation hits and future business losses count?
 
 ## Example forecasts
 
