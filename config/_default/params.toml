@@ -12,7 +12,7 @@ description = "Simple Risk Measurement is written to help you measure complicate
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "magoo.github.io/simple-risk"
+domainTLD = "magoo.github.io"
 titleHome = "Simple Risk Measurement"
 
 ## Twitter Cards
