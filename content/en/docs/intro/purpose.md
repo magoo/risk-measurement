@@ -13,10 +13,10 @@ toc: true
 ---
 Simple Risk Measurement teaches security engineers about quantitative risk.
 
-**Models:** Obtain the knowledge needed wield quantiative approaches with creative modeling.
+**Examples:** Find your _a-ha!_ moment by looking through creative approaches to problems.
 
-**Guidance:** Avoid the pitfalls that make risk measurement _treacherous_. 
+**Guidance:** Avoid gotchas and pitfalls that make risk measurement _treacherous_. 
 
-**Management:** Learn useful risk management practices with groups of people in a workplace.
+**Management:** Find the optimum place for risk measurement with groups of people in a workplace.
 
-Reading material is suggested throughout this documentation for those who want to dive deeper into the concepts.
+Reading material is suggested throughout this documentation for those who want to dive deeper into the concepts, or see [Reading Material](/docs/other/reading-material)
