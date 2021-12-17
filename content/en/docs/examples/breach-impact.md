@@ -25,6 +25,7 @@ We may be asked what the impact would be if we suffered a breach. The following 
 - [x] Do sales and growth from reptuation hits and future business losses count?
 
 ## Example forecasts
+
 - _There's a 30% chance we'd have to pay a fine to a regulator_
 - _If the breach accessed a host in production, 85% chance we'd disclose to a regulator_.
 - _If the breach accessed a dev host, a 15% chance we'd disclose to a regulator_

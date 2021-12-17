@@ -24,7 +24,7 @@ Of course, a meteorologist would give you a _forecast_ as a percentage. This wou
 
 Many industries follow similar principles. This means:
 
-- Risks are structured as [scenarios](/docs/risk/scenarios). 
+- Risks are structured as [scenarios](/docs/risk/scenarios).
 - Reference class data is gathered as closely to the scenario as possible.
 - [Forecasts](/docs/estimation/forecasting) are made with all available information. 
 - [Decisions](/docs/intro/decisions/) are made. 

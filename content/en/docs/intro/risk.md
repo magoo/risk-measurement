@@ -15,6 +15,7 @@ toc: true
 This section includes conceptual discussion to support your intuition around risk. A grasp of risk concepts will improve your ability to comprehend risk problems as well as articulate them to others.
 
 ## Language
+
 This documentation mostly cares about quantitative risk, which has a strict definition (See Math below). However, the term _risk_ has lots of useful interpretations. Miscommunication with others is common without clarifying what you are measuring. 
 
 [Sven Ove Hansson](https://plato.stanford.edu/archives/fall2018/entries/risk/)

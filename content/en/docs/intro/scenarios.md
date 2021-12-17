@@ -20,7 +20,7 @@ event, as `r = p * i`
 
 A point of failure in measurement is ambiguity about a risk problem
 being solved. A group of very smart people can spin in circles
-discussing a risk if they don\'t pin a specific outcome down first. 
+discussing a risk if they don\'t pin a specific outcome down first.
 
 Until we define a scenario, `r = p *i` is not useful. 
 

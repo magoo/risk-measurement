@@ -17,7 +17,7 @@ The definition of measurement is probably more inclusive of methods than you wou
 
 We often use an objective instrument to measure something, but this does not eliminate uncertainty. For instance, we may use a ruler to measure the size of a table. When an objective instrument does not exist... we rely on _increasingly unreliable_ methods. For instance, a reference, historical statistics, estimations, and wild ass guesses.
 
-**An example**: You want to move furniture. You have no tape measure. 
+**An example**: You want to move furniture. You have no tape measure.
 
 What do you do?
 

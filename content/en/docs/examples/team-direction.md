@@ -13,7 +13,7 @@ toc: true
 mermaid: true
 ---
 
-We want our teams to work in a unified direction. This section describes codifying that direction as a risk. Codifying a risk is similar to selecting a KPI or setting an objective. 
+We want our teams to work in a unified direction. This section describes codifying that direction as a risk. Codifying a risk is similar to selecting a KPI or setting an objective.
 
 These directional risks should be broad. There shouldn't be many of them, as we're using it to provide a meaningful north star. Using [incident classification](https://response.pagerduty.com/before/severity_levels/) (`SEV`, `P0`, etc) helps clarify what _incident_ means, as well as thresholds of other undesirable things like costs or losses.
 

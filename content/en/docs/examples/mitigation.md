@@ -12,7 +12,7 @@ weight: 110
 toc: true
 ---
 
-Let's assume we found a vulnerability on a host named `build001`. 
+Let's assume we found a vulnerability on a host named `build001`.
 
 {{< alert icon="👉">}}
 This example vulnerability was discussed **[here](/docs/examples/vulnerability)**.

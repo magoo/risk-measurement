@@ -11,7 +11,7 @@ menu:
 weight: 90
 toc: true
 ---
-Simple Risk Measurement teaches security engineers about quantitative risk. 
+Simple Risk Measurement teaches security engineers about quantitative risk.
 
 **Models:** Obtain the knowledge needed wield quantiative approaches with creative modeling.
 

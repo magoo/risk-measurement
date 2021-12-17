@@ -12,7 +12,7 @@ weight: 110
 toc: true
 ---
 
-Many risks can be compared quantitatively so long as they share a measurement. 
+Many risks can be compared quantitatively so long as they share a measurement.
 
 Let's compare a bunch of vulnerabilities we are treating as risks. We assume we have `VULN-0` to `VULN-9`. If we have a common group of forecasts for all of them, we can sort and manage them as you'd expect.
 

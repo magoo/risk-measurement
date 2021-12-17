@@ -17,7 +17,7 @@ evidence\". For us, extraordinary decisions follow the same principle.
 
 Leadership can require that a risk measurement meet certain
 requirements that defend it against negligence, cognitive error,
-corruption, imaginative failures, or gaps of evidence. 
+corruption, imaginative failures, or gaps of evidence.
 
 Here are some example thoughts on standardizing the level of expense expected for a measurement.
 
@@ -40,24 +40,20 @@ individuals were involved with this estimation.
 **Level Four**: In addition to previous levels, an external expert was involved with
 the estimation.
 
-
-**Ad-Hoc**
+### Ad-Hoc
 
 If a leveling approach is not desired, the following criteria can be requested as part of a study as needed:
 
--   Risks are [decomposed](https://en.wikipedia.org/wiki/Fermi_problem) and their components are individually (or [independently](https://ought.org/updates/2020-01-11-arguments)) studied. 
--   Forecasts are elicted by individuals who have been calibration
+- Risks are [decomposed](https://en.wikipedia.org/wiki/Fermi_problem) and their components are individually (or [independently](https://ought.org/updates/2020-01-11-arguments)) studied.
+- Forecasts are elicted by individuals who have been calibration
     trained.
--   Forecasters have a determined track record with Brier scores meeting
-    a specific threshold. (See: [Keeping Score](http://localhost:1313/docs/estimation/forecasting/#keeping-score))
--   Historical data was sought out and modeled with frequentist
-    approaches to inform forecasts.
--   Measurement of \"unknown\" factors were a part of forecasts.
--   A panel of individuals were relied on instead of a single
-    individual.
--   Critique, feedback, and whistleblowing have formal process.
--   Outside expertise is leveraged.
--   Monte Carlos simulations are developed and studied.
+- Forecasters have a determined track record with Brier scores meeting a specific threshold. (See: [Keeping Score](http://localhost:1313/docs/estimation/forecasting/#keeping-score))
+- Historical data was sought out and modeled with frequentist approaches to inform forecasts.
+- Measurement of \"unknown\" factors were a part of forecasts.
+- A panel of individuals were relied on instead of a single individual.
+- Critique, feedback, and whistleblowing have formal process.
+- Outside expertise is leveraged.
+- Monte Carlos simulations are developed and studied.
 
 Rigor is _not_ required for all measurements. Rather, important decisions should clearly identify what amount of rigor is expected in any measurement effort. Measurements can happen verbally at a water cooler, or with concerted effort in order to inform an important decision.
 

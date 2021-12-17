@@ -12,6 +12,7 @@ Decisions are _subjective_. This documentation is about making quantitative risk
 This documentation can only offer methods to improve the quality of risk based measurements for those decisions, and offer commentary on decision processes themselves.
 
 ## Data driven decisions
+
 Often discussed is the _data driven_ decision. We may be subject to unconscious bias if we seek and collect data before structuring the criteria we are making a decision with.
 
 Rather, we can pursue decisions as follows:

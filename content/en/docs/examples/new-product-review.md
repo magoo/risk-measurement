@@ -12,7 +12,7 @@ weight: 110
 toc: true
 ---
 
-Let's imagine a new product. We'll discuss some hypothetical risk scenarios, and then discuss some estimations for them. 
+Let's imagine a new product. We'll discuss some hypothetical risk scenarios, and then discuss some estimations for them.
 
 
 {{< alert icon="" >}}

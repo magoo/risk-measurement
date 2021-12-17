@@ -21,7 +21,7 @@ this documentation, a single engineer working in isolation should be
 capable of modeling a risk and developing measurements.
 
 However, organizations are likely to have lots of varying activities in flight
-that generate very different forms of risk. 
+that generate very different forms of risk.
 
 Let's use a typical web-tech company for example, which has common problem areas that could be modeled in a variety of different ways. Here is an example  model:
 

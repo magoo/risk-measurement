@@ -27,7 +27,6 @@ Cool. An interval is just a pair of [percentile](/docs/estimation/percentiles) e
 
 An interval should note what percentiles it represents. (For instance, `5%` and `95%`). It is generally assumed in this documentation that the interval is symmetric and represents the middle of the distribution you're discussing.
 
-
 ### More on Intervals
 
 A [credible interval](https://en.wikipedia.org/wiki/Credible_interval)

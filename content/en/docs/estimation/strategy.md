@@ -51,6 +51,7 @@ This form of test has been used as an interview prompt in psychological
 research since the [1900s](https://www.google.com/books/edition/The_Journal_of_Philosophy_Psychology_and/-zWCoyAWHjMC?hl=en&gbpv=1&dq=%22absurdity+test%22&pg=PA415&printsec=frontcover).
 
 ## Inside and Outside Views
+
 Tetlocks books frequently visit the concept of inside and outside views. Let's assume we are measuring how often we'll suffer a major data breach.
 
 **Outside View:** How often do companies in this sector suffer major data breaches?

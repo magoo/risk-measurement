@@ -1,0 +1,7 @@
+{
+    "markdownlint.lintWorkspaceGlobs": [
+        "!**/node_modules",
+        "!**/bower_components",
+        "!**/.git"
+    ]
+}
