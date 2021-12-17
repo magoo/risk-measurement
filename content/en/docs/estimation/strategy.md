@@ -52,7 +52,7 @@ research since the [1900s](https://www.google.com/books/edition/The_Journal_of_P
 
 ## Inside and Outside Views
 
-Tetlocks books frequently visit the concept of inside and outside views. Let's assume we are measuring how often we'll suffer a major data breach.
+Tetlock's books frequently visit the concept of inside and outside views. Let's assume we are measuring how often we'll suffer a major data breach.
 
 **Outside View:** How often do companies in this sector suffer major data breaches?
 **Inside View:** What makes this company different than the rest?
