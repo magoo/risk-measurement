@@ -7,7 +7,7 @@ menu:
     parent: "estimation"
 ---
 
-Estimation is a skill that benefits from an understanding of known approximation strategies. These mental models will help support common problems in risk modeling, elicitation, and forecasting. They're also useful as elicitation techniques when trying to draw out numeric estimates from an expert.
+Estimation is a skill that benefits from approximation strategies. These mental models will help support common problems in risk modeling, elicitation, and forecasting. They're also useful as elicitation techniques when trying to draw out numeric estimates from an expert.
 
 ### Divide and Choose
 
@@ -22,6 +22,8 @@ the larger piece and forces them to behave impartially to the outcome. Being par
 
 The ability to impartially estimate odds is crucial to forecasting and decision making. Opportunities for advantageous decision making arise when rewards are not congruent with the odds, but the ability to see these impartially can be difficult.
 
+In summary - what odds would you apply to a situation, where you would be comfortable taking either side fo the bet?
+
 ### Principle of Indifference
 
 The [principle of
@@ -33,7 +35,7 @@ This principle is similar to the [uniform distribution](docs/estimation/distribu
 
 When faced with a scenario with four outcomes, this principle suggests starting with 25% forecasted probabilities for each of outcome and continuing a study from there. Assuming there is no available information to suggest one outcome over another, this would be the most efficient default strategy to avoid error.
 
-During an [elicitation](/docs/estimation/expert-elicitation), an expert may immediately disagree with these odds and find themselves confronting information about their beliefs for each scenario. Afterward, it\'s likely that the forecaster has opinions they may express numerically.
+During [elicitation](/docs/estimation/expert-elicitation), an expert may immediately disagree with these odds. They may find themselves confronting information about their beliefs for each scenario and debating an indifferent strategy. Afterward, it\'s likely that the forecaster has opinions they can more easily express numerically: _this should be higher_ or _that must be lower_. 
 
 ### The Absurdity Test
 
@@ -51,10 +53,11 @@ This form of test has been used as an interview prompt in psychological
 research since the [1900s](https://www.google.com/books/edition/The_Journal_of_Philosophy_Psychology_and/-zWCoyAWHjMC?hl=en&gbpv=1&dq=%22absurdity+test%22&pg=PA415&printsec=frontcover).
 
 ## Inside and Outside Views
+An outside view looks at a specific situation as a frequently occurring pattern with a base rate. An inside view inspects why a specific situation is an exception from the norm. Balancing these views can offer a rational approach to understanding the probability of an event occurring.
 
-Tetlock's books frequently visit the concept of inside and outside views. Let's assume we are measuring how often we'll suffer a major data breach.
+[Tetlock's](https://g.co/kgs/npHyBC) [books](https://g.co/kgs/TTFNFR) heavily visit the concept of inside and outside views. Let's assume we are measuring how often we'll suffer a major data breach.
 
-**Outside View:** How often do companies in this sector suffer major data breaches?
-**Inside View:** What makes this company different than the rest?
+**Outside View:** How often do companies in my sector suffer major data breaches?
+**Inside View:** What makes my company different than the rest?
 
-This approach to the problem allows you to consider the measurement as a prior and posterior issue. Immediately jumping to an inside view may cause you to focus on vulnerabilities and risks that are recently discussed, rather than how frequently threats may arrive to exploit them. Without that in mind, all your risks may seem like imminent problems.
+An outside view may help regulate any instinct to panic over your risk findings. An inside view gives you the opportunity to compare them to how often they may be compromised in the wild. 

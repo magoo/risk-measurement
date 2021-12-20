@@ -12,32 +12,28 @@ toc: true
 mermaid: true
 ---
 
-An enterprise has a lot of varying risks. How can you organize them so they're tractable by large organizations? Risk measurement can be viewed as a group practice. Risks should be decomposable and delegated in order to offer insight at scale.
+An enterprise has a lot of varying risks. We want to organize them and work collaboratively to understand them. 
 
-Phrased differently: We don't expect a single person or team to assess and understand _all the risks_ across an organization. Some federation of risk assessments need to occur, and we can do this by following the [third axiom](/docs/intro/risk/#probability) of probability when we break apart a risk.
+What we _don't want_ is a single person or team to assess and understand _all the risks_ across an organization. Some federation of risk assessments need to occur, and we can do this by following the [third axiom](/docs/intro/risk/#probability) of probability when decompose a risk to share as a study.
 
-From the [principles](/docs/other/principles/) of
-this documentation, a single engineer working in isolation should be
-capable of modeling a risk and developing measurements.
+A single engineer working in isolation should be capable of modeling a risk and developing measurements for it. However, organizations are likely to have lots of varying activities in flight that generate very different forms of risk.
 
-However, organizations are likely to have lots of varying activities in flight
-that generate very different forms of risk.
+Let's use a typical consumer web company for example. These companies share common risks. Here is an example  model:
 
-Let's use a typical web-tech company for example, which has common problem areas that could be modeled in a variety of different ways. Here is an example  model:
-
-1. Employee tooling and devices. (CorpSec)
-2. Infrastructure providing compute, storage, and networking. (InfraSec)
-3. Applications that serve the business to consumers. (RCE, IDOR, SQLi) (AppSec)
-4. Abuse upon those products. (Spam, ATO, InfoOps, Fraud) (ProdSec)
+1. Employee networks, applications, and devices. (Corp)
+2. Infrastructure providing compute, storage, and networking. (Infra)
+3. Applications that serve the business to consumers. (Product / App Sec)
+4. Business logic abuse upon those products. (Spam, ATO, InfoOps, Fraud)
 5. Regulatory, legal, and physical threats. (Phys. Sec, Law Enforcement, Legal)
 
 ## Federated Risk Assessment and Analysis
 Let's say we begin a study of possible incidents that could occur which would require regulatory disclosure. We'll call the scenario: `SEV0 with Regulatory Disclosure`. 
 
-If we were to judge what type of incident the scenario was based on the labels above, what would be the area with the most risk?
+Now, ask yourself: 
 
-Probabilistic scenarios can be [decomposed as a hierarchy](/docs/intro/scenarios/#view-scenarios-as-a-hierarchy) and allow us to break down these risks into function organizations. Despite the variance in all of these disciplines, we may still be concerned with measuring the probability of a SEV0 requiring regulatory disclosure to any party. 
+> What organization would be in command for our next SEV0 incident requiring disclosure?
 
+This approach to [decomposition](/docs/intro/scenarios/#view-scenarios-as-a-hierarchy) allows us to break down these risks into functional organizations. Even though each team works on pretty different subject matters, we have still unified everything as a single risk. This may be useful information to leadership.  
 
 
 ```mermaid  
@@ -54,9 +50,15 @@ A-->F[ProdSec];
 B[Other];
 A -->B
 ```
-So, how would one of these labels be applied to a SEV0? This may be classified during an incident review, a postmortem or retrospective process, or simply a judgement by a CISO or other leader.
+So, how would one of the above labels be applied to a SEV0? 
 
-This risk model allows us to federate this risk to be studied under `CorpSec` by another group. CorpSec can wholly own and investigate risks with a top level "SEV0 with Regulatory Disclosure" requirement. They can ask themselves, "_What could take place within CorpSec that would result in a SEV0 and a disclosure?_" 
+This may be classified during an incident review, a postmortem or retrospective process, or simply a judgement by a CISO or other leader: "_This was clearly an incident within Infra_". 
+
+The risk model allows us to federate this risk even further.
+
+For example, we can request a study of `CorpSec` by others, in parallel.
+
+A separate individual or group can wholly own and investigate risks with a top level "SEV0 with Regulatory Disclosure" requirement. They can ask themselves, "_What could take place within **CorpSec** that would result in a SEV0 and a disclosure?_" 
 
 Now, this team or organization can be introspective about their own risks while contributing to the larger organization's goals. 
 
@@ -82,11 +84,11 @@ A -->B
 
 Because we're decomposing the same organizational scenario, we can study the model as a whole organization. 
 
-Now we can quantify each CorpSec scenario as a fraction of the overall risk from CorpSec, and CorpSec as a fraction of the overall risk of a SEV0 with regulatory disclosure.
+Now we can quantify each CorpSec scenario as a fraction of the overall risk from CorpSec, and CorpSec as a fraction of the overall risk of a SEV0 with regulatory disclosure. This can happen throughout the organization, if this is desireable. 
 
-## Ad-Hoc Approaches
-Federated assessments suffer the same fate as any process revolving around a single metric. Eventually the model begins to lose representation of what risks an organization is concerned about.
+## Ad-Hoc Approaches and modeling failures
+A federated assessment can suffer the same fate as any process that elevates a single metric too highly. Eventually the model begins to lose representation of what risks an organization is concerned about.
 
-The previous example revolves around regulatory disclosure. What if some teams are focused on reputation damage, customer churn, or civil liability? These concerns may not be captured in the model. 
+The previous example revolves around regulatory disclosure. What if some teams are focused on reputation damage, customer churn, or civil liability? These concerns may not be captured in the model. Be careful not to put a narrow risk on a pedestal.
 
-In these cases it makes sense to federate studies with broad organizational concerns, but these larger directional efforts should not clobber with more focused efforts to manage risk where the model does not shine.
+In these cases it makes sense to federate studies with broad organizational concerns. However, avoid larger directional that may clobber into more focused efforts. Those efforts may not be well represented by a model, but may still be mitigating risk effectively. . 
