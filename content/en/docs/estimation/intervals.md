@@ -52,7 +52,7 @@ A visual example of a percentage belief that an unknown value will end
 up within this range when revealed:
 
 ``` none
-                                95% Certainty
+                              95% Certainty
 
                                     │
                                     │
