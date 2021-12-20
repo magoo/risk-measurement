@@ -28,19 +28,17 @@ For a real-world example, see
 
 **Level Zero**: An individual, "water cooler" estimate.
 
-**Level One**: A estimate from a single individual who has received risk training,
-with reasonable access to reference classes or specific historical
-    data.
+**Level One**: A estimate from a single individual who has received risk training, has particular subject matter expertise, reasonable access to reference classes, or has specific historical data.
 
-**Level Two**: In addition to previous levels, this estimation is from an individual who is calibration trained (See: [calibration](/docs/estimation/forecasting/#calibration)) and has maintained a Brier score under `.4`. (See [keeping score](/docs/estimation/forecasting/#keeping-score))
+**Level Two**: In addition to previous levels, this estimation is from an individual who is calibration trained (See: [calibration](/docs/estimation/forecasting/#calibration)) and maintained a track record. (See [keeping score](/docs/estimation/forecasting/#keeping-score))
 
-**Level Three**: In addition to previous levels, a panel of three or more calibrated
-individuals were involved with this estimation.
+**Level Three**: In addition to previous levels, a panel of three or more calibrated individuals were involved with this estimation.
 
-**Level Four**: In addition to previous levels, an external expert was involved with
-the estimation.
+**Level Four**: In addition to previous levels, an external expert was involved with the estimation.
 
-### Ad-Hoc
+You can, of course, stack and order these however you'd like. Each example simply increases the rigor involved, approaching greater scientific integrity. Some of these qualities of rigor are listed below: 
+
+### Rigor
 
 If a leveling approach is not desired, the following criteria can be requested as part of a study as needed:
 
