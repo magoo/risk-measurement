@@ -15,15 +15,35 @@
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-5">
-        <h2 class="h4">Documentation</h2>
-        <p>Learn terminology, methods, and strategies involved with risk measurement.</p><a class="btn btn-primary btn-lg px-4 mb-2" href="/simple-risk/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}/intro/purpose" role="button">Docs</a>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Blog</h2>
-        <p>Keep posted on measurements done for in-the-wild security issues.</p>
-        <a class="btn btn-primary btn-lg px-4 mb-2" href="/simple-risk/blog" role="button">Blog</a>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="/simple-risk/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}/intro/purpose" role="button">Go to the docs</a>
       </div>
       
+    </div>
+  </div>
+</section>
+
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-10 col-xl-8">
+        <article>
+          <div class="card-list">
+            
+            {{ $paginator := .Paginate (.Data.Pages ) -}}
+            {{ range $paginator.Pages -}}
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
+                  <p>{{ .Params.lead | safeHTML }}</p>
+                  {{ partial "main/blog-meta.html" . -}}
+                </div>
+              </div>
+            {{ end -}}
+            {{ $.Scratch.Set "paginator" true }}
+            {{ template "_internal/pagination.html" . }}
+          </div>
+        </article>
+      </div>
     </div>
   </div>
 </section>
