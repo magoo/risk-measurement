@@ -1,5 +1,5 @@
 ---
-title : "Learn how to measure risk!"
+title : "Let's measure some risks!"
 description: "Helping engineers ramp up their risk intuition and skillset."
 lead: "Helping engineers ramp up their risk intuition and skillset."
 date: 2020-10-06T08:47:36+00:00

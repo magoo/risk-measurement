@@ -29,8 +29,8 @@
         <article>
           <div class="card-list">
             
-            {{ $paginator := .Paginate (.Data.Pages ) -}}
-            {{ range $paginator.Pages -}}
+            {{ $paginator := .Paginate (where site.RegularPages "Section" "blog" ) -}}
+            {{ range $paginator.Pages}}
               <div class="card">
                 <div class="card-body">
                   <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
