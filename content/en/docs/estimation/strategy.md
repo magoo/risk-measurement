@@ -75,7 +75,7 @@ In once extreme case, psychologists joined a cult, and observed that its members
 > Festinger, Leon; et al. (1956). When Prophecy Fails. Minneapolis: University of Minnesota Press.
 
 ## CHAMPS KNOW
-
+From research described [here](https://aiimpacts.org/evidence-on-good-forecasting-practices-from-the-good-judgment-project-an-accompanying-blog-post/), [here](http://journal.sjdm.org/16/16511/jdm16511.html), and [here](https://g.co/kgs/j4Y32n). 
 
 |Letter   | Probabilistic Reasoning Principal   |
 |:--:|:--:|
