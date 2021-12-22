@@ -15,7 +15,7 @@ This bug screamed uncertainty for a variety of reasons. I was motivated to come 
 
 The vulnerability was already being exploited before I could get an _[in the wild](https://magoo.medium.com/forecasting-bluekeep-5c25a8d5d681)_ forecast together. The next most interesting thing was [speculation](https://twitter.com/Laughing_Mantis/status/1470165580736987137) about whether this vulnerability would appear as a worm, which I gathered some folks up to take on with a panel forecast. 
 
-A _meaningful_ forecast about a "worm" was really difficult to pin down. Regardless, the process of getting the measurement together was useful. It always seems to be!
+A _meaningful_ forecast about a "worm" was really difficult to pin down. Regardless, the process of getting the measurement together was useful. It always seems to be! But future worm forecasting needs to be improved.
 
 First, I'll describe what scenario we landed on and the measurement process. There are many areas for improvement, which I hope I can highlight with blog posts.  
 
@@ -23,8 +23,7 @@ Here's the scenario we picked:
 
 > Will evidence of a worm spreading in the wild using CVE-2021-44228 (Log4Shell) for any stage of exploitation be found within 90 days?
 
-
-![log4j data](log4j-tweet.jpeg)
+![log4j-data](log4j-data.png)
 
 We measured this with an [expert elicitation](docs/estimation/expert-elicitation) approach including twelve participants and landed on a `65.58%` of occurrence. All are professionals in the security community with varying malware experience - some significant and some minor. Many of the participants were engaged in response activities for log4j and put their forecast in whilst coming up for air. 
 
