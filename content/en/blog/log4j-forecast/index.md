@@ -1,5 +1,5 @@
 ---
-title: "Forecasting that log4j vuln"
+title: "Forecasting worms using the log4j vuln"
 description: ""
 lead: ""
 date: 2021-12-21T14:37:41-08:00
