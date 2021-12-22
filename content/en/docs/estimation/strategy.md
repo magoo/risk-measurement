@@ -130,8 +130,8 @@ Always, always leave room for the complete shocker. Consider that we always view
 ## Online Training
 Participation in something continuous like the [Good Judgement Open](https://www.gjopen.com/) will help keep forecasting skills sharp. Otherwise, varying levels of rigorous training below are available.
 
-- https://good-judgment.thinkific.com/ (recommended)
-- https://www.hubbardresearch.com/shop/calibration-webinar-quantify-uncertainty/ (enterprise)
-- https://www.evidentmethod.com/training/ (free / enterprise)
-- http://confidence.success-equation.com/
+- [Good Judgement](https://good-judgment.thinkific.com/) (recommended)
+- [Hubbard Research](https://www.hubbardresearch.com/shop/calibration-webinar-quantify-uncertainty/) (enterprise)
+- [https://www.evidentmethod.com/training/](https://www.evidentmethod.com/training/) (free / enterprise)
+- [http://confidence.success-equation.com/](http://confidence.success-equation.com/)
 
