@@ -33,4 +33,4 @@ Directly applicable instruments are not available to directly and impartially me
 
 Measurements that are available to inform on a risk are _indirect_. They introduce subjectivity, and with that: partial views and cognitive bias. 
 
-The last mile of risk measurement is often [Expert Elicitation](/docs/estimation/expert-elicitation) from people who are well informed on the data and realities of a situation. This topic is referred to as _adjustment_, and is seen in multiple industries - though, handled with care, and under professional standards.
+The last mile of risk measurement is often [Expert Elicitation](/simple-risk/docs/estimation/expert-elicitation) from people who are well informed on the data and realities of a situation. This topic is referred to as _adjustment_, and is seen in multiple industries - though, handled with care, and under professional standards.

@@ -24,6 +24,12 @@
 
 <section class="section section-sm">
   <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+       <h2>Blog</h2>
+      </div>
+      
+    </div>
     <div class="row justify-content-center">
       <div class="col-md-12 col-lg-10 col-xl-8">
         <article>
@@ -33,7 +39,7 @@
             {{ range $paginator.Pages}}
               <div class="card">
                 <div class="card-body">
-                  <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
+                  <h2 class="h5"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
                   <p>{{ .Params.lead | safeHTML }}</p>
                   {{ partial "main/blog-meta.html" . -}}
                 </div>

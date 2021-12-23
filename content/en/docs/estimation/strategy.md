@@ -35,7 +35,7 @@ This principle is similar to the [uniform distribution](docs/estimation/distribu
 
 When faced with a scenario with four outcomes, this principle suggests starting with 25% forecasted probabilities for each of outcome and continuing a study from there. Assuming there is no available information to suggest one outcome over another, this would be the most efficient default strategy to avoid error.
 
-During [elicitation](/docs/estimation/expert-elicitation), an expert may immediately disagree with these odds. They may find themselves confronting information about their beliefs for each scenario and debating an indifferent strategy. Afterward, it\'s likely that the forecaster has opinions they can more easily express numerically: _this should be higher_ or _that must be lower_. 
+During [elicitation](/simple-risk/docs/estimation/expert-elicitation), an expert may immediately disagree with these odds. They may find themselves confronting information about their beliefs for each scenario and debating an indifferent strategy. Afterward, it\'s likely that the forecaster has opinions they can more easily express numerically: _this should be higher_ or _that must be lower_. 
 
 ### The Absurdity Test
 

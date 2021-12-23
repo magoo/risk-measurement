@@ -32,7 +32,7 @@ scientific goals while acknowledging that the \"undesirable\" aspect of
 risk may be wholly subjective.
 
 The opinion of this documentation is that risk discussions should be
-structured around [scenarios](/docs/risk/scenarios)
+structured around [scenarios](/simple-risk/docs/risk/scenarios)
 
 ## Locality
 

@@ -28,7 +28,7 @@ Some ideas on _directional_ scenarios:
 
 These are examples and some will resonate while others will not. The creation and selection of a _good_ scenario is a leadership task. 
 
-From here, decomposition allows us to sniff out hot areas of risk where large causal areas form. We can do this so long as we follow [probabilistic axioms](/docs/intro/risk/#probability), especially the third axiom of mutually exclusive events. This means our decomposition needs to be Mutually Exclusive and Collectively Exhaustive (MECE in business speak).
+From here, decomposition allows us to sniff out hot areas of risk where large causal areas form. We can do this so long as we follow [probabilistic axioms](/simple-risk/docs/intro/risk/#probability), especially the third axiom of mutually exclusive events. This means our decomposition needs to be Mutually Exclusive and Collectively Exhaustive (MECE in business speak).
 
 ```mermaid  
 

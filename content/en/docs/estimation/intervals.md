@@ -10,18 +10,18 @@ menu:
 
 An interval estimate can be described as a range of values, plus the probability that an outcome will fall within them. More formally, these can be called probability intervals, or credible intervals.
 
-Intervals can also be thought of as the values between two percentile values on a [distribution](/docs/estimation/distributions).
+Intervals can also be thought of as the values between two percentile values on a [distribution](/simple-risk/docs/estimation/distributions).
 
 Here are the exact same statements with increasing formality. Each communicates an interval:
 
 Here's a statement that _could_ be an interval with one more bit of information:
 > _After a DDoS... we could be down from about a minute to seven days_
 
-If we get a percentage from the individual, we can [elicit](/docs/estimation/expert-elicitation) an interval estimate.
+If we get a percentage from the individual, we can [elicit](/simple-risk/docs/estimation/expert-elicitation) an interval estimate.
 
 > _There's a `90%` chance a DDoS causes downtime between 1 minute and 7 days._
 
-Cool. An interval is just a pair of [percentile](/docs/estimation/percentiles) estimates. Knowing what is going on underneath, we can word these in a variety of different ways...
+Cool. An interval is just a pair of [percentile](/simple-risk/docs/estimation/percentiles) estimates. Knowing what is going on underneath, we can word these in a variety of different ways...
 
 > _`5%` of DDoS downtime will be below 1 minute. `5%` will be above 7 days._
 

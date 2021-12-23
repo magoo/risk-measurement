@@ -33,7 +33,7 @@ Register approaches are _extremely_ cumbersome if direct elicitation is required
 
 The layout may convince you that a fixing-from-the-top-down approach is the obvious one, and that we should discover _all the risks_, elicit forecasts for _all the risks_ and register _all the risks_. Of course, this is not the right way to go.
 
-Actual [decisions](/docs/intro/decisions) involving these risks will always include non-registered factors. Engineers might not have a clear mitigation in mind. There may be costs we haven't enumerated. Maybe delays are involved with some of the risks we'd prefer mitigating.
+Actual [decisions](/simple-risk/docs/intro/decisions) involving these risks will always include non-registered factors. Engineers might not have a clear mitigation in mind. There may be costs we haven't enumerated. Maybe delays are involved with some of the risks we'd prefer mitigating.
 
 A risk register will not lay plans in front of us, so care should be applied in efforts to tie everything into a register.
 

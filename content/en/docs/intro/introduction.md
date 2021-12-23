@@ -1,5 +1,5 @@
 ---
-title: "Purpose"
+title: "Introduction"
 
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
@@ -19,4 +19,6 @@ Simple Risk Measurement teaches security engineers about quantitative risk.
 
 **Management:** Find the optimum place for risk measurement with groups of people in a workplace.
 
-Reading material is suggested throughout this documentation for those who want to dive deeper into the concepts, or see [Reading Material](/docs/other/reading-material)
+Reading material is suggested throughout this documentation for those who want to dive deeper into the concepts, or see [Reading Material](/simple-risk/docs/other/reading-material).
+
+See the [blog](/simple-risk/blog) for examples and discussion with current events.

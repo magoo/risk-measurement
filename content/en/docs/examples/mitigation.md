@@ -15,7 +15,7 @@ toc: true
 Let's assume we found a vulnerability on a host named `build001`.
 
 {{< alert icon="👉">}}
-This example vulnerability was discussed **[here](/docs/examples/vulnerability)**.
+This example vulnerability was discussed **[here](/simple-risk/docs/examples/vulnerability)**.
 {{< /alert >}}
 
 ## The vuln
@@ -30,7 +30,7 @@ There are complicating factors:
 
 This makes the job tough! Well, we can't _efficiently_ model each of these limitations in a reasonable time. We're here just to focus on risk, anyway.
 
-This vulnerability was [previously measured](/docs/examples/vulnerability) as follows:
+This vulnerability was [previously measured](/simple-risk/docs/examples/vulnerability) as follows:
 
 
 - There's a `45%` chance that VULN-0 will be exploited within 30 days.
@@ -42,7 +42,7 @@ Any possible mitigation has to have a positive effect on these measurments... bu
 ## The target
 Our role as the trusted and informed product security expert is to set some goalposts on what our mitigation should get us to. Let's do that now.
 
-Previous work has already measured the vulnerability as-is with at having a `60%` chance of being involved in a disclosable incident. (see the [Vulnerability](/docs/examples/vulnerability) example)
+Previous work has already measured the vulnerability as-is with at having a `60%` chance of being involved in a disclosable incident. (see the [Vulnerability](/simple-risk/docs/examples/vulnerability) example)
 
 After a bunch of brainstorming, let's say we come up with the following goal:
 
