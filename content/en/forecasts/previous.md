@@ -31,7 +31,7 @@ The following forecasts were run with panels I organized. Details on scoring can
 Scenario: Will "in the wild" remote code exploitation of Chromium be disclosed in Q2 2019?  
 Outcome: No  
 Score: `0.043`  
-Discussion: This was structured similarly to the previous Chromium forecast (Sept2018) over a longer period of time, one quarter.
+Discussion: This was structured similarly to the previous Chromium forecast ([Sept2018](#chromium-critical-sep2018)) over a longer period of time, one quarter.
 
 ### Bluekeep
 Scenario: Will exploitation of CVE-2019-0708 (Bluekeep) be observed by the security community "in the wild?"  
@@ -49,9 +49,8 @@ Discussion:  [Discussion on Medium](https://medium.com/@magoo/enigma-forecasting
 Scenario: How many "malicious" advisories will NPM publish in December 2018?  
 Outcome: 0 advisories (Min: 0 Max: 2.7777777777777777) @ 90% confidence  
 Score:  `0.01`   
-Discussion:  
-
-https://medium.com/starting-up-security/forecasting-npm-advisories-6c7894807680
+[Discussion](
+https://medium.com/starting-up-security/forecasting-npm-advisories-6c7894807680)):  
 
 Nine panelists, with a 90% confidence interval estimate, estimate between `0 and 2.7` advisories about malicious NPM packages in December. This is probably the first "confidence interval" forecast with this panel and it seemed well understood without much explanation. To help inform the forecast, NPM has several years of advisory data that can be interpreted. This forecast was inspired by the NPM package breach impacting the copay wallet.
 
@@ -93,7 +92,7 @@ This is the first forecast being run on structured breach data within the Privac
 Scenario: Will a "Critical" Chromium exploit be discovered "in the wild" in September 2018?  
 Outcome: *Correct (98.36%) on Oct-02-2018*  
 Score: `0.0002706024999999994`  
-Discussion:  
+[Discussion](https://medium.com/starting-up-security/measuring-in-the-wild-exploitation-7fab6e5b63d):  
 
 `Yes.` came in at `1.64%`, which suggests a future with all things being stable, a "Critical" exploit to occur once every five years given the current known universe. Forecasters were extremely positive on Chrome's security posture given its history, its current investment, and the current rate of Critical bug findings which occur around 0-4 times a month and always discovered under ideal circumstances.
 
@@ -130,6 +129,19 @@ Outcome: No
 Score: `0.021075`  
 [Discussion here. ](https://medium.com/starting-up-security/forecasting-a-headline-risk-netspectre-3c60338fd596) 
 
+### Bloomberg "The Big Hack"
+Scenario: Will the supply chain server hardware attacks described in the Bloomberg article be confirmed by Jan 1 2020?
+Outcome: No
+Score:   `0.40176648`
+Discussion:  
+
+This is based on the [Bloomberg "The Big Hack"](https://www.bloomberg.com/news/features/2018-10-04/the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies) article and designed to inform a security team about upstream hardware compromise and _actual threats_ taking place outside of speculation. 20+ panelists.
+
+- This will be confirmed. (Yes) `44.82%`
+- This will not be confirmed. (No) `55.18%`
+
+[Discussion can be found on Medium](https://medium.com/@magoo/forecasting-bloombergs-the-big-hack-16b41e0b182b).
+
 ## Ongoing
 
 ### Log4J Worm
@@ -139,18 +151,7 @@ Score:
 [Discussion here](/simple-risk/blog/forecasting-log4j-worms/).
 
 
-### Bloomberg "The Big Hack"
-Scenario: Will the supply chain server hardware attacks described in the Bloomberg article be confirmed by Jan 1 2020?
-Outcome:
-Score:   
-Discussion:  
 
-This is based on the [Bloomberg "The Big Hack"](https://www.bloomberg.com/news/features/2018-10-04/the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies) article and designed to inform a security team about upstream hardware compromise and _actual threats_ taking place outside of speculation. 20+ panelists.
-
-- This will be confirmed. (Yes) `44.82%`
-- This will not be confirmed. (No) `55.18%`
-
-[Discussion can be found on Medium](https://medium.com/@magoo/forecasting-bloombergs-the-big-hack-16b41e0b182b).
 
 
 ### Blank!

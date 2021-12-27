@@ -10,6 +10,4 @@ images: []
 
 Hi! 👋 
 
-This place supports people starting to learn about quantitative risk. It is also a forecasting playground for [@magoo](https://www.twitter.com/magoo) and others.  
-
-Enjoy!
+This place supports people starting to learn about quantitative risk. It is also a forecasting playground for [@magoo](https://www.twitter.com/magoo) and others. Enjoy!
