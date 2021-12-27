@@ -24,36 +24,14 @@
 					</ol>
 				</nav>
 			{{ end }}
-			<h2>{{ .Title }}</h2>
-			
+			<h1>{{ .Title }}</h1>
+			<p class="lead">{{ .Params.lead | safeHTML }}</p>
 			{{ if ne .Params.toc false -}}
 			<nav class="d-xl-none" aria-label="Quaternary navigation">
 				{{ partial "sidebar/docs-toc.html" . }}
 			</nav>
 			{{ end -}}
-
 			{{ .Content }}
-      
-      <hr />
-
-      <div class="row ">
-      <h5>Blog</h5>          
-
-              
-              {{ $paginator := .Paginate (where site.RegularPages "Section" "blog" ) -}}
-              {{ range $paginator.Pages}}
-                    <a class="" href="{{ .RelPermalink }}">{{ .Params.date.Format "2006-01-02" }}: {{ .Params.title }}</a>
-
-              {{ end -}} 
-              {{ $.Scratch.Set "paginator" true }}
-              {{ template "_internal/pagination.html" . }}
-
-          
-
-      </div>
-        
-      
-
 			{{ if .Site.Params.editPage -}}
 				{{ partial "main/edit-page.html" . }}
 			{{ end -}}

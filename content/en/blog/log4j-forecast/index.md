@@ -25,9 +25,9 @@ Here's the scenario we picked:
 
 ![log4j-data](log4j-data.png)
 
-We measured this with an [expert elicitation](/simple-risk/docs/estimation/expert-elicitation) approach, including twelve participants, and landed on a `65.58%` of occurrence. All are professionals in the security community with varying malware experience - some significant and some minor. Many of the participants were busy with log4j response, simultaneously. They put their forecast in when coming up for air. 
+We measured this with an [expert elicitation](/simple-risk/docs/estimation/expert-elicitation) approach, including twelve participants, and landed on a `65.58%` of occurrence. All are professionals in the security community with varying malware experience - some significant and some minor. Many of the participants were also busy with log4j response. They put their forecast in when coming up for air. 
 
-As usual, the debate (the actual goal) was helpful for all of us.
+As usual, the debate (the actual goal) was helpful for all of us. Let's talk a bit about the forecast process.
 
 First, worms can use multiple means of exploitation. So we needed to be clear. Are we looking for a "full" worm that solely used CVE-2021-44228 to get around from victim to victim? 
 
@@ -62,3 +62,4 @@ In any case, figuring out the language around "is it a worm" helps get us to mor
 
 If other known standards around "worm" language exist that would be useful in forecasting, please reach out. 
 
+Lastly I'll conclude that _even allowing this inclusive definition of a worm_, I imagine most vulnerabilities would not measure as CVE-2021-44228 has, as most vulnerabilities are not wrapped up into active worms. So, this measurement would still be informative to me and have me take a second look at the vulnerability, assuming this measurement was all I had. 
