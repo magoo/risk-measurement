@@ -11,7 +11,7 @@ contributors: []
 
 I organized an early forecast during the beginnings of the log4j (CVE-2021-44228) hysteria. Some links and early timeline are available [here](https://magoo.github.io/incident-tracking/2021-12-09-log4j) if you are reading this post in the future or aren't up to speed on this vulnerability.
 
-This bug screamed uncertainty for a variety of reasons. I was motivated to come out of hiding and get a forecast together. Our community was unfamiliar with a vulnerability like this and only caught everyone's attention after exploitation in Minecraft. The exploitation of this vulnerability is simple but not typical. 
+This bug screamed uncertainty and motivated me to come out of hiding and get a forecast together. Our community was unfamiliar with a vulnerability like this and only caught everyone's attention after exploitation in Minecraft. The exploitation of this vulnerability is simple but not typical. 
 
 Exploitation was in the wild before I could get an _[in the wild](https://magoo.medium.com/forecasting-bluekeep-5c25a8d5d681)_ forecast together. The next most interesting thing was [speculation](https://twitter.com/Laughing_Mantis/status/1470165580736987137) about whether this vulnerability would appear as a worm, which I gathered some folks up to take on with a panel forecast.
 
