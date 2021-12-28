@@ -10,7 +10,7 @@ menu:
     parent: "intro"
 ---
 
-The following forecasts were run with panels I organized. 
+The following forecasts were run with panels I organized. I maintain a private mailing list where I announce and organize these forecasts. If you're into this sort of thing, you can reach out to me and ask to be added. 
 
 Also see: 
 - [Scoring and Calibration](/simple-risk/docs/estimation/calibration/)
