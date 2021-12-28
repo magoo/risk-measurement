@@ -10,7 +10,13 @@ menu:
     parent: "intro"
 ---
 
-The following forecasts were run with panels I organized. Details on scoring can be found here: [Scoring and Calibration](/simple-risk/docs/estimation/calibration/)
+The following forecasts were run with panels I organized. 
+
+Also see: 
+- [Scoring and Calibration](/simple-risk/docs/estimation/calibration/)
+- [Standards for "in-the-wild"](/simple-risk/forecasts/in-the-wild). 
+
+## Scoreboard
 
 |Short name|Score|
 | - | - |
