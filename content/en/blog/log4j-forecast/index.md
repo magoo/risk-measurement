@@ -13,7 +13,7 @@ I organized an early forecast during the beginnings of the log4j (CVE-2021-44228
 
 This bug screamed uncertainty for a variety of reasons. I was motivated to come out of hiding and get a forecast together. Our community was unfamiliar with a vulnerability like this and only caught everyone's attention after exploitation in Minecraft. The exploitation of this vulnerability is simple but not typical. 
 
-Exploitation was in the wild before I could get an _[in the wild](https://magoo.medium.com/forecasting-bluekeep-5c25a8d5d681)_ forecast together. The next most interesting thing was [speculation](https://twitter.com/Laughing_Mantis/status/1470165580736987137) about whether this vulnerability would appear as a worm, which I gathered some folks up to take on with a panel forecast. 
+Exploitation was in the wild before I could get an _[in the wild](https://magoo.medium.com/forecasting-bluekeep-5c25a8d5d681)_ forecast together. The next most interesting thing was [speculation](https://twitter.com/Laughing_Mantis/status/1470165580736987137) about whether this vulnerability would appear as a worm, which I gathered some folks up to take on with a panel forecast.
 
 A meaningful forecast about a "worm" was complicated to pin down. Regardless, the process of getting the measurement together was helpful. It always seems to be! But future worm forecasting needs to be improved.
 
@@ -63,3 +63,9 @@ In any case, figuring out the language around "is it a worm" helps get us to mor
 If other known standards around "worm" language exist that would be useful in forecasting, please reach out. 
 
 Lastly I'll conclude that _even allowing this inclusive definition of a worm_, I imagine most vulnerabilities would not measure as CVE-2021-44228 has, as most vulnerabilities are not wrapped up into active worms. So, this measurement would still be informative to me and have me take a second look at the vulnerability, assuming this measurement was all I had. 
+
+***
+
+This forecast has a couple possible binaries floating around that might trigger a `YES` on some of the technicalities in our language, but they're currently being refuted by active malware researchers. I'll be waiting until March to review and score this scenario unless a clear "YES" event happens. 
+
+[Follow me](https://www.twitter.com/magoo) on Twitter for any updates. 
