@@ -29,11 +29,6 @@
   url = "docs/other/"
 
 [[main]]
-  name = "Docs"
-  url = "docs/"
-  weight = 10
-
-[[main]]
   name = "Forecasts"
   url = "forecasts/previous"
   weight = 10
