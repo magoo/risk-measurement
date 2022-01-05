@@ -12,9 +12,9 @@ weight: 130
 toc: true
 ---
 
-Did you get asked to make a forecast? You're in the right place!
+Do you want to forecast stuff? You're in the right place!
 
-## I don't know what to do!
+## I don't know how!
 First, don't worry! This is actually very simple.
 
 - All you're being asked is to type some _numbers_. 
@@ -22,9 +22,13 @@ First, don't worry! This is actually very simple.
 - You're not committing to anything long term.
 - Forecasts are _default anonymous_.
 
-If you're being **asked for an interval**: That's two numbers, a _maximum_ and a _minimum_, assuming some percentage of confidence that the future value will land within it. That confidence level (like, say, 90%) is usually assigned and shared between everyone.
+If you're being **asked for an interval**: That's two numbers, a _maximum_ and a _minimum_, assuming some percentage of confidence that the future value will land within it. That confidence level (like, say, `90%`) is usually assigned and shared between everyone.
+
+For example: Jelly beans in a jar: `100` (a minimum) to `200` (a maximum).
 
 If you're being **asked about a scenario**: That's few probabilities that you believe some outcomes will happen over others.
+
+For example: A `15%` chance it will rain tomorrow.
 
 You'll probably be given a link to a forecasting tool (like e6e) or a spreadsheet to collaborate in.
 
