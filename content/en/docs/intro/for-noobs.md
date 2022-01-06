@@ -17,10 +17,20 @@ Do you want to forecast stuff? You're in the right place!
 ## I don't know how!
 First, don't worry! This is actually very simple.
 
+Overall, the process is _Forecast, talk, update forecast_.
+
+First, get a forecast in. This is easy:
+
 - All you're being asked is to type some _numbers_. 
 - You won't have to show or discuss your work.
 - You're not committing to anything long term.
 - Forecasts are _default anonymous_.
+
+Next, we _talk_ about our forecasts. Talking is optional, you can lurk where the discussion is happening too. _Think critically_ about the problem and review other perspectives and submit your own if you're up for it.
+
+After you've had time to work through the problem with others, you have a chance to _update your forecast_.
+
+Here's some discussion on the numbers you might be asked for.
 
 If you're being **asked for an interval**: That's two numbers, a _maximum_ and a _minimum_, assuming some percentage of confidence that the future value will land within it. That confidence level (like, say, `90%`) is usually assigned and shared between everyone.
 
