@@ -25,6 +25,7 @@ First, get a forecast in. This is easy:
 - You won't have to show or discuss your work.
 - You're not committing to anything long term.
 - Forecasts are _default anonymous_.
+- You will finalize it later, so just get something down.
 
 Next, we _talk_ about our forecasts. Talking is optional, you can lurk where the discussion is happening too. _Think critically_ about the problem and review other perspectives and submit your own if you're up for it.
 
