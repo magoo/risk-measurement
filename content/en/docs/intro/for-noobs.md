@@ -17,7 +17,7 @@ Do you want to forecast stuff? You're in the right place!
 ## I don't know how!
 First, don't worry! This is actually very simple.
 
-Overall, the process is _Forecast, talk, update forecast_.
+Overall, the process is **forecast**, **talk**, **update forecast**.
 
 First, get a forecast in. This is easy:
 
@@ -27,7 +27,7 @@ First, get a forecast in. This is easy:
 - Forecasts are _default anonymous_.
 - You will finalize it later, so just get something down.
 
-Next, we _talk_ about our forecasts. Talking is optional, you can lurk where the discussion is happening too. _Think critically_ about the problem and review other perspectives and submit your own if you're up for it.
+Next, we _talk_ about our forecasts. Talking is optional! You can lurk where the discussion is happening instead. What is important is that you _think critically_ about the problem. Review other perspectives. Contributing to the discussion helps the whole process and is very much welcomed. You can share your actual forecast, or just your reasoning, or discuss points others have brought up.
 
 After you've had time to work through the problem with others, you have a chance to _update your forecast_.
 
