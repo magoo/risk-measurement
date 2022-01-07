@@ -14,7 +14,7 @@ Nearly all of the estimation methods in this documentation so far are actually c
 Other topics discussed so far are simple components of a probability distribution.
 
 - A [percentile](/docs/estimation/percentiles) is the sum of all probabilities up to a value on a distribution.
-- An [interval](/docs/estimation/interval) communicates two percentiles from a distribution. For instance, the `5%` and `95%` percentiles, and simply describing the probability of a value occuring within them. (For instance, a `90%` interval summarizes values in between `95%` and `5%`)
+- An [interval](/docs/estimation/interval) communicates two percentiles from a distribution. For instance, the `5%` and `95%` percentiles, and simply describing the probability of a value occurring within them. (For instance, a `90%` interval summarizes values in between `95%` and `5%`)
 
 There are [plentiful options](https://www.itl.nist.gov/div898/handbook/eda/section3/eda36.htm) for studying a probability distribution elsewhere, and this documentation will focus on intuition for their use in risk measurement.
 

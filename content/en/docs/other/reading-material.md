@@ -43,7 +43,7 @@ Application to Managerial Decision Problems](https://nps.edu/documents/103424423
 
 ### Hierarchy of Scenarios
 
-The hierarchal relationship between specific future events. This is related by the third axiom of probility, that decomposition of a scenario should have "disjoint sets" or should be mutually exclusive from one another.
+The hierarchical relationship between specific future events. This is related by the third axiom of probability, that decomposition of a scenario should have "disjoint sets" or should be mutually exclusive from one another.
 
  - [Fault tree analysis](https://en.wikipedia.org/wiki/Fault_tree_analysis#:~:text=Fault%20tree%20analysis%20(FTA)%20is,series%20of%20lower%2Dlevel%20events.&text=These%20system%20failure%20conditions%20and,in%20the%20functional%20hazard%20analysis.)
  - [Schneier on Security](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
@@ -76,7 +76,7 @@ quantitative data.
 ### Combining Expert Estimations
 
 This describes the practice of gathering up forecast material and,
-typically, averaging it together. Parimutual Betting, Simple Averages,
+typically, averaging it together. Parimutuel Betting, Simple Averages,
 Weighted Scores.
 
  - [Parimutuel betting](https://en.wikipedia.org/w/index.php?title=Parimutuel_betting&oldid=861927567)

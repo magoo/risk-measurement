@@ -23,8 +23,8 @@ Watercooler estimations are encouraged. Casual discussions can help build cultur
 - Questions and feedback is structured to promote **learning** before concluding.
 - The **debate** between experts is often managed closely to protect participants from unhealthy influence.
 - Experts are **trained** for probabilistic calibration and forecasting skill.
-- Data is carefully introduced as a **reference class**, or **monte carlo** simulations are developed to support judgement.
-- Forecasting platforms like the [Good Judgement Open](https://www.gjopen.com) are examples of elicitation at scale.
+- Data is carefully introduced as a **reference class**, or **Monte Carlo** simulations are developed to support judgment.
+- Forecasting platforms like the [Good Judgment Open](https://www.gjopen.com) are examples of elicitation at scale.
 
 As you may imagine, Elicitation that incorporates _all_ of these factors would be time consuming, resource heavy, and expensive to organize.
 

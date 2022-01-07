@@ -22,7 +22,7 @@ We may be asked what the impact would be if we suffered a breach. The following 
 - [x] Are we counting costs imposed to others (imposed risk)?
 - [x] Are we also speculating on legal costs?
 - [x] Are we talking about operational costs?
-- [x] Do sales and growth from reptuation hits and future business losses count?
+- [x] Do sales and growth from reputation hits and future business losses count?
 
 ## Example forecasts
 - _There's a 30% chance we'd have to pay a fine to a regulator_
@@ -39,5 +39,5 @@ We may be asked what the impact would be if we suffered a breach. The following 
 
 ## Example distributions
 - _A legal settlement would follow a lognormal distribution with an average of $1M and a 5% chance of exceeding $100M_
-- _A legal settlement would follow a pareto distribution with an average of $1M and a 5% chance of exceeding $100M_
+- _A legal settlement would follow a Pareto distribution with an average of $1M and a 5% chance of exceeding $100M_
 - _A legal settlement would follow a zipf's distribution with an average of $1M and a 5% chance of exceeding $100M_.

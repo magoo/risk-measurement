@@ -20,7 +20,7 @@ Rather, we can pursue decisions as follows:
 2. Set goalposts.
 3. Collect measurements.
 
-For instance, we'll examime a typical IT endpoint security problem at some large engineering organizations.
+For instance, we'll examine a typical IT endpoint security problem at some large engineering organizations.
 
 **The Problem:**
 > Engineers are removing mobile device management software from their laptops, and in some cases, changing settings that violate policy or accumulating vulnerabilities we cannot track and mitigate. They're also out of scope for our detection efforts - we can't _see_ them.
@@ -43,7 +43,7 @@ Now we have taken note of what types of action we would make before we're [biase
 This exceeds the goalposts we set. We can make the decision to begin enforcing the policy without being accused of having made a decision without regard for the data.
 
 ## The McNamara Fallacy
-This documentation is focused on quantitative risk, but warns of narrow mindedness in its usage. An overly focused attititude towards quantitative reasoning is sometimes referred to as the [McNamara Fallacy](https://en.wikipedia.org/wiki/McNamara_fallacy). Individuals who reject information that hasn't yet been quantified are vulnerable to this sort of failure. Qualitative analysis is still valuable.
+This documentation is focused on quantitative risk, but warns of narrow mindedness in its usage. An overly focused attitude towards quantitative reasoning is sometimes referred to as the [McNamara Fallacy](https://en.wikipedia.org/wiki/McNamara_fallacy). Individuals who reject information that hasn't yet been quantified are vulnerable to this sort of failure. Qualitative analysis is still valuable.
 
 Metrics are gathered because they've met some level of accessibility. A unavailable metric or quantified measurement is not necessarily less important - there may be resource constraints in acquiring them.
 

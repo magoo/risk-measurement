@@ -46,7 +46,7 @@ the estimation.
 If a leveling approach is not desired, the following criteria can be requested as part of a study as needed:
 
 -   Risks are [decomposed](https://en.wikipedia.org/wiki/Fermi_problem) and their components are individually (or [independently](https://ought.org/updates/2020-01-11-arguments)) studied. 
--   Forecasts are elicted by individuals who have been calibration
+-   Forecasts are elicited by individuals who have been calibration
     trained.
 -   Forecasters have a determined track record with Brier scores meeting
     a specific threshold. (See: [Keeping Score](http://localhost:1313/docs/estimation/forecasting/#keeping-score))

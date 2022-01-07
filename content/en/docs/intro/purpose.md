@@ -13,7 +13,7 @@ toc: true
 ---
 Simple Risk Measurement teaches security engineers about quantitative risk. 
 
-**Models:** Obtain the knowledge needed wield quantiative approaches with creative modeling.
+**Models:** Obtain the knowledge needed wield quantitative approaches with creative modeling.
 
 **Guidance:** Avoid the pitfalls that make risk measurement _treacherous_. 
 

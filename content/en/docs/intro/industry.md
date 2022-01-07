@@ -40,7 +40,7 @@ The FAA has regulation about [space launches](govinfo.gov/content/pkg/FR-2016-07
 
 >This final rule also revises the acceptable risk threshold for launch from an Ec of 30 × 10E-6 for each hazard to an Ec of 1 × 10E-4 for all three hazards combined.
 
-What does this mean in english?
+What does this mean in English?
 
 ``` none
 How many casualties will result from a launch? 
@@ -54,7 +54,7 @@ in nuclear risk measurement are
 [common](https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/probabilistic-risk-asses.html). 
 
 - Will a tube in a steam generator rupture?
-- Will there be health effects from resulting raditation leaks around a plant?
+- Will there be health effects from resulting radiation leaks around a plant?
 - How frequently will the core be damaged?
 
 The nuclear industry relies on extensive [data

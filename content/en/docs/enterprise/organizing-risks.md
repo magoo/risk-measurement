@@ -54,7 +54,7 @@ A-->F[ProdSec];
 B[Other];
 A -->B
 ```
-So, how would one of these labels be applied to a SEV0? This may be classified during an incident review, a postmortem or retrospective process, or simply a judgement by a CISO or other leader.
+So, how would one of these labels be applied to a SEV0? This may be classified during an incident review, a postmortem or retrospective process, or simply a judgment by a CISO or other leader.
 
 This risk model allows us to federate this risk to be studied under `CorpSec` by another group. CorpSec can wholly own and investigate risks with a top level "SEV0 with Regulatory Disclosure" requirement. They can ask themselves, "_What could take place within CorpSec that would result in a SEV0 and a disclosure?_" 
 
