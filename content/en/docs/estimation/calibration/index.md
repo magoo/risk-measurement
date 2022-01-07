@@ -22,7 +22,7 @@ Probabilistic statements are _uncertain_ and produce _error_. All probabilistic 
 
 **Score (or "error"):** The accuracy of an individual forecast when compared to hindsight.
 
-[Chicken Little](https://en.wikipedia.org/wiki/Henny_Penny) 🐤 is an example of a low scoring forecast. Chicken Little says that the sky is absolutely going to fall, and then the sky does not fall. The forecast is incorrect and is scored poorly. Chiken Little is a demonstrably poor source of information.
+[Chicken Little](https://en.wikipedia.org/wiki/Henny_Penny) 🐤 is an example of a low scoring forecast. Chicken Little says that the sky is absolutely going to fall, and then the sky does not fall. The forecast is incorrect and is scored poorly. Chicken Little is a demonstrably poor source of information.
 
 **Calibration**: How trustworthy the source of a forecast is.
 
@@ -41,7 +41,7 @@ Forecasts that include their associated confidence can make use of the
 [Brier Score](https://en.wikipedia.org/wiki/Brier_score) to record
 accuracy over time. This is simply calculated as the \"Squared Error\".
 
-The Good Judgement Open has an [accessible
+The Good Judgment Open has an [accessible
 definition](https://www.gjopen.com/faq) of the Brier Score: :
 
 ``` none
@@ -119,7 +119,7 @@ This chart shows that the source of forecasts (a person, a statistical model) is
 
 A perfectly calibrated source of forecasts could be seriously valuable. The source's suggestions would come with great authority (especially with bold forecasts at 0% or 100%). This is not common in low information situations (like risk) and especially when dealing with human forecasts. 
 
-The following chart demonstrates an unreliable source of forecasts. The chart communicates to us that we can't trust the judgement of the source of forecasts. The source may claim some percentage of certainty towards an outcome while their track record doesn't support it.
+The following chart demonstrates an unreliable source of forecasts. The chart communicates to us that we can't trust the judgment of the source of forecasts. The source may claim some percentage of certainty towards an outcome while their track record doesn't support it.
 
 ![Poor Calibration](calibration-uncalibrated.png)
 

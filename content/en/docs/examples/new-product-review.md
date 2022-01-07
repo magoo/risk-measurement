@@ -21,7 +21,7 @@ We launch a feature that lets customers upload profile pictures.
 {{< /alert >}}
 
 ## Discussion 
-This change allows "User Generated Content" or UGC onto a platorm. UGC can have multi-dimensional impacts.
+This change allows "User Generated Content" or UGC onto a platform. UGC can have multi-dimensional impacts.
 
 Allowing new UGC into a product workflow creates many operational risks that will result during the lifetime of the product, as well as risks that would be infrequent but potentially devastating. For instance, a vulnerability in [image processing dependencies](https://imagetragick.com/). 
 

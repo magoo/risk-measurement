@@ -37,6 +37,6 @@ Elicitation is quick and often understood. Though, a sole percentile estimate wo
 
 For instance, let's say the 90% height in a group of people happens to be 6 foot 3. Knowing that height is normally distributed, we don't expect the remaining 10% of people to include any 20 foot giants. Rather, we expect the remaining 10% of people to be able to walk through a doorway.
 
-However, a 90% percentile estimate of _regualtory settlements_ may be entirely different. Assume 90% of settlements are expected to be under $200 million for a business. Within that remaining 10% of possible settlements may be some extreme values in the [multiple billions](https://www.ftc.gov/news-events/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions).
+However, a 90% percentile estimate of _regulatory settlements_ may be entirely different. Assume 90% of settlements are expected to be under $200 million for a business. Within that remaining 10% of possible settlements may be some extreme values in the [multiple billions](https://www.ftc.gov/news-events/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions).
 
 The percentile itself does not communicate distributions of risk. Still, a percentile estimate is quick and useful especially if an audience is familiar with the underlying behavior of the risk.

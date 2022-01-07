@@ -25,7 +25,7 @@ discussing a risk if they don\'t pin a specific outcome down first.
 Until we define a scenario, `r = p *i` is not useful. 
 
 To do this, we explicitly define a risk with a *scenario*, which is an
-unambiguous statement about an undesireable future event.
+unambiguous statement about an undesirable future event.
 
 A scenario can have multiple *outcomes* to be estimated. For instance,
 an explosion may have costs, loss of life, or periods afterward spent offline.
@@ -142,7 +142,7 @@ circumstances. For instance:
 2. We don't disclose an incident next year.
 3. Other
 
-This would allow you to continue judgement under difficult to imagine circumstances. Additionally, decisions can reverse. Write defensible scenarios that mitigate flip-flopping of an outcome. 
+This would allow you to continue judgment under difficult to imagine circumstances. Additionally, decisions can reverse. Write defensible scenarios that mitigate flip-flopping of an outcome. 
 
 Perhaps the regulator decides that the incident does not qualify as an incident, and there is a desire to retroactively invalidate the scenario.
 

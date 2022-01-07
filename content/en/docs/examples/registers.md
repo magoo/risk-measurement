@@ -40,7 +40,7 @@ A risk register will not lay plans in front of us, so care should be applied in 
 However, there are ways to make registers more efficient.
 
 ## Lens Models
-A lens model is a technique that could help populate a risk register more effiently. It allows the creation of a statistical model that captures expert opinion (or plural from a panel) on a few select predictors and outputs a register of probabilities to prioritize from. An example of this is here: [AWS Risk Model](https://magoo.github.io/model-risk-aws/)
+A lens model is a technique that could help populate a risk register more efficiently. It allows the creation of a statistical model that captures expert opinion (or plural from a panel) on a few select predictors and outputs a register of probabilities to prioritize from. An example of this is here: [AWS Risk Model](https://magoo.github.io/model-risk-aws/)
 
 
 ## Statistical models 

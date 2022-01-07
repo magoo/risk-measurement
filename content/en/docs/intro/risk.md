@@ -26,7 +26,7 @@ describes risk with many definitions:
  4.  The statistical expectation value of an unwanted event which may or may not occur.
  5.  The fact that a decision is made under conditions of known probabilities.
  
- For example, playing russian roulette (1/8 odds) compared to walking through a _literally_ haunted house (👻).
+ For example, playing Russian roulette (1/8 odds) compared to walking through a _literally_ haunted house (👻).
 
 There are obviously more uses of the word _risk_.
 
@@ -54,7 +54,7 @@ The equation can be described as a scenario.
 - `p` is a **Probability** involved with the scenario.
 - `i` is an **Impact**.
 
-Quantitative risk is composed from the product of how *probable* an undesireable event is, and the probable impacts that would result. 
+Quantitative risk is composed from the product of how *probable* an undesirable event is, and the probable impacts that would result. 
 
 We _very often_ focus on smaller components of this equation. Practical cybersecurity blue team work is full of examples where we make assumptions about a scenario or impact. "Assume Breach" is one of them, which you've likely heard of. Sometimes we assume a breach has already occurred, and work to mitigate downstream impact. Then, we may switch gears and patch a vulnerability that could cause that same breach to begin with.
 
@@ -79,9 +79,9 @@ Explained similarly: The expected value of coming up heads on a coin flip is 50%
 ### Probability
 The probability (`p`) of an event could come from a variety of places. Let's use an example scenario of a fire taking place at a chosen museum next year.
 
-Where would we gather a probability of this happening for use in analysis? The answer takes some creativity and some resourcefulness. There may be statistical data on fires at museums you could manually collect. Maybe the insurance company provides their estimate based on claims data. Perhaps risk managing employees at the museum perfomed a study and were [elicited](/docs/estimation/expert-elicitation) for a probability.
+Where would we gather a probability of this happening for use in analysis? The answer takes some creativity and some resourcefulness. There may be statistical data on fires at museums you could manually collect. Maybe the insurance company provides their estimate based on claims data. Perhaps risk managing employees at the museum performed a study and were [elicited](/docs/estimation/expert-elicitation) for a probability.
 
-You'll notice from these examples that probability is _subjective_! Even if we were to statistically calculate a likelihood from a useful dataset, it would still be up to us (the subject) to choose this indirect measurement as representative of a future probability. Accepting this data allows this data to suggest furture performance, when we already know that past results do not guarantee future performance. 
+You'll notice from these examples that probability is _subjective_! Even if we were to statistically calculate a likelihood from a useful dataset, it would still be up to us (the subject) to choose this indirect measurement as representative of a future probability. Accepting this data allows this data to suggest future performance, when we already know that past results do not guarantee future performance. 
 
 Probability used this way is considered a _measure of evidence or belief_, rather than a certification of future outcomes.
 
@@ -99,11 +99,11 @@ Probabilities must follow the [probability axioms](https://en.wikipedia.org/wiki
 
 **Third axiom**: For all events in a sampled space that are mutually exclusive, the result of their sum should equal their union. 
 
-In more simple english, imagine a deck of cards. There are no "Kings" that are "Queens", because the face cards are mutually exclusive. No card is both a King and a Queen. 
+In more simple English, imagine a deck of cards. There are no "Kings" that are "Queens", because the face cards are mutually exclusive. No card is both a King and a Queen. 
 
 So, the odds of a card being a King (1 in 13) can be added to the odds of being a Queen (also, 1 in 13) safely (2 in 13 odds of being a King OR Queen)
 
-However, the odds of being a Heart and a King are not mutually exclusive, because they intersect with the King of Hearts which is simultanously both cards. 
+However, the odds of being a Heart and a King are not mutually exclusive, because they intersect with the King of Hearts which is simultaneously both cards. 
 
 So, you cannot cleanly add the odds of being a King (1 in 13) with the odds of being a Heart (1 in 4), because there is a single card that could be both. 16 cards would meet the criteria of being a King or a Heart in reality. If you broke this rule and treated them as mutually exclusive, you might count the King of Hearts twice, or not at all. This is a failure of quantitative risk modeling.
 
@@ -117,7 +117,7 @@ In cyber security: We often make models that treat events as mutually exclusive 
 
 While it is _unlikely_ that an spearphishing APT group might work with an insider, these are not mutually exclusive events, and it's certainly not outside the realm of possibility that it could occur. 
 
-We are easily suprised by what we see in the wild because it breaks our models, but our models may still be applicable as a proxy to organize efforts around them.
+We are easily surprised by what we see in the wild because it breaks our models, but our models may still be applicable as a proxy to organize efforts around them.
 
 However, we will always operate with models (quantitative or not) and cannot escape them. Quantitative modeling is clear on where they can be improved and corrected, which is where it beats qualitative methods. Qualitative methods might have benefits covering complex scenarios, but may not have the same measurement capability. 
 
@@ -132,7 +132,7 @@ However, impact is another probabilistic value with varying results. This will b
 - The amount of customers that may, or may not, churn from an incident.
 - The amount of time fixing a vulnerability.
 
-When impact is a simple value-at-rest, like a bank account... it can simply be represented by that value. When impact behaves probabilistically, we can resort to writing code as a [monte carlo](/docs/risk/monte-carlo) simulation.
+When impact is a simple value-at-rest, like a bank account... it can simply be represented by that value. When impact behaves probabilistically, we can resort to writing code as a [Monte Carlo](/docs/risk/monte-carlo) simulation.
 
 It's OK to _assume_ that a scenario will take place and focus on studying its impact, just like it's OK to assume that an incident is bad enough to warrant a study of its causes.
 
@@ -206,7 +206,7 @@ trust that efforts to mitigate a risk may reduce the Expected Value of a
 loss, even if an engineer doesn\'t have the full picture measured.
 
 ## Uncertainty and Risk
-_Uncertainty_ is a term that often comes up in risk measurement, and is often used interchangeably with probability. For example, the probability of some scenario occuring can be described as the uncertainty involved with that scenario.
+_Uncertainty_ is a term that often comes up in risk measurement, and is often used interchangeably with probability. For example, the probability of some scenario occurring can be described as the uncertainty involved with that scenario.
 
 However, there are interpretations of risk that distinguish risk from uncertainty, as [Knightian Uncertainty](https://en.wikipedia.org/wiki/Knightian_uncertainty). 
 
@@ -233,6 +233,6 @@ However, there are risks that do not have similar opportunities. These risks are
 - The machinations of your adversaries intentions may never be fully known.
 - After an acquisition, the possibility of an existing breach can't be fully eliminated.
 
-Even well traveled, open source, and heavily tested code can have [risks](https://googleprojectzero.blogspot.com/2021/12/this-shouldnt-have-happened.html), so this is not to say that either side of Knightian interpretation is preferrable. Rather, we should be sensitive to the amount of study that has occurred behind the risks we are making decisions about, and value opportunities to measure risks that are hard to reach.
+Even well traveled, open source, and heavily tested code can have [risks](https://googleprojectzero.blogspot.com/2021/12/this-shouldnt-have-happened.html), so this is not to say that either side of Knightian interpretation is preferable. Rather, we should be sensitive to the amount of study that has occurred behind the risks we are making decisions about, and value opportunities to measure risks that are hard to reach.
 
 Decision making should take into account the understanding of risks that lack appropriate study, versus well studied risks. See [Decision Standards](/docs/enterprise/decision-standards) for thoughts on incorporating this level of rigor into a decision.

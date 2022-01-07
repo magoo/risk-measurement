@@ -37,7 +37,7 @@ This vulnerability was [previously measured](/docs/examples/vulnerability) as fo
 - (_If Exploited_) Incident response has a `60%` chance of requiring disclosure.
 - An investigation has an `80%` chance of finding `build001` compromised.
 
-Any possible mitigation has to have a positive effect on these measurments... but by how much?
+Any possible mitigation has to have a positive effect on these measurements... but by how much?
 
 ## The target
 Our role as the trusted and informed product security expert is to set some goalposts on what our mitigation should get us to. Let's do that now.
