@@ -30,7 +30,7 @@
 
 [[main]]
   name = "Forecasts"
-  url = "forecasts/previous"
+  url = "forecasts/"
   weight = 10
 
 
