@@ -48,7 +48,7 @@ The following discussions took place with panelists, which represent varying per
 ### Do we have evidence of 0day detection opportunities?
 We only know about in-the-wild 0days that have been discovered. What data exists that suggest undiscovered 0days? Findings may increase rapidly if detection opportunities are taken advantage of.
 
-[Maddie Stone's](https://googleprojectzero.blogspot.com/2020/07/detection-deficit-year-in-review-of-0.html) post on the Project Zero blog makes several important points: We have often have strong evidence that 0days exist while not having the 0days themselves to analyze. Her example discusses an 0day that was suggested by a leak at an exploit vendor. Stone eventually [hunted this vulnerability down](https://bugs.chromium.org/p/project-zero/issues/detail?id=1942) and did so _without available forensics_.
+[Maddie Stone's](https://googleprojectzero.blogspot.com/2020/07/detection-deficit-year-in-review-of-0.html) post on the Project Zero blog makes several important points: We have often have strong evidence that 0days exist while not having the 0days themselves to analyze. Her example discusses an 0day that was suggested by a leak at an exploit vendor. Stone eventually [hunted this vulnerability down](https://bugs.chromium.org/p/project-zero/issues/detail?id=1942).
 
 Evidence _suggested_ the existence of this 0day being exploited before it was actually found.
 
