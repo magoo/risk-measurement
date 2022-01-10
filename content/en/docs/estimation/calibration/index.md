@@ -106,7 +106,6 @@ expressed simply with two Brier scores being compared below.
 
 > `BrierSkillScore = 1.0 – BrierScoreNew / BrierScoreReference`
 
-
 ## Calibration 
 
 Calibration is best observed with a line chart. We graph a lot of forecasts with their average correctness, in buckets of certainty. We can then make statements like: 

@@ -17,7 +17,7 @@ The definition of measurement is probably more inclusive of methods than you wou
 
 We often use an objective instrument to measure something, but this does not eliminate uncertainty. For instance, we may use a ruler to measure the size of a table. When an objective instrument does not exist... we rely on _increasingly unreliable_ methods. For instance, a reference, historical statistics, estimations, and wild ass guesses.
 
-**An example**: You want to move furniture. You have no tape measure. 
+**An example**: You want to move furniture. You have no tape measure.
 
 What do you do?
 
@@ -33,4 +33,4 @@ Directly applicable instruments are not available to directly and impartially me
 
 Measurements that are available to inform on a risk are _indirect_. They introduce subjectivity, and with that: partial views and cognitive bias. 
 
-The last mile of risk measurement is often [Expert Elicitation](/docs/estimation/expert-elicitation) from people who are well informed on the data and realities of a situation. This topic is referred to as _adjustment_, and is seen in multiple industries - though, handled with care, and under professional standards.
+The last mile of risk measurement is often [Expert Elicitation](/risk-measurement/docs/estimation/expert-elicitation) from people who are well informed on the data and realities of a situation. This topic is referred to as _adjustment_, and is seen in multiple industries - though, handled with care, and under professional standards.

@@ -13,14 +13,14 @@ mermaid: true
 ---
 
 We use **scenarios** to specifically define future events and impacts that we\'d
-like to measure. This must happen before we start measurement, either through the collection of historic data or through [expert elicitation](/docs/estimation/expert-elicitation).
+like to measure. This must happen before we start measurement, either through the collection of historic data or through [expert elicitation](/risk-measurement/docs/estimation/expert-elicitation).
 
-In our discussion about [risk](/docs/risk/problems) we discussed the *likelihood* and *impact* of a future
+In our discussion about [risk](/risk-measurement/docs/risk/problems) we discussed the *likelihood* and *impact* of a future
 event, as `r = p * i`
 
 A point of failure in measurement is ambiguity about a risk problem
 being solved. A group of very smart people can spin in circles
-discussing a risk if they don\'t pin a specific outcome down first. 
+discussing a risk if they don\'t pin a specific outcome down first.
 
 Until we define a scenario, `r = p *i` is not useful. 
 
@@ -63,7 +63,7 @@ A scenario has ties to the [Fault
 Tree](https://en.wikipedia.org/wiki/Fault_tree_analysis) and [Tree
 diagram](https://en.wikipedia.org/wiki/Tree_diagram_(probability_theory)),
 whereas higher level outcomes at the top of a tree aggregate the
-likelihoods of more specific events at the branches of a tree. Doing so keeps us compatible with quantitative risk methods, as it follows an [axiom of probability](/docs/intro/risk/#probability). 
+likelihoods of more specific events at the branches of a tree. Doing so keeps us compatible with quantitative risk methods, as it follows an [axiom of probability](/risk-measurement/docs/intro/risk/#probability). 
 
 Here, we breakdown the methods that malicious code could have executed on an endpoint.
 
@@ -90,7 +90,7 @@ precise with language.
 
 The process of decomposing a risk with a group is sometimes the most useful part of quantitative risk exercises.
 
-However, a _modeling assumption_ is that these decompositions are mutually exclusive and are not in violation of the [third probabilistic axiom](/docs/intro/risk/#probability). 
+However, a _modeling assumption_ is that these decompositions are mutually exclusive and are not in violation of the [third probabilistic axiom](/risk-measurement/docs/intro/risk/#probability). 
 
 Here's an example of a model failure: The adversary _could_ exploit a service on an endpoint over the network and (sigh) use this access to double click malware that they've emailed to same victim. Of course, this would be a bit roundabout and would bypass our model... but there may be situations that do not. 
 
@@ -98,7 +98,7 @@ In these cases, we would classify it as "Other", which is a catch-all for failur
 
 This weakness of probabilistic models is not necessarily a bad thing if it still drives mitigation efforts in the desired way.
 
-In [Enterprise](/docs/enterprise/organizing-risks/) this
+In [Enterprise](/risk-measurement/docs/enterprise/organizing-risks/) this
 aspect of scenarios-informing-scenarios is used to inform larger
 organizational approaches to risk.
 
@@ -148,4 +148,4 @@ Perhaps the regulator decides that the incident does not qualify as an incident,
 
 The reliability of judgment can also be bolstered to decision makers if
 included in whistleblowing policy or professional codes of conduct.
-(See: [whistleblowing](/docs/enterprise/rigor/#whistleblowing-and-complaints))
+(See: [whistleblowing](/risk-measurement/docs/enterprise/rigor/#whistleblowing-and-complaints))

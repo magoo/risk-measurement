@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Simple Risk Measurement"
+title = "Risk Measurement"
 titleSeparator = "-"
 titleAddition = "Making risk measurement easier to understand"
-description = "Simple Risk Measurement is written to help you measure complicated risks using a process that’s simple enough to work out on the back of a napkin and powerful enough to organize a rocket launch."
+description = "Risk Measurement is written to help you measure complicated risks using a process that’s simple enough to work out on the back of a napkin and powerful enough to organize a rocket launch."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -12,8 +12,8 @@ description = "Simple Risk Measurement is written to help you measure complicate
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Simple Risk Measurement"
+domainTLD = "magoo.github.io"
+titleHome = "Risk Measurement"
 
 ## Twitter Cards
 twitterSite = "@magoo"
@@ -22,7 +22,7 @@ twitterCreator = "@magoo"
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Simple Risk Measurement"
+schemaName = "Risk Measurement"
 schemaAuthor = "magoo"
 schemaAuthorTwitter = "https://twitter.com/magoo"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/m4goo/"
@@ -36,7 +36,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/magoo"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/magoo/simple-risk"
+schemaGitHub = "https://github.com/magoo/risk-measurement"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -69,7 +69,7 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # repoHost [Github | Gitea | GitLab] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/magoo/simple-risk"
+docsRepo = "https://github.com/magoo/risk-measurement"
 docsRepoBranch = "master"
 editPage = false
 

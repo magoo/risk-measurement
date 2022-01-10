@@ -5,16 +5,18 @@
   {{- $active := or ($currentPage.IsMenuCurrent "docs" .) ($currentPage.HasMenuCurrent "docs" .) -}}
   {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
     <li class="mb-1">
-      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-{{ .Identifier }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
+      <!-- <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-{{ .Identifier }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}"> -->
+      <button class="btn btn-toggle align-items-center rounded collapsed" >
         {{ .Name }}
       </button>
       {{ if .HasChildren -}}
-      <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ .Identifier }}">
+      <div class="" id="section-{{ .Identifier }}">
+      <!-- <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ .Identifier }}"> -->
         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
         {{ range .Children -}}
           {{- $active := or ($currentPage.IsMenuCurrent "docs" .) ($currentPage.HasMenuCurrent "docs" .) -}}
           {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
-          <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end -}}
         </ul>
       </div>

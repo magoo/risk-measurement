@@ -13,7 +13,7 @@ toc: true
 mermaid: true
 ---
 
-We want our teams to work in a unified direction. This section describes codifying that direction as a risk. Codifying a risk is similar to selecting a KPI or setting an objective. 
+We want our teams to work in a unified direction. This section describes codifying that direction as a risk. Codifying a risk is similar to selecting a KPI or setting an objective.
 
 These directional risks should be broad. There shouldn't be many of them, as we're using it to provide a meaningful north star. Using [incident classification](https://response.pagerduty.com/before/severity_levels/) (`SEV`, `P0`, etc) helps clarify what _incident_ means, as well as thresholds of other undesirable things like costs or losses.
 
@@ -28,7 +28,7 @@ Some ideas on _directional_ scenarios:
 
 These are examples and some will resonate while others will not. The creation and selection of a _good_ scenario is a leadership task. 
 
-From here, decomposition allows us to sniff out hot areas of risk where large causal areas form. We can do this so long as we follow [probabilistic axioms](/docs/intro/risk/#probability), especially the third axiom of mutually exclusive events. This means our decomposition needs to be Mutually Exclusive and Collectively Exhaustive (MECE in business speak).
+From here, decomposition allows us to sniff out hot areas of risk where large causal areas form. We can do this so long as we follow [probabilistic axioms](/risk-measurement/docs/intro/risk/#probability), especially the third axiom of mutually exclusive events. This means our decomposition needs to be Mutually Exclusive and Collectively Exhaustive (MECE in business speak).
 
 ```mermaid  
 

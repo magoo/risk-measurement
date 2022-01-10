@@ -13,7 +13,7 @@ weight: 103
 toc: true
 ---
 
-A percentile estimate is a probability and value pulled from a [distribution](/docs/estimation/distributions). Some examples:
+A percentile estimate is a probability and value pulled from a [distribution](/risk-measurement/docs/estimation/distributions). Some examples:
 
 > The `90%` percentile of customer losses is `$1M`. 
 

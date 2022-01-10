@@ -12,7 +12,7 @@ weight: 110
 toc: true
 ---
 
-Many risks can be compared quantitatively so long as they share a measurement. 
+Many risks can be compared quantitatively so long as they share a measurement.
 
 Let's compare a bunch of vulnerabilities we are treating as risks. We assume we have `VULN-0` to `VULN-9`. If we have a common group of forecasts for all of them, we can sort and manage them as you'd expect.
 
@@ -33,7 +33,7 @@ Register approaches are _extremely_ cumbersome if direct elicitation is required
 
 The layout may convince you that a fixing-from-the-top-down approach is the obvious one, and that we should discover _all the risks_, elicit forecasts for _all the risks_ and register _all the risks_. Of course, this is not the right way to go.
 
-Actual [decisions](/docs/intro/decisions) involving these risks will always include non-registered factors. Engineers might not have a clear mitigation in mind. There may be costs we haven't enumerated. Maybe delays are involved with some of the risks we'd prefer mitigating.
+Actual [decisions](/risk-measurement/docs/intro/decisions) involving these risks will always include non-registered factors. Engineers might not have a clear mitigation in mind. There may be costs we haven't enumerated. Maybe delays are involved with some of the risks we'd prefer mitigating.
 
 A risk register will not lay plans in front of us, so care should be applied in efforts to tie everything into a register.
 
