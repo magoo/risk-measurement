@@ -16,7 +16,7 @@ They saw `57` 0days in the wild in 2021. [Retrospective analysis can be found he
 
 ![project zero 0day trends by year](0day-chart.png)
 
-Now we'll talk about the approach to forecasting 2022, and the points brought up by the panel discussion.
+The following is an approach to forecasting 2022, and the points brought up by the panel discussion.
 
 ## Results
 
@@ -94,7 +94,9 @@ Targeted individuals seem to have growing channels to report suspicious activity
 
 We wait and see how 2022 shakes out. 
 
-The forecast will be [scored](https://magoo.github.io/risk-measurement/docs/estimation/calibration/) in January 2023. Since we've thoroughly covered the discussions we've had, we can review where we were on/off the right track.
+If you'd like, you can post your own forecast and compare with us in January 2023. Make sure you do it soon. Put your forecast on Twitter or commit it to a repository.
+
+Our forecast will be [scored](https://magoo.github.io/risk-measurement/docs/estimation/calibration/) in January 2023. Since we've thoroughly covered the discussions we've had, we can review where we were on/off the right track.
 
 Normally, we would use our [In The Wild](https://magoo.github.io/risk-measurement/forecasts/in-the-wild/) standards, but for this forecast we will just use Project Zero's data.
 
