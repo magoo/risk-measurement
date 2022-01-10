@@ -19,7 +19,6 @@ They saw `57` 0days in the wild in 2021. [Retrospective analysis can be found he
 Now we'll talk about the approach to forecasting 2022, and the points brought up by the panel discussion.
 
 ## Results
-> 🚧 This forecast is pending 🛠! Check back soon! 🚧
 
 Tl;DR: `28.59 - 74.24` with 90% certainty.
 
