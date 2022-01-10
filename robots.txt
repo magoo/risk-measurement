@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://magoo.github.io/simple-risk/sitemap.xml
+Sitemap: https://magoo.github.io/risk-measurement/sitemap.xml
