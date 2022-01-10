@@ -66,6 +66,6 @@ Lastly I'll conclude that _even allowing this inclusive definition of a worm_, I
 
 ***
 
-This forecast has a couple possible binaries floating around that might trigger a `YES` on some of the technicalities in our language, but they're currently being refuted by active malware researchers. I'll be waiting until March to review and score this scenario unless a clear "YES" event happens. 
+This forecast has a couple possible binaries floating around that might trigger a `YES` on some of the technicalities in our language, but they're currently being refuted by active malware researchers. I'll be waiting until March to review and score this scenario unless a clear `YES` event happens. 
 
 [Follow me](https://www.twitter.com/magoo) on Twitter for any updates. 

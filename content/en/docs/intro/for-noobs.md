@@ -49,3 +49,7 @@ There's likely going to be some discussion about people's forecasts that you can
 We wait for the actual outcome to occur. Then, we take a look at our individual and average forecasts. Hindsight analysis allows us to better understand what our beliefs were, why they may have been wrong, and how to improve them in the future.
 
 Some analysis will probably be written about the discussion, the measurements, and the actual outcome. These are usually shared more widely, while hiding individual participants (unless they want to step forward and discuss their forecasts).
+
+## I want to do this more!
+
+If you're not added to the Substack, [enter your information here](https://forms.gle/6LEgpZ6kWfTx1otaA). 

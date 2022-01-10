@@ -10,7 +10,7 @@ menu:
     parent: "intro"
 ---
 
-The following forecasts were run with panels I organized. I maintain a private mailing list where I announce and organize these forecasts. If you're into this sort of thing, you can reach out to me and ask to be added. 
+The following forecasts were run with panels I organized. I maintain a private mailing list where I announce and organize these forecasts. If you're into this sort of thing, you can reach out to @magoo and ask to be added, [or add your information here](https://forms.gle/6LEgpZ6kWfTx1otaA).
 
 Also see: 
 - [Scoring and Calibration](/simple-risk/docs/estimation/calibration/)
@@ -149,6 +149,12 @@ This is based on the [Bloomberg "The Big Hack"](https://www.bloomberg.com/news/f
 [Discussion can be found on Medium](https://medium.com/@magoo/forecasting-bloombergs-the-big-hack-16b41e0b182b).
 
 ## Ongoing
+
+### 2022 Project Zero in-the-wild 0day
+Scenario: How many 0days will Project Zero see in the wild in 2022?  
+Outcome:  
+Score:  
+[Discussion here](/simple-risk/blog/forecasting-in-the-wild-0days-2022/)
 
 ### Log4J Worm
 Scenario: Will evidence of a worm spreading in the wild using CVE-2021-44228 (Log4Shell) for any stage of exploitation be found within 90 days?
