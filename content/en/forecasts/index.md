@@ -10,7 +10,7 @@ menu:
     parent: "intro"
 ---
 
-The following forecasts were run with panels I organized. I maintain a private mailing list where I announce and organize these forecasts. If you're into this sort of thing, you can reach out to @magoo and ask to be added, [or add your information here](https://forms.gle/6LEgpZ6kWfTx1otaA).
+The following forecasts were run with panels I organized. I maintain a private mailing list where I announce and organize these forecasts. If you're into this sort of thing, you can reach out to [@magoo](https//www.twitter.com/magoo) and ask to be added, [or add your information here](https://forms.gle/6LEgpZ6kWfTx1otaA).
 
 Also see: 
 - [Scoring and Calibration](/risk-measurement/docs/estimation/calibration/)
