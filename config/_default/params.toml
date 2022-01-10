@@ -10,7 +10,7 @@ description = "Risk Measurement is written to help you measure complicated risks
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+## images = ["doks.png"]
 ogLocale = "en_US"
 domainTLD = "magoo.github.io"
 titleHome = "Risk Measurement"
@@ -28,10 +28,10 @@ schemaAuthorTwitter = "https://twitter.com/magoo"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/m4goo/"
 schemaAuthorGitHub = "https://github.com/magoo"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+## schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+## schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/magoo"
