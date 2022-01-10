@@ -14,7 +14,7 @@ mermaid: true
 
 An enterprise has a lot of varying risks. We want to organize them and work collaboratively to understand them. 
 
-What we _don't want_ is a single person or team to assess and understand _all the risks_ across an organization. Some federation of risk assessments need to occur, and we can do this by following the [third axiom](/simple-risk/docs/intro/risk/#probability) of probability when decompose a risk to share as a study.
+What we _don't want_ is a single person or team to assess and understand _all the risks_ across an organization. Some federation of risk assessments need to occur, and we can do this by following the [third axiom](/risk-measurement/docs/intro/risk/#probability) of probability when decompose a risk to share as a study.
 
 A single engineer working in isolation should be capable of modeling a risk and developing measurements for it. However, organizations are likely to have lots of varying activities in flight that generate very different forms of risk.
 
@@ -33,7 +33,7 @@ Now, ask yourself:
 
 > What organization would be in command for our next SEV0 incident requiring disclosure?
 
-This approach to [decomposition](/simple-risk/docs/intro/scenarios/#view-scenarios-as-a-hierarchy) allows us to break down these risks into functional organizations. Even though each team works on pretty different subject matters, we have still unified everything as a single risk. This may be useful information to leadership.  
+This approach to [decomposition](/risk-measurement/docs/intro/scenarios/#view-scenarios-as-a-hierarchy) allows us to break down these risks into functional organizations. Even though each team works on pretty different subject matters, we have still unified everything as a single risk. This may be useful information to leadership.  
 
 
 ```mermaid  

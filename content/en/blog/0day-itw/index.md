@@ -25,7 +25,7 @@ Tl;DR: `28.59 - 74.24` with 90% certainty.
 
 ![image of project zero panel results](p0-panel-results.png)
 
-A panel of `17` I organized were [elicited](/simple-risk/docs/estimation/expert-elicitation/) for a 90% [credible interval](/simple-risk/docs/estimation/intervals/) suggesting the individual's belief of what the eventual value of 2022's observed in-the-wild 0days will be. The group has varying backgrounds in security and engineering, from industry leader to newbie. A 90% credible interval implies: 
+A panel of `17` I organized were [elicited](/risk-measurement/docs/estimation/expert-elicitation/) for a 90% [credible interval](/risk-measurement/docs/estimation/intervals/) suggesting the individual's belief of what the eventual value of 2022's observed in-the-wild 0days will be. The group has varying backgrounds in security and engineering, from industry leader to newbie. A 90% credible interval implies: 
 
 - A 5% expectation of the true value being higher than these bounds
 - A 5% chance of being lower
@@ -95,9 +95,9 @@ Targeted individuals seem to have growing channels to report suspicious activity
 
 We wait and see how 2022 shakes out. 
 
-The forecast will be [scored](https://magoo.github.io/simple-risk/docs/estimation/calibration/) in January 2023. Since we've thoroughly covered the discussions we've had, we can review where we were on/off the right track.
+The forecast will be [scored](https://magoo.github.io/risk-measurement/docs/estimation/calibration/) in January 2023. Since we've thoroughly covered the discussions we've had, we can review where we were on/off the right track.
 
-Normally, we would use our [In The Wild](https://magoo.github.io/simple-risk/forecasts/in-the-wild/) standards, but for this forecast we will just use Project Zero's data.
+Normally, we would use our [In The Wild](https://magoo.github.io/risk-measurement/forecasts/in-the-wild/) standards, but for this forecast we will just use Project Zero's data.
 
 If this was useful, maybe we'll do it next year. If you'd like to be a part of future forecasts, [fill this out](https://forms.gle/6LEgpZ6kWfTx1otaA).
 

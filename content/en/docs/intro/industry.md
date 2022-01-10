@@ -12,7 +12,7 @@ weight: 130
 toc: true
 ---
 
-Cyber security is compared to other industries for its lack of rigorous and quantitative analysis of risk. **Simple Risk Measurement** focuses on _quantitative_ risk measurement to assist with this imbalance. While cyber security may lacks the forms of rigor found in other industries, this documentation also seeks to mitigate known weaknesses found in those approaches.
+Cyber security is compared to other industries for its lack of rigorous and quantitative analysis of risk. **Risk Measurement** focuses on _quantitative_ risk measurement to assist with this imbalance. While cyber security may lacks the forms of rigor found in other industries, this documentation also seeks to mitigate known weaknesses found in those approaches.
 
 What makes other industries _quantitative_ about how they handle risk? How are we so different? Well, here are some examples, and we'll start with one you see all the time.
 
@@ -24,10 +24,10 @@ Of course, a meteorologist would give you a _forecast_ as a percentage. This wou
 
 Many industries follow similar principles. This means:
 
-- Risks are structured as [scenarios](/simple-risk/docs/risk/scenarios).
+- Risks are structured as [scenarios](/risk-measurement/docs/risk/scenarios).
 - Reference class data is gathered as closely to the scenario as possible.
-- [Forecasts](/simple-risk/docs/estimation/forecasting) are made with all available information. 
-- [Decisions](/simple-risk/docs/intro/decisions/) are made. 
+- [Forecasts](/risk-measurement/docs/estimation/forecasting) are made with all available information. 
+- [Decisions](/risk-measurement/docs/intro/decisions/) are made. 
 - Corrections are made when compare forecasts to reality.
 
 Here are some industry examples which use different language, but with the same principles.

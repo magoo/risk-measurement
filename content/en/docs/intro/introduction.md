@@ -11,7 +11,7 @@ menu:
 weight: 90
 toc: true
 ---
-Simple Risk Measurement teaches security engineers about quantitative risk.
+Risk Measurement teaches security engineers about quantitative risk.
 
 **Examples:** Find your _a-ha!_ moment by looking through creative approaches to problems.
 
@@ -19,6 +19,6 @@ Simple Risk Measurement teaches security engineers about quantitative risk.
 
 **Management:** Find the optimum place for risk measurement with groups of people in a workplace.
 
-Reading material is suggested throughout this documentation for those who want to dive deeper into the concepts, or see [Reading Material](/simple-risk/docs/other/reading-material).
+Reading material is suggested throughout this documentation for those who want to dive deeper into the concepts, or see [Reading Material](/risk-measurement/docs/other/reading-material).
 
-See the [blog](/simple-risk/blog) for examples and discussion with current events.
+See the [blog](/risk-measurement/blog) for examples and discussion with current events.

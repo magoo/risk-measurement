@@ -13,7 +13,7 @@ toc: true
 ---
 This document contains reading material bolstering the estimation,
 expert elicitation, quantitative certainty, scenario, and forecasting
-subject matters that guide Simple Risk Measurement.
+subject matters that guide Risk Measurement.
 
 ## Risk Language
 

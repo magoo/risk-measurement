@@ -36,7 +36,7 @@ Let's pretend we have thought on the issue, and determined some break points whe
 
 > When more than 2% of engineering laptops become unmanaged, we'll treat it like an incident and start enforcing a policy that denies them access to production and prioritize it over other work items.
 
-Now we have taken note of what types of action we would make before we're [biased](/simple-risk/docs/risk/bias) with the data we've collected.
+Now we have taken note of what types of action we would make before we're [biased](/risk-measurement/docs/risk/bias) with the data we've collected.
 
 **The Measurement:**
 > OK. Since you've asked, we've identified at least 5% of engineering laptops are connecting to the bastion environment without their hostnames appearing in MDM. 

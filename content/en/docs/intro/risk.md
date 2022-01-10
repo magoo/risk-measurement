@@ -80,7 +80,7 @@ Explained similarly: The expected value of coming up heads on a coin flip is 50%
 ### Probability
 The probability (`p`) of an event could come from a variety of places. Let's use an example scenario of a fire taking place at a chosen museum next year.
 
-Where would we gather a probability of this happening for use in analysis? The answer takes some creativity and some resourcefulness. There may be statistical data on fires at museums you could manually collect. Maybe the insurance company provides their estimate based on claims data. Perhaps risk managing employees at the museum perfomed a study and were [elicited](/simple-risk/docs/estimation/expert-elicitation) for a probability.
+Where would we gather a probability of this happening for use in analysis? The answer takes some creativity and some resourcefulness. There may be statistical data on fires at museums you could manually collect. Maybe the insurance company provides their estimate based on claims data. Perhaps risk managing employees at the museum perfomed a study and were [elicited](/risk-measurement/docs/estimation/expert-elicitation) for a probability.
 
 You'll notice from these examples that probability is _subjective_! Even if we were to statistically calculate a likelihood from a useful dataset, it would still be up to us (the subject) to choose this indirect measurement as representative of a future probability. Accepting this data allows this data to suggest furture performance, when we already know that past results do not guarantee future performance. 
 
@@ -125,7 +125,7 @@ However, we will always operate with models (quantitative or not) and cannot esc
 ### Impact
 Impact `i` represents losses. It could be as simple as a `i = 1` to represent an all or nothing event, like death. Or, it could the value of a bank account, the passengers on a plane... or from our previous example: The value of all art in a museum. 
 
-However, impact is another probabilistic value with varying results. This will be covered in [distributions](/simple-risk/docs/risk/distributions). Here, let's consider the behavior of some cybersecurity impacts:
+However, impact is another probabilistic value with varying results. This will be covered in [distributions](/risk-measurement/docs/risk/distributions). Here, let's consider the behavior of some cybersecurity impacts:
 
 - The absurd variance involved in breach costs
 - An under-the-radar incident compared to sustained headlines in the press
@@ -133,7 +133,7 @@ However, impact is another probabilistic value with varying results. This will b
 - The amount of customers that may, or may not, churn from an incident.
 - The amount of time fixing a vulnerability.
 
-When impact is a simple value-at-rest, like a bank account... it can simply be represented by that value. When impact behaves probabilistically, we can resort to writing code as a [monte carlo](/simple-risk/docs/risk/monte-carlo) simulation.
+When impact is a simple value-at-rest, like a bank account... it can simply be represented by that value. When impact behaves probabilistically, we can resort to writing code as a [monte carlo](/risk-measurement/docs/risk/monte-carlo) simulation.
 
 It's OK to _assume_ that a scenario will take place and focus on studying its impact, just like it's OK to assume that an incident is bad enough to warrant a study of its causes.
 
@@ -236,4 +236,4 @@ However, there are risks that do not have similar opportunities. These risks are
 
 Even well traveled, open source, and heavily tested code can have [risks](https://googleprojectzero.blogspot.com/2021/12/this-shouldnt-have-happened.html), so this is not to say that either side of Knightian interpretation is preferrable. Rather, we should be sensitive to the amount of study that has occurred behind the risks we are making decisions about, and value opportunities to measure risks that are hard to reach.
 
-Decision making should take into account the understanding of risks that lack appropriate study, versus well studied risks. See [Decision Standards](/simple-risk/docs/enterprise/decision-standards) for thoughts on incorporating this level of rigor into a decision.
+Decision making should take into account the understanding of risks that lack appropriate study, versus well studied risks. See [Decision Standards](/risk-measurement/docs/enterprise/decision-standards) for thoughts on incorporating this level of rigor into a decision.

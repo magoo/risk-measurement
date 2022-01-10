@@ -30,7 +30,7 @@ For a real-world example, see
 
 **Level One**: A estimate from a single individual who has received risk training, has particular subject matter expertise, reasonable access to reference classes, or has specific historical data.
 
-**Level Two**: In addition to previous levels, this estimation is from an individual who is calibration trained (See: [calibration](/simple-risk/docs/estimation/forecasting/#calibration)) and maintained a track record. (See [keeping score](/simple-risk/docs/estimation/forecasting/#keeping-score))
+**Level Two**: In addition to previous levels, this estimation is from an individual who is calibration trained (See: [calibration](/risk-measurement/docs/estimation/forecasting/#calibration)) and maintained a track record. (See [keeping score](/risk-measurement/docs/estimation/forecasting/#keeping-score))
 
 **Level Three**: In addition to previous levels, a panel of three or more calibrated individuals were involved with this estimation.
 
@@ -57,6 +57,6 @@ Rigor is _not_ required for all measurements. Rather, important decisions should
 
 ## Further Reading
 
-See [Expert Groups](/simple-risk/docs/other/reading-material/#expert-groups),
-[Cognitive Error](/simple-risk/docs/other/reading-material/#cognitive-error),
-[Industry](/simple-risk/docs/other/reading-material/#industry-examples)
+See [Expert Groups](/risk-measurement/docs/other/reading-material/#expert-groups),
+[Cognitive Error](/risk-measurement/docs/other/reading-material/#cognitive-error),
+[Industry](/risk-measurement/docs/other/reading-material/#industry-examples)

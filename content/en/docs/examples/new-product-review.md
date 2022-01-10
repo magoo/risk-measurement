@@ -25,7 +25,7 @@ This change allows "User Generated Content" or UGC onto a platorm. UGC can have 
 
 Allowing new UGC into a product workflow creates many operational risks that will result during the lifetime of the product, as well as risks that would be infrequent but potentially devastating. For instance, a vulnerability in [image processing dependencies](https://imagetragick.com/). 
 
-If we haven't launched the product yet, we can only speculate as to what may happen when we do. Rather than being the security expert who says *photo uploads are hella bad!*, we discuss the risks point by point and brainstorm mitigation options. Here are various studies we could engage in and [elicit estimates](/simple-risk/docs/estimation/expert-elicitation) for:
+If we haven't launched the product yet, we can only speculate as to what may happen when we do. Rather than being the security expert who says *photo uploads are hella bad!*, we discuss the risks point by point and brainstorm mitigation options. Here are various studies we could engage in and [elicit estimates](/risk-measurement/docs/estimation/expert-elicitation) for:
 
 ## Interval Examples
 
