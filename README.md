@@ -1,4 +1,4 @@
-This repo builds https://github.com/magoo/risk-measurement.
+This repo builds https://magoo.github.io/risk-measurement.
 
 - Clone
 - `npm install`
