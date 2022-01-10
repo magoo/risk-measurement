@@ -20,11 +20,11 @@ Now we'll talk about the approach to forecasting 2022, and the points brought up
 
 ## Results
 
-Tl;DR: `28.59 - 74.24` with 90% certainty.
+This panel expects `28.59 - 74.24` in-the-wild 0days to be discovered with 90% certainty.
 
 ![image of project zero panel results](p0-panel-results.png)
 
-A panel of `17` I organized were [elicited](/risk-measurement/docs/estimation/expert-elicitation/) for a 90% [credible interval](/risk-measurement/docs/estimation/intervals/) suggesting the individual's belief of what the eventual value of 2022's observed in-the-wild 0days will be. The group has varying backgrounds in security and engineering, from industry leader to newbie. A 90% credible interval implies: 
+A panel of 17 individuals I organized were [elicited](/risk-measurement/docs/estimation/expert-elicitation/) for a 90% [credible interval](/risk-measurement/docs/estimation/intervals/) suggesting the individual's belief of what the eventual value of 2022's observed in-the-wild 0days will be. The group has varying backgrounds in security and engineering, from industry leader to newbie. A 90% credible interval implies: 
 
 - A 5% expectation of the true value being higher than these bounds
 - A 5% chance of being lower
