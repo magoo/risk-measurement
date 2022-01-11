@@ -1,8 +1,8 @@
 ---
 title: "Forecasting in-the-wild 0days: 2022"
-description: ""
+description: "How many in-the-wild 0days will we observe in 2022?"
 lead: ""
-date: 2022-01-05
+date: 2022-01-11
 draft: false
 weight: 50
 
@@ -74,12 +74,16 @@ Discussed in Stone's blog is "Clandestine" 0day reporting. This implies that pat
 Google TAG, Project Zero, MSTIC and MSRC made up most of the discoveries in 2021, followed by security companies. A change in 0day discovery seems likely if the resources behind these teams improve. Are these findings internally praised, will these groups grow in headcount and effectiveness?
 
 ### Will attackers continue targeting the OS and browser?
-There is still a clear attacker preference in 2021 for exploiting browsers and operating systems with exploit delivery over messaging platforms (Email, chat, or social media). Several privilege escalations appear too. The trend can either continue, stop, or there can be a comparably sized new trends in future years. 
+We still _detect_ most exploitation in browsers and operating systems. [Chat exploits](https://citizenlab.ca/2021/09/forcedentry-nso-group-imessage-zero-click-exploit-captured-in-the-wild/) make a minor appearance in comparison. A trend towards browsers and OS seems to be in more detectable territory, while chat applications might not be. Investment trends in attack preferences and detection capabilities against those preferences need to align for the ceiling on this interval forecast to raise. If the trends are expected to diverge, the findings may fall. 
 
-The log4j vuln was interesting: Library exploitation may suggest a desirable area for exploit research. How comparable is this, when considering how effective the current trend seems to be?
+Additionally, detection opportunity is not fairly spread across operating systems. A drop in observations may not be from a lack of exploitation. Rather, attacks may be headed towards platforms that are more difficult to investigate.
+
+A subtle wrench: The log4j vuln. Library exploitation may suggest a desirable area for exploit research. How fast could an attacker capitalize on this, and how detectable would they be? Have attackers already found this, and will anyone discover it?
 
 ### Will detection quality improve?
 This can be discussed from the perspective of defending blue teams or the developers who instrument platforms with detection capability. An expectation that blue teams are improving at detection should result in more discoveries. Similarly, if response organizations are improving at their forensic analysis, this could result in a positive change as well, especially if the desire to disclose continues to trend the way it has been.
+
+As previously discussed, certain platforms that are already seeing empirical 0day activity may have specific plans to detect active exploitation. Those plans might have rewards over the coming year(s).
 
 ### Does the future of WFH matter? 
 There are suggestions that COVID surges have made [attackers more active](https://ato.watch/2020-decade/) in the past, and fair to consider that COVID is changing productivity levels. This applies to both attacker and defender. Does it apply equally?
