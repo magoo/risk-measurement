@@ -106,3 +106,10 @@ Normally, we would use our [In The Wild](https://magoo.github.io/risk-measuremen
 
 If this was useful, maybe we'll do it next year. If you'd like to be a part of future forecasts, [fill this out](https://forms.gle/6LEgpZ6kWfTx1otaA).
 
+To receive updates on future forecasts, follow [@magoo](https://www.twitter.com/magoo) or subscribe here 👇
+
+<iframe
+scrolling="no"
+style="width:100%!important;height:220px;border:0px #ccc solid !important"
+src="https://buttondown.email/risk?as_embed=true"
+></iframe><br /><br />
