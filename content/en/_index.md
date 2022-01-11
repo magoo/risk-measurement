@@ -18,6 +18,12 @@ This place supports people starting to learn about quantitative risk. It is also
 
 **Management**: Find the optimum place for risk measurement with groups of people in a workplace.
 
-Reading material is suggested throughout this documentation for those who want to dive deeper into the concepts, or see Reading Material.
+If you want to be updated on forecasts in the future, subscribe below. 
 
-See the blog for examples and discussion with current events.
+<iframe
+scrolling="no"
+style="width:100%!important;height:220px;border:0px #ccc solid !important"
+src="https://buttondown.email/risk?as_embed=true"
+></iframe><br /><br />
+
+_If you're interested in being on the panel, [see here](/risk-measurement/forecasts). Thanks! 🎉_

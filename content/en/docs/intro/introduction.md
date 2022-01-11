@@ -22,3 +22,4 @@ Risk Measurement teaches security engineers about quantitative risk.
 Reading material is suggested throughout this documentation for those who want to dive deeper into the concepts, or see [Reading Material](/risk-measurement/docs/other/reading-material).
 
 See the [blog](/risk-measurement/blog) for examples and discussion with current events.
+
