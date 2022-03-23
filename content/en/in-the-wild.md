@@ -35,6 +35,7 @@ The intent is to act as a more stable target for forecasting and is not intendin
 - This can, again, be found from a honeypot environment.
 - This does not count proof of concept malware or malware built as an example sample.
 - Single instances count. For instance, if a targeted attack uses a specific piece of malware in a controlled state, like an airgapped victim, this is still in the wild.
+- Findings found in malware databases, or forums, etc, should be met with scrutiny and their functionality and ability to propagate validated.
 
 ## An in the wild *worm*.
 
