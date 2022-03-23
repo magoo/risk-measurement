@@ -52,7 +52,7 @@ What could have been more useful:
 - Exceeding victim thresholds from credible sources
 - Discovery of a "full" worm 
 
-I've drafted [some language](https://github.com/magoo/forecast-documentation/blob/master/IN-THE-WILD.md#an-in-the-wild-worm) that might be useful in the future for worm forecasting, and I'm happy to hear feedback that pokes holes in it. The details are in there, but it separates a "full" worm with a "partial" worm. 
+I've drafted [some language](/risk-measurement/in-the-wild/) that might be useful in the future for worm forecasting, and I'm happy to hear feedback that pokes holes in it. The details are in there, but it separates a "full" worm with a "partial" worm. 
 
 A full worm is "pure": it shouldn't be reliant on any external infrastructure and be fully autonomous with discovery and exploitation. A partial worm can still exhibit some of these qualities and be something to be feared, but the definition starts to slip for forecasting purposes.  
 
