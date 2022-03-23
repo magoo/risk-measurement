@@ -20,7 +20,7 @@ A [tweet](https://twitter.com/_MG_/status/1506109152665382920) set off a fast mo
 
 `14` panelists were elicited with an average of `43.57% Yes`. This varied widely, with `Yes` forecasts ranging from `5-95%`.
 
-Judgement on this forecast is expected to be difficult. The wording Okta has used in the discussion so far has muddied whether customers were "impacted" by this access or not.
+Judgement on this forecast is expected to be difficult. The wording Okta has used in the discussion so far has muddied whether customers were "impacted" by this access or not. Currently, we are finding ourselves re-interpreting Okta's statements and whether they mean customers were accessed by the adversary or not.
 
 ***
 
