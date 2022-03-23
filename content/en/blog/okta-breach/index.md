@@ -18,7 +18,11 @@ A [tweet](https://twitter.com/_MG_/status/1506109152665382920) set off a fast mo
 
 A blue team concern is whether to trust Okta's initial statements. Trusting Okta's guidance would avoid potentially unnecessary work, but any mistakes in their analysis of the incident might have allowed an adversary to walk through your SSO defenses.
 
-More advanced blue teams might proactively roll internal credentials that could have been exposed by way of compromised Okta access. This is a luxury for more advanced teams who have invested in credential infrastructure. But, this is not the case where blue teams need to make careful tradeoffs to avoid unnecessary work or outages. So, what would a panel think?
+More advanced blue teams might proactively roll internal credentials that could have been exposed by way of compromised Okta access. This is a luxury for more advanced teams who have invested in credential infrastructure or rotation playbooks.
+
+But, this is not the case where blue teams who have not yet gone down these roads. An assessment of the risk might justify the distraction. Or, it might suggest that staying on the current mitigation roadmap is the right way to go. That seems to be the decision point, and it's one we face often.
+
+So, what would a panel think?
 
 This brings us to the forecast. We can better understand if Okta will make further concessions about a breach. This informs leadership decisions about how much effort to apply towards mitigation. The scenario was designed to predict whether those future concessions may happen and whether the scope might be larger than Okta's initial communications.
 
