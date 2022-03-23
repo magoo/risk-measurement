@@ -16,7 +16,7 @@ If you're into this sort of thing, you can reach out to [@magoo](https://www.twi
 
 Also See: 
 - [Scoring and Calibration](/risk-measurement/docs/estimation/calibration/)
-- [Standards for "in-the-wild"](/risk-measurement/forecasts/in-the-wild). 
+- [Standards for "in-the-wild"](/risk-measurement/in-the-wild).
 
 ## Scoreboard
 
