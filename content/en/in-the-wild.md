@@ -45,8 +45,8 @@ First, a *worm* must also be an in the wild *malware sample*.
 
 A worm has fully autonomous discovery and exploitation (propagation) and propagates autonomously from its operator (C&C). A "partial" worm only has a subset while a "full" worm is described by the whole set.
 
-1. **Autonomous Discovery**: Scanning is a classic, strict example, whereas using Google SERPs or a social platform would be a more loose interpretation. In theory, you could stop a worm by modifying the underlying platform, but this is unlikely on the internet and more likely on a application platform.
-2. **Autonomous Exploitation**: An infected system can infect other systems without external dependencies. (A central exploit server)
+1. **Autonomous Discovery**: Scanning is a classic, strict example, whereas using Google SERPs or a social platform would be a more loose interpretation. In theory, you could stop a worm by disrupting the underlying platform. Whether this is easy or not is less relevant to whether it is a worm. Some reasoning: killing or quarantining a patient is not considered a cure, and neither would be taking down the internet or banning search keywords to stop a worm.
+2. **Autonomous Exploitation**: An infected system can infect other systems without external dependencies. (A central exploit server / scanner is not fully autonomous.)
 3. **Autonomous from Command and Control**: Continues to propagate without access to the operator, or continues operation even when infrastructure is taken over.
 
 Example of full worms: [Blaster](https://en.wikipedia.org/wiki/Blaster_(computer_worm)) and [Sasser](https://en.wikipedia.org/wiki/Sasser_(computer_worm)), [Code Red](https://en.wikipedia.org/wiki/Code_Red_(computer_worm)), [Samy Worm](https://en.wikipedia.org/wiki/Samy_(computer_worm)), and [Stuxnet](https://en.wikipedia.org/wiki/Stuxnet).
