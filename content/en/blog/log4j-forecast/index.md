@@ -9,6 +9,16 @@ weight: 50
 contributors: []
 ---
 
+**Update**: This forecast has been scored! 🎉
+
+The outcome was `No`, and was a big error (`0.8602347222222221`) compared to our forecasting track record. Below is some of the insight before and during the forecasting window. This helps us understand our mindset at the time of forecasting.
+
+A lot of summarized retrospective can be pulled from this [MalwareTech explanation](https://twitter.com/MalwareTechBlog/status/1476817703432175616).
+
+Additionally, we have since done some work bolstering our [worm classification](https://magoo.github.io/risk-measurement/in-the-wild/#an-in-the-wild-worm) for future forecasting. Hopefully there are no more worms. If we do anticipate one, we will have better language for more effective forecasting.
+
+***
+
 I organized an early forecast during the beginnings of the log4j (CVE-2021-44228) hysteria. Some links and early timeline are available [here](https://magoo.github.io/incident-tracking/2021-12-09-log4j) if you are reading this post in the future or aren't up to speed on this vulnerability.
 
 This bug screamed uncertainty and motivated me to come out of hiding and get a forecast together. Our community was unfamiliar with a vulnerability like this and only caught everyone's attention after exploitation in Minecraft. The exploitation of this vulnerability is simple but not typical. 
