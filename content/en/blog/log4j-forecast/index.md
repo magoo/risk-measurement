@@ -15,7 +15,7 @@ The outcome was `No`, and was a big error (`0.8602347222222221`) compared to our
 
 A lot of summarized retrospective can be pulled from this [MalwareTech explanation](https://twitter.com/MalwareTechBlog/status/1476817703432175616).
 
-Additionally, we have since done some work bolstering our [worm classification](https://magoo.github.io/risk-measurement/in-the-wild/#an-in-the-wild-worm) for future forecasting. Hopefully there are no more worms. If we do anticipate one, we will have better language for more effective forecasting.
+Additionally, we have since done some work bolstering our [worm classification](https://magoo.github.io/risk-measurement/in-the-wild/#an-in-the-wild-worm) for future forecasting. We will have better language for more effective forecasting if we anticipate a worm in the future.
 
 ***
 
