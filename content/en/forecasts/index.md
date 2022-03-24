@@ -14,7 +14,8 @@ The following forecasts were run with panels I organized. I maintain a private m
 
 If you're into this sort of thing, you can reach out to [@magoo](https://www.twitter.com/magoo) and ask to be added, [or add your information here](https://forms.gle/6LEgpZ6kWfTx1otaA).
 
-Also See: 
+Also See:
+
 - [Scoring and Calibration](/risk-measurement/docs/estimation/calibration/)
 - [Standards for "in-the-wild"](/risk-measurement/in-the-wild).
 
@@ -32,8 +33,8 @@ Also See:
 |Chromium "Critical" (SEP2018)|`0.0002706024999999994`|
 |Struts (CVE-2018-11776)|`0.104`|
 |NetSpectre|`0.021075`|
-|**Average**|**`0.1960701093`**|
-
+|Log4J Worm|`0.8602347222222221`|
+|**Average**|**`0.2564487104`**|
 
 ### Chromium "Critical" (Q2 2019)
 
@@ -116,7 +117,7 @@ All forecasters felt that leaving at least minimal (`<1%`) odds for a surprise e
 
 Small amounts of uncertainty came from the possibility that exploits have been in the wild and not reported on, or under gag order, but this is compared with how newsworthy it would be making it unlikely to be secret for long.
 
-There was strong debate about whether events or potential "exploit hoarding" mattered or even takes place for Chrome. Those who forecasted higher odds were in strong agreement that if these events _were not_ taking place, they would have forecasted `<1%` odds, putting a "critical" bug rate around once every eight to thirty years if forecasts fell in that range.
+There was strong debate about whether events or potential "exploit hoarding" mattered or even takes place for Chrome. Those who forecasted higher odds were in strong agreement that if these events *were not* taking place, they would have forecasted `<1%` odds, putting a "critical" bug rate around once every eight to thirty years if forecasts fell in that range.
 
 - Panel included 15 very reputable information security professionals and one PHD research scientist with a statistics background.
 - This is the first forecast to have data prepared for participants (prepared Chromium bug data and CVE data)
@@ -154,46 +155,46 @@ Outcome: No
 Score:   `0.40176648`
 Discussion:  
 
-This is based on the [Bloomberg "The Big Hack"](https://www.bloomberg.com/news/features/2018-10-04/the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies) article and designed to inform a security team about upstream hardware compromise and _actual threats_ taking place outside of speculation. 20+ panelists.
+This is based on the [Bloomberg "The Big Hack"](https://www.bloomberg.com/news/features/2018-10-04/the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies) article and designed to inform a security team about upstream hardware compromise and *actual threats* taking place outside of speculation. 20+ panelists.
 
 - This will be confirmed. (Yes) `44.82%`
 - This will not be confirmed. (No) `55.18%`
 
 [Discussion can be found on Medium](https://medium.com/@magoo/forecasting-bloombergs-the-big-hack-16b41e0b182b).
 
+### Log4J Worm
+
+Scenario: Will evidence of a worm spreading in the wild using CVE-2021-44228 (Log4Shell) for any stage of exploitation be found within 90 days?
+Outcome: `No`  
+Score: `0.8602347222222221`  
+[Discussion here](/risk-measurement/blog/forecasting-log4j-worms/).
+
 ## Ongoing
 
 ### DeFi
 
 Scenario: Will an attack on a DeFi network with losses exceeding $100m be reported by [rekt.news](https://rekt.news) before 2022-06-01?
-Outcome: TBD
-Score: TBD
-Discussion: TBD
+Outcome: TBD  
+Score: TBD  
+Discussion: TBD  
 
 ### Okta
 
 Scenario: Will Okta disclose a breach into one or more customer environments before June 1 2022?
-Outcome: TBD
-Score: TBD
+Outcome: TBD  
+Score: TBD  
 [Discussion here](/risk-measurement/blog/okta-breach)
 
 ### 2022 Project Zero in-the-wild 0day
 
 Scenario: How many 0days will Project Zero see in the wild in 2022?  
-Outcome: TBD
-Score: TBD
+Outcome: TBD  
+Score: TBD  
 [Discussion here](/risk-measurement/blog/forecasting-in-the-wild-0days-2022/)
-
-### Log4J Worm
-
-Scenario: Will evidence of a worm spreading in the wild using CVE-2021-44228 (Log4Shell) for any stage of exploitation be found within 90 days?
-Outcome: TBD
-Score: TBD
-[Discussion here](/risk-measurement/blog/forecasting-log4j-worms/).
 
 ### Blank!
 
 Scenario:
 Outcome:
-Score:   
+Score:  
 Discussion:  
