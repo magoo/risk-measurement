@@ -12,7 +12,7 @@ contributors: []
 
 **Update**: This forecast has been scored! 🎉
 
-The outcome was `No`, and was a big error (`0.8602347222222221`) compared to our forecasting track record. Below is some of the insight before and during the forecasting window. This helps us understand our mindset at the time of forecasting.
+The outcome was `No`, and was a big error (~`0.860`) compared to our [track record](https://magoo.github.io/risk-measurement/forecasts/). Below is some of the insight before and during the forecasting window. This helps us understand our mindset at the time of forecasting.
 
 A lot of summarized retrospective can be pulled from this [MalwareTech explanation](https://twitter.com/MalwareTechBlog/status/1476817703432175616).
 
