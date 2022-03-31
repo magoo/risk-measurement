@@ -10,7 +10,7 @@ weight: 50
 
 We elicited a measurement in cryptocurrency recently:
 
-> Will an attack on a DeFi network with losses exceeding $100m be reported by rekt.news before 2022-06-01?
+## Will an attack on a DeFi network with losses exceeding $100m be reported by rekt.news before 2022-06-01?
 
 The forecast relied on observations from [rekt](https://rekt.news/) as a proxy for whether a large loss in the DeFi ecosystem has taken place or not.
 
