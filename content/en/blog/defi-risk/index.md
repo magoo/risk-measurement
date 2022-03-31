@@ -14,7 +14,7 @@ We elicited a measurement in cryptocurrency recently:
 
 The forecast relied on observations from [rekt](https://rekt.news/) as a proxy for whether a large loss in the DeFi ecosystem has taken place or not.
 
-`7` panelists were elicited with an average of `49.2% Yes`. The spread was very wide, with `Yes` submissions ranging from `15% - 95%`.
+`7` panelists were elicited with an average of `49.2% Yes` and a Brier Score of `0.6507142857142857`. The spread was very wide, with `Yes` submissions ranging from `15% - 95%`.
 
 I personally did poorly with a forecast of `30%`.
 

@@ -34,7 +34,8 @@ Also See:
 |Struts (CVE-2018-11776)|`0.104`|
 |NetSpectre|`0.021075`|
 |Log4J Worm|`0.8602347222222221`|
-|**Average**|**`0.2564487104`**|
+|DeFi Risk|`0.6507142857142857`|
+|**Average**|**`0.289304175`**|
 
 ### Chromium "Critical" (Q2 2019)
 
@@ -169,14 +170,14 @@ Outcome: `No`
 Score: `0.8602347222222221`  
 [Discussion here](/risk-measurement/blog/forecasting-log4j-worms/).
 
-## Ongoing
-
 ### DeFi
 
 Scenario: Will an attack on a DeFi network with losses exceeding $100m be reported by [rekt.news](https://rekt.news) before 2022-06-01?
-Outcome: TBD  
-Score: TBD  
-Discussion: TBD  
+Outcome: `Yes`  
+Score: `0.6507142857142857`  
+[Discussion here](https://magoo.github.io/risk-measurement/blog/measuring-defi-risks/)  
+
+## Ongoing
 
 ### Okta
 
