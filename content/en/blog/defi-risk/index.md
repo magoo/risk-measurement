@@ -2,7 +2,7 @@
 title: "Measuring DeFi Risks"
 description: "Will an attack on a DeFi network with losses exceeding $100m be reported by rekt.news before 2022-06-01?"
 lead: ""
-date: 2022-03-23
+date: 2022-03-31
 draft: false
 weight: 50
 
