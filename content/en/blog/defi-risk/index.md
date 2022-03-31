@@ -18,11 +18,13 @@ The forecast relied on observations from [rekt](https://rekt.news/) as a proxy f
 
 I personally did poorly with a forecast of `30%`.
 
-A huge breach happened shortly after the forecast was organized with a postmortem found here:
+A [huge breach](https://rekt.news/ronin-rekt/) happened shortly after the forecast was organized with a postmortem found here:
 
 [Community Alert: Ronin Validators Compromised](https://roninblockchain.substack.com/p/community-alert-ronin-validators?s=r)
 
 The [Ronin Bridge](https://www.youtube.com/watch?v=cGLnULpBtC4) serves to exchange cryptocurrency into a usable in-game token. Judgement on this as being a "DeFi Network" is difficult and [I was originally skeptical](https://twitter.com/Magoo/status/1508945512761753602) to classify it as a DeFi network. [The use of a Distributed Exchange](https://twitter.com/chainalysis/status/1508871975300739082) and the bridge, as well widespread classification by reputable security firms ([1](https://twitter.com/chainalysis/status/1508871975300739082), [2](https://www.elliptic.co/blog/540-million-stolen-from-the-ronin-defi-bridge?utm_campaign=Ronin%20hack&utm_content=202787739&utm_medium=social&utm_source=linkedin&hss_channel=lcp-5027267) are supporting this conclusion.
+
+Some better language about what is or is not a "DeFi" network or application could be used in the future.
 
 ***
 
