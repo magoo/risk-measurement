@@ -30,9 +30,17 @@ The panel expects a `72.8%` chance of observing a severe outage by January 30, 2
 
 ![twitter_forecast](twitter-chart.png)
 
+That's me at 30% in the image, by the way. I was very surprised the panel shot so high. I thought 30% was pessimistic!
+
 A panel of 26 individuals I organized were [elicited](/risk-measurement/docs/estimation/expert-elicitation/) for a [forecast](/risk-measurement/docs/intro/for-noobs) suggesting the individual's probabilistic assessment of whether this scenario would take place.
 
-That's me at 30% in the image, by the way. I was very surprised the panel shot so high.
+The following links were discussed by the group over the weekend:
+
+- [https://twitter.com/daveyalba/status/1593769814476161026](https://twitter.com/daveyalba/status/1593769814476161026)
+- [https://twitter.com/kyliebytes/status/1593391167718113280](https://twitter.com/kyliebytes/status/1593391167718113280)
+- [https://twitter.com/jasonbaumgartne/status/1593573576346517504](https://twitter.com/jasonbaumgartne/status/1593573576346517504)
+- [https://www.wired.com/story/twitter-two-factor-sms-problems/](https://www.wired.com/story/twitter-two-factor-sms-problems/)
+- [https://twitter.com/mikecvet/status/1593670868915261440](https://twitter.com/mikecvet/status/1593670868915261440)
 
 ## What's next?
 
