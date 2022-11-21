@@ -10,7 +10,7 @@ menu:
     parent: "intro"
 ---
 
-The following forecasts were run with panels I organized. I maintain a private mailing list where I announce and organize these forecasts. 
+The following forecasts were run with panels I organized. I maintain a private mailing list where I announce and organize these forecasts.
 
 If you're into this sort of thing, you can reach out to [@magoo](https://www.twitter.com/magoo) and ask to be added, [or add your information here](https://forms.gle/6LEgpZ6kWfTx1otaA).
 
@@ -62,7 +62,7 @@ Discussion:  [Discussion on Medium](https://medium.com/@magoo/enigma-forecasting
 
 Scenario: How many "malicious" advisories will NPM publish in December 2018?  
 Outcome: 0 advisories (Min: 0 Max: 2.7777777777777777) @ 90% confidence  
-Score:  `0.01`   
+Score:  `0.01`
 [Discussion](
 https://medium.com/starting-up-security/forecasting-npm-advisories-6c7894807680)):  
 
@@ -94,7 +94,7 @@ Otherwise there are similarities with this forecast and the September 2018 Chrom
 
 ### Fortune 500 Breach (October 2018)
 
-Scenario: Will a Fortune 500 company appear in the Privacy Rights Clearinghouse data breach data in October 2018?    
+Scenario: Will a Fortune 500 company appear in the Privacy Rights Clearinghouse data breach data in October 2018?
 Outcome: *More than one breach (48.35%) on Nov-06-2018*  
 Score: `0.44451083`  
 Discussion:  
@@ -147,7 +147,7 @@ Discussion:
 Scenario: Will attacks using NetSpectre’s methods be observed by the security community “in the wild”?  
 Outcome: No  
 Score: `0.021075`  
-[Discussion here. ](https://medium.com/starting-up-security/forecasting-a-headline-risk-netspectre-3c60338fd596) 
+[Discussion here.](https://medium.com/starting-up-security/forecasting-a-headline-risk-netspectre-3c60338fd596)
 
 ### Bloomberg "The Big Hack"
 
@@ -192,6 +192,13 @@ Scenario: How many 0days will Project Zero see in the wild in 2022?
 Outcome: TBD  
 Score: TBD  
 [Discussion here](/risk-measurement/blog/forecasting-in-the-wild-0days-2022/)
+
+### 2022 Twitter Outage
+
+Scenario: Will Twitter experience a severe outage before January 30?
+Outcome: TBD  
+Score: TBD  
+[Discussion here](/risk-measurement/blog/forecasting-a-twitter-outage/)
 
 ### Blank!
 

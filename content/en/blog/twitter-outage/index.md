@@ -12,7 +12,7 @@ Will Twitter experience a severe outage before January 30?
 
 There's a lot of speculation that Twitter may have an outage due to [severe layoffs](https://www.bbc.com/news/business-63672307) following Elon Musk's recent purchase.
 
-The forecast was built with the following conditions:
+We put together the following conditions, and used a Slack bot to elicit forecasts against it.
 
 A "severe outage" would need to include all of the following:
 
@@ -32,7 +32,7 @@ The panel expects a `72.8%` chance of observing a severe outage by January 30, 2
 
 A panel of 26 individuals I organized were [elicited](/risk-measurement/docs/estimation/expert-elicitation/) for a [forecast](/risk-measurement/docs/intro/for-noobs) suggesting the individual's probabilistic assessment of whether this scenario would take place.
 
-That's me at 30% by the way, I was very surprised the panel shot so high, in my opinion.
+That's me at 30% in the image, by the way. I was very surprised the panel shot so high.
 
 ## What's next?
 
