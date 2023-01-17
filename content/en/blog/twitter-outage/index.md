@@ -29,7 +29,7 @@ Coverage by three US newspapers of record describe the outage with the terms we 
 
 The second condition was "An account of measurable downtime of over an hour". This narrowly passes my judgement. All three articles reference "measurable downtime of over an hour" by citing [DownDetector](https://downdetector.com/).
 
-![twitter_forecast](twitter-downdetector.png)
+![twitter_downdetector](twitter-downdetector.png)
 
 I am not a big fan of this source of measurement and I am thankful that we had two other conditions to rely on.
 
