@@ -27,7 +27,11 @@ Coverage by three US newspapers of record describe the outage with the terms we 
 2. [WSJ - Some Twitter Users Experience Technical Problems With Platform](https://www.wsj.com/articles/some-twitter-users-experience-technical-problems-with-platform-11672280111)
 3. [WaPo - Twitter experiences a widespread global outage](https://www.washingtonpost.com/technology/2022/12/28/twitter-global-outage/)
 
-The second condition was "An account of measurable downtime of over an hour". This narrowly passes my judgement. All three articles reference "measurable downtime of over an hour" by citing [DownDetector](https://downdetector.com/). I am not a big fan of this source of measurement and I am thankful that we had two other conditions to rely on.
+The second condition was "An account of measurable downtime of over an hour". This narrowly passes my judgement. All three articles reference "measurable downtime of over an hour" by citing [DownDetector](https://downdetector.com/).
+
+![twitter_forecast](twitter-downdetector.png)
+
+I am not a big fan of this source of measurement and I am thankful that we had two other conditions to rely on.
 
 The third condition passes easily. Each linked article noted that there was an inability read or write tweets, which was a required aspect of the forecast.
 
