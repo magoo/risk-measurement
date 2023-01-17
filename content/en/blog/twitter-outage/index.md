@@ -31,7 +31,7 @@ The second condition was "An account of measurable downtime of over an hour". Th
 
 ![twitter_downdetector](twitter-downdetector.png)
 
-I am not a big fan of this source of measurement and I am thankful that we had two other conditions to rely on.
+I am not a big fan of this source of measurement. I still believe it passes. I am thankful there are two additional conditions to rely on.
 
 The third condition passes easily. Each linked article noted that there was an inability read or write tweets, which was a required aspect of the forecast.
 
