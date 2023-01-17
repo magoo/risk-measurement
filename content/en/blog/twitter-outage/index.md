@@ -10,9 +10,9 @@ weight: 50
 
 ## UPDATE 2023-01-17
 
-I'm closing this forecast as `Yes` following the recently observed Twitter outage in December.
+I'm closing this forecast as `Yes`, following the recently observed Twitter outage in December. A twelve person panel iun November anticipated a `72.8%` chance a Twitter outage would take place by 2023-01-30, and that outage took place in late December.
 
-The scores are:
+The [brier scores](https://magoo.medium.com/scoring-a-risk-forecast-58673bb6a05e) are:
 
 - **Panel Brier score:** `0.20768461538461536`
 - **Consensus Brier score:** `0.14788431952662726`
