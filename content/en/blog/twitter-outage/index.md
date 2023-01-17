@@ -1,6 +1,6 @@
 ---
-title: "Forecasting a Twitter Outage - UPDATED"
-description: "Will Twitter experience a severe outage before January 30?"
+title: "Forecasting a Twitter Outage"
+description: "Will Twitter experience a severe outage before January 30? (UPDATED)"
 lead: ""
 date: 2022-11-20
 draft: false
