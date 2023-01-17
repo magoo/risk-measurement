@@ -1,5 +1,5 @@
 ---
-title: "Forecasting a Twitter Outage"
+title: "Forecasting a Twitter Outage - UPDATED"
 description: "Will Twitter experience a severe outage before January 30?"
 lead: ""
 date: 2022-11-20
@@ -7,6 +7,37 @@ draft: false
 weight: 50
 
 ---
+
+## UPDATE 2023-01-17
+
+I'm closing this forecast as `Yes` following the recently observed Twitter outage in December.
+
+The scores are:
+
+- **Panel Brier score:** `0.20768461538461536`
+- **Consensus Brier score:** `0.14788431952662726`
+
+I have a footnote about the two scores below.
+
+We'll start with a discussion of the conditions that needed to be met for this to be a `Yes`.
+
+Coverage by three US newspapers of record describe the outage with the terms we were looking for: The `widespread` keyword was used in all three articles, and we only needed one.
+
+1. [NYT - Twitter Users Report Widespread Service Interruptions](https://www.nytimes.com/2022/12/28/technology/twitter-outages.html)
+2. [WSJ - Some Twitter Users Experience Technical Problems With Platform](https://www.wsj.com/articles/some-twitter-users-experience-technical-problems-with-platform-11672280111)
+3. [WaPo - Twitter experiences a widespread global outage](https://www.washingtonpost.com/technology/2022/12/28/twitter-global-outage/)
+
+The second condition was "An account of measurable downtime of over an hour". This narrowly passes my judgement. All three articles reference "measurable downtime of over an hour" by citing [DownDetector](https://downdetector.com/). I am not a big fan of this source of measurement and I am thankful that we had two other conditions to rely on.
+
+The third condition passes easily. Each linked article noted that there was an inability read or write tweets, which was a required aspect of the forecast.
+
+This forecast could have been improved. I wanted to capture the doom and gloom present in people's predictions in explicit terms. I think a pretty mediocre Twitter outage passed through these terms. This was an outage nonetheless, though maybe not the crisis people were anticipating.
+
+Next, there was some debate about what "[Newspaper of Record](https://en.wikipedia.org/wiki/Newspaper_of_record)" meant while judging the forecast. This term may have some subjectivity, so I think it makes sense to include a small group of major newspapers and news wire services. Then we can debate whether things are added to the list or not.
+
+> Footnote: If you follow these forecasts regularly, you'll notice there are two scores now. The _Consensus_ score uses the same method as previous forecasts. The consensus score comes from the average parameters (like `Yes` and `No`) from the panel. The _Panel_ score is the average of each individual panelists score.
+
+## The Forecast
 
 Will Twitter experience a severe outage before January 30?
 
@@ -24,7 +55,7 @@ The presence of a status page or other indicator of an outage (eg: FailWhale) in
 
 The outage cannot be caused by a larger internet ecosystem outage, unrelated censorship. The outage must occur before, or on, January 31, 2023. Final judgement will come from interpretation of the rules by @magoo on February 1st 2023.
 
-## Results
+## The panel results
 
 The panel expects a `72.8%` chance of observing a severe outage by January 30, 2023. Here's how their forecasts were distributed:
 

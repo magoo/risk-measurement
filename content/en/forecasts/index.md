@@ -196,8 +196,8 @@ Score: TBD
 ### 2022 Twitter Outage
 
 Scenario: Will Twitter experience a severe outage before January 30?
-Outcome: TBD  
-Score: TBD  
+Outcome: `Yes`  
+Score: `0.14788431952662726`  
 [Discussion here](/risk-measurement/blog/forecasting-a-twitter-outage/)
 
 ### Blank!
