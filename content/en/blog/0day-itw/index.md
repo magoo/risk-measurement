@@ -102,6 +102,8 @@ Targeted individuals seem to have growing channels to report suspicious activity
 
 ## What's next?
 
+> **UPDATE:** This forecast resolved positively with `36` 0days in the wild.
+
 We wait and see how 2022 shakes out.
 
 If you'd like, you can post your own forecast and compare with us in January 2023. Make sure you do it soon. Put your forecast on Twitter or commit it to a repository.
