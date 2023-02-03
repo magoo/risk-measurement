@@ -8,7 +8,7 @@ weight: 50
 
 ---
 
-How many in-the-wild 0days will we observe in 2023? [See 2022](/0day-itw) for more explanation on this process, and last year's forecast outcome.
+How many in-the-wild 0days will we observe in 2023? [See 2022](/risk-measurement/blog/0day-itw) for more explanation on this process, and last year's forecast outcome.
 
 Project Zero [maintains a list](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/view#gid=0) of [0day vulnerabilities observed in the wild](https://googleprojectzero.blogspot.com/p/0day.html).
 
