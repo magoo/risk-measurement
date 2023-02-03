@@ -30,7 +30,7 @@ This year's discussion was very quiet compared to the 2022 forecast. The general
 - Does the future of WFH matter?
 - Are escalation channels improving?
 
-We'll see what happens in 2023 and keep tabs on anything that might increase or reduce the amount of 0days we see in the wild. Our forecast will be [scored](https://magoo.github.io/risk-measurement/docs/estimation/calibration/) in January 2023.
+We'll see what happens in 2023 and keep tabs on anything that might increase or reduce the amount of 0days we see in the wild. Our forecast will be [scored](https://magoo.github.io/risk-measurement/docs/estimation/calibration/) in January 2024.
 
 To receive updates on future forecasts, follow [@magoo](https://www.twitter.com/magoo) or subscribe here 👇
 
